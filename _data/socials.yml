@@ -46,5 +46,6 @@ research_gate_profile: Aude-Noiray # your profile on ResearchGate
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 custom_social: # can be any name here other than the ones already defined above
-  logo: assets/img/logo_lpnc.png
+  logo: https://lpnc.univ-grenoble-alpes.fr/sites/default/files/theme/logo-lpnc_0.png
+  title: LPNC
   url: https://lpnc.univ-grenoble-alpes.fr/fr

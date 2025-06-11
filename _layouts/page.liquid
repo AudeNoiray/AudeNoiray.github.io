@@ -19,10 +19,20 @@ layout: default
   </article>
 
   {% if page.related_publications %}
-    <h2>References</h2>
+    <h2>pPublications</h2>
     <div class="publications">
       {% bibliography --cited_in_order %}
     </div>
+  {% endif %}
+
+  {% if page.collaborateurs %}
+    <h2>Collaborateurs</h2>
+    <p>{{ page.collaborateurs | markdownify }}</p>
+  {% endif %}
+
+  {% if page.fundings %}
+    <h2>Fundings</h2>
+    <p>{{ page.fundings }}</p>
   {% endif %}
 
   {% if site.giscus and page.giscus_comments %}

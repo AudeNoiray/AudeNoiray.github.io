@@ -18,7 +18,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://AudeNoiray.github.io # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: /audenoiray.github.io # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -143,7 +143,7 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
@@ -171,6 +171,17 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  # pages qui ne doivent pas être affichées sur le site:
+  # removing the blog page
+  - _pages/blog.md
+  - _posts
+  # removing the book page
+  - _pages/books.md
+  # removing the submenus
+  - _pages/dropdown.md
+  # removing the repositories page
+  - _pages/repositories
+  # -----------------------------------------
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md

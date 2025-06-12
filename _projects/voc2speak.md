@@ -13,6 +13,8 @@ fundings: >
 
   Agence Nationale de la Recherche and Deutsch Forschungsgemeinschaft (ANR-24-FRAL-0004-01 ; FU791/10-1) aaa
   <img src="/assets/img/fundings/voc2speak.png" alt="logo" style="height:100px; vertical-align:middle; margin-left:5px;">
+communication: >
+  Fuchs, S., Jover, M., Noiray, A., & Petrone, C (2025). Le co-développement du contrôle respiratoire et vocal du nourrisson : une exploration longitudinale. <em>Journées de Phonétique Clinique</em>, 10-12 Juin, Sète
 ---
 
 Speech development is shaped by multiple interactions between sensory, motor, cognitive and language skills. While the individual development of these skills has been relatively well studied in recent decades, many questions remain about their interactions.

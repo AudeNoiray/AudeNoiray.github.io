@@ -30,6 +30,11 @@ layout: default
     <p>{{ page.collaborateurs | markdownify }}</p>
   {% endif %}
 
+  {% if page.communication %}
+    <h2>Communications</h2>
+    <p>{{ page.communication | markdownify }}</p>
+  {% endif %}
+
   {% if page.fundings %}
     <h2>Fundings</h2>
     <p>{{ page.fundings | markdownify }}</p>

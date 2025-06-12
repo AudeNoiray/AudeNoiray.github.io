@@ -2,7 +2,7 @@
 layout: page
 title: VOC2SPEAK
 description: an integrative-interactive approach to vocal development
-img: assets/img/12.jpg
+img:
 importance: 1
 collaborateurs: >
   Caterina Petrone, Marianne Jover, Marvin Lavechin, Martin Wieling  

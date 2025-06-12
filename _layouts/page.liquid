@@ -32,7 +32,7 @@ layout: default
 
   {% if page.fundings %}
     <h2>Fundings</h2>
-    <p>{{ page.fundings }}</p>
+    <p>{{ page.fundings | markdownify }}</p>
   {% endif %}
 
   {% if site.giscus and page.giscus_comments %}

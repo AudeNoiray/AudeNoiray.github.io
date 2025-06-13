@@ -163,15 +163,15 @@
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
-    {% assign volume_info = "" %}
+    {% assign volume_info = '' %}
     {% if entry.volume %}
-      {% assign volume_info = volume_info | append: " " | append: entry.volume | append: "" %}
+      {% assign volume_info = volume_info | append: ' ' | append: entry.volume | append: '' %}
     {% endif %}
     {% if entry.number %}
-      {% assign volume_info = volume_info | append: "(" | append: entry.number | append: ")" %}
+      {% assign volume_info = volume_info | append: '(' | append: entry.number | append: ')' %}
     {% endif %}
     {% if entry.pages %}
-      {% assign volume_info = volume_info | append: ", " | append: entry.pages %}
+      {% assign volume_info = volume_info | append: ', ' | append: entry.pages %}
     {% endif %}
     {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}

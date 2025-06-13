@@ -7,7 +7,8 @@ nav: true
 nav_order: 2
 ---
 
-(*authors whose postdoctoral or ° doctoral project I supervised)
+(\*authors whose postdoctoral or ° doctoral project I supervised)
+
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
@@ -19,7 +20,6 @@ nav_order: 2
 {% bibliography %}
 
 </div>
-
 
 <!-- Peer-reviewed publications -->
 

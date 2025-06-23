@@ -81,11 +81,11 @@ ninja.data = [{
             },},{id: "news-new-research-project-on-vocal-development-voc2speak",
           title: 'New research project on vocal development : VOC2SPEAK',
           description: "",
-          section: "News",},{id: "news-talks-and-poster-presentation-at-the-journées-de-la-linguistique-clinique-in-sète",
-          title: 'Talks and poster presentation at the Journées de la Linguistique Clinique in Sète...',
+          section: "News",},{id: "news-talks-and-poster-presentation-at-the-journées-de-la-phonétique-clinique-in-sète",
+          title: 'Talks and poster presentation at the Journées de la Phonétique Clinique in Sète...',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/journeeLinguistiqueClinique/";
+              window.location.href = "/news/journeePhonetiqueClinique/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",

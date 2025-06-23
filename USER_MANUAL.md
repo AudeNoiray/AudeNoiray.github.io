@@ -1,5 +1,7 @@
 # Manuel utilisateur
 
+Ce manuel utilisateur explique comment personnaliser le site web avec des instructions pour modifier le texte, les images et les différentes sections.
+
 ## Sommaire
 
 - [Manuel utilisateur](#manuel-utilisateur)
@@ -22,9 +24,18 @@
 
 ### Modifier le texte de présentation
 
+Ouvrir le fichier \_pages/about.md.
+Modifier le texte situé après l’en-tête du fichier pour changer le contenu principal de la page.
+
 ### Modifier la photo de profil
 
+Placer la nouvelle photo dans le dossier asset/img/.
+Dans le fichier \_pages/about.md remplacer le nom du fichier image à la ligne 9 (image : …) par le nom de la nouvelle photo.
+
 ### Modifier le texte sous la photo
+
+Dans le fichier \_pages/about.md, trouver la section profile → more_info (ligne 11 environ)
+Remplacer le texte à cet endroit (le texte est écrit en HTML, chaque ligne doit être encadrée par les balises \<p>...</p>)
 
 ### Gérer les "selected publications"
 

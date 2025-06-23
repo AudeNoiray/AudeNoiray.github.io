@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Talks and poster presentation at the Journées de la Linguistique Clinique in Sète
+title: "Talks and poster presentation at the Journées de la Phonétique Clinique in Sète"
 date: 2025-06-10 at 2025-06-12
 inline: false
-related_posts: false
 ---
 
 <a href="https://jpc2025.sciencesconf.org/resource/acces?lang=fr">10è Journées de Phonétique Clinique, 10-12 Juin 2025, Sète</a>

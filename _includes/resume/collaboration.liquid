@@ -1,11 +1,11 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign education = data[1] | sort: 'year' | reverse %}
-  {% for content in education %}
+  {% assign collaboration = data[1] | sort: 'date' | reverse %}
+  {% for content in collaboration %}
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
           {% if content.year != '' %}
-            {% assign date = content.year %}
+            {% assign date = content.date %}
           {% else %}
             {% assign date = null %}
           {% endif %}
@@ -22,17 +22,20 @@
           </table>
         </div>
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
-          {% assign parts = '' %}
-          {% if content.degree %}{% assign parts = parts | append: ', ' | append: content.degree %}{% endif %}
-          {% if content.institution %}{% assign parts = parts | append: ', ' | append: content.institution %}{% endif %}
-          {% if content.location %}{% assign parts = parts | append: ', ' | append: content.location %}{% endif %}
-
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">
-            <strong>{{ content.studyType }}</strong>{{ parts }}
+            <strong>{{ content.funder }}</strong>
           </h6>
-          {% for detail in content.details %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ detail }}</h6>
-          {% endfor %}
+          {% if content.pi %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">PI : {{ content.pi }}</h6>
+          {% endif %}
+          {% if content.pis %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">PIs : {{ content.pis }}</h6>
+          {% endif %}
+          {% if content.project %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">
+              Project : <em>{{ content.project }}</em>
+            </h6>
+          {% endif %}
         </div>
       </div>
     </li>

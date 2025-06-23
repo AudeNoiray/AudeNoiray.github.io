@@ -1,0 +1,72 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% assign funding = data[1] | sort: 'date' | reverse %}
+  {% assign seen = '' | split: '' %}
+  {% for item in funding %}
+    {% assign start = item.date | split: '-' | slice: 0, 2 | join: '.' %}
+    {% assign end = item.endDate | split: '-' | slice: 0, 2 | join: '.' %}
+    {% if end and end != '' %}
+      {% assign date_key = start | append: ' - ' | append: end %}
+    {% else %}
+      {% assign date_key = start %}
+    {% endif %}
+
+    {% unless seen contains date_key %}
+      <li class="list-group-item">
+        <div class="row">
+          <!-- Date column -->
+          <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
+            <table class="table-cv">
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                      {{ date_key }}
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Details column -->
+          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+            {% for content in funding %}
+              {% assign start2 = content.date | split: '-' | slice: 0, 2 | join: '.' %}
+              {% assign end2 = content.endDate | split: '-' | slice: 0, 2 | join: '.' %}
+
+              {% if end2 and end2 != '' %}
+                {% assign key2 = start2 | append: ' - ' | append: end2 %}
+              {% else %}
+                {% assign key2 = start2 %}
+              {% endif %}
+
+              {% if key2 == date_key %}
+                <div class="mb-2">
+                  {% assign parts = '' %}
+                  {% if content.coauthors %}{% assign parts = parts | append: ', ' | append: content.coauthors %}{% endif %}
+                  {% if content.amount %}{% assign parts = parts | append: ', ' | append: content.amount %}{% endif %}
+                  {% if content.organisation %}{% assign parts = parts | append: ', ' | append: content.organisation %}{% endif %}
+                  {% if content.place %}{% assign parts = parts | append: ', ' | append: content.place %}{% endif %}
+
+                  <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">
+                    <strong>{{ content.title }}</strong>{{ parts }}
+                  </h6>
+                  {% for detail in content.details %}
+                    {% assign formatted = detail
+                      | replace: '« ', '«<em>'
+                      | replace: '«', '«<em>'
+                      | replace: ' »', '</em>»'
+                      | replace: '»', '</em>»'
+                    %}
+                    <div class="ml-1 ml-md-4" style="font-size: 0.9rem;">{{ formatted }}</div>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </li>
+      {% assign seen = seen | push: date_key %}
+    {% endunless %}
+  {% endfor %}
+</ul>

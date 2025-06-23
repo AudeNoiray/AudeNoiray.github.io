@@ -1,0 +1,59 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% assign professional = data[1] | sort: 'startDate' | reverse %}
+  {% assign seen = '' %}
+  {% for item in professional %}
+    {% assign start = item.startDate | split: '-' | slice: 0, 2 | join: '.' %}
+    {% assign end = item.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
+    {% assign date_key = start | append: ' - ' | append: end %}
+
+    {% unless seen contains date_key %}
+      <li class="list-group-item">
+        <div class="row">
+          <!-- Date column -->
+          <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
+            <table class="table-cv">
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                      {{ date_key }}
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Details column -->
+          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+            {% for content in professional %}
+              {% assign start2 = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
+              {% assign end2 = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
+              {% assign key2 = start2 | append: ' - ' | append: end2 %}
+              {% if key2 == date_key %}
+                <div class="mb-2">
+                  <h6 class="title font-weight-bold ml-1 ml-md-4">
+                    <strong>{{ content.position }}</strong>
+                  </h6>
+                  <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">
+                    {% if content.place -%}
+                      <em>{{ content.place }}</em>
+                    {%- endif -%}
+                    {%- if content.place and content.location %}, {% endif -%}
+                    {%- if content.location %}{{ content.location }}{% endif %}
+                  </h6>
+                  {% if content.details %}
+                    {% for detail in content.details %}
+                      <div class="ml-3" style="font-size: 0.9rem;">{{ detail }}</div>
+                    {% endfor %}
+                  {% endif %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </li>
+      {% assign seen = seen | append: date_key | append: '|' %}
+    {% endunless %}
+  {% endfor %}
+</ul>

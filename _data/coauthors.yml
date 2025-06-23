@@ -1,34 +1,43 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"vilain":
+  - firstname: ["Anne", "A", "A."]
+    url: https://www.gipsa-lab.grenoble-inp.fr/user/anne.vilain
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"peperkamp":
+  - firstname: ["S", "S.", "Peperkamp"]
+    url: "http://www.lscp.net/persons/peperkamp/"
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"fuchs":
+  - firstname: ["S", "S.", "Susanne"]
+    url: https://www.leibniz-zas.de/de/personen/details/fuchs-susanne/susanne-fuchs
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"petrone":
+  - firstname: ["C", "C.", "Caterine"]
+    url: https://cv.hal.science/caterina-petrone
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"rubertus":
+  - firstname: ["E.", "E", "Elina"]
+    url: https://elinarubertus.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"rubertus°":
+  - firstname: ["E.", "E", "Elina"]
+    url: https://elinarubertus.github.io/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"popescu":
+  - firstname: ["A", "A.", "Anisia"]
+    url: https://anisiapopescu.github.io/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"baciu":
+  - firstname: ["M", "Monica", "M."]
+    url: https://lpnc.univ-grenoble-alpes.fr/fr/monica-baciu
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"haldin":
+  - firstname: ["C", "Célise", "C."]
+    url: https://lpnc.univ-grenoble-alpes.fr/fr/celise-haldin
+
+"wieling":
+  - firstname: ["M", "M.", "Martinj"]
+    url: https://www.martijnwieling.nl/
+
+"rebernik":
+  - firstname: ["T", "T.", "Teja"]
+    url: https://tejarebernik.com/en/home/

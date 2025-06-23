@@ -217,7 +217,7 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
-  - jekyll/scholar
+  - jekyll-scholar
   - jekyll-sitemap
   - jekyll-tabs
   - jekyll-terser
@@ -273,14 +273,16 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Noiray]
+  first_name: [Aude, A., A]
 
   style: apa
   locale: en
 
   source: /_bibliography/
   bibliography: papers.bib
+  query_fields: [title, author, year, category]
+
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -294,7 +296,7 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
+  group_by: category, year
   group_order: descending
 
 # Display different badges withs stats for your publications
@@ -645,6 +647,9 @@ jsonresume:
   - publications
   - projects
   - volunteer
+  - professional experiences
+  - funding
+  - collaboration
   - awards
   - certificates
   - skills

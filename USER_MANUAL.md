@@ -17,8 +17,9 @@ Ce manuel utilisateur explique comment personnaliser le site web avec des instru
       - [Ajouter une news](#ajouter-une-news)
   - [Page archives](#page-archives)
   - [Page publications](#page-publications)
-    - [Supprimer une publication](#supprimer-une-publication)
+    - [Organisation des publications](#organisation-des-publications)
     - [Ajouter une publication](#ajouter-une-publication)
+    - [Supprimer une publication](#supprimer-une-publication)
     - [Ajouter un co-auteur](#ajouter-un-co-auteur)
   - [Page projects](#page-projects)
   - [Page cv](#page-cv)
@@ -86,7 +87,8 @@ Dans le dossier [\_news](_news), créer un nouveau fichier avec un nom en .md (p
 Rédiger la news en suivant un des deux formats possibles :
 
 - **News courte** : la news apparaît sur une seule ligne et n'est pas cliquable (par exemple : le fichier [\_news/voc2speak.md](_news/voc2speak.md)).
-  Format à utiliser : (remplacer la date dans l'en-tête et le corps du texte)
+
+Format à utiliser : (remplacer la date dans l'en-tête et le corps du texte)
 
 ```yaml
 ---
@@ -98,7 +100,8 @@ Nom de la news qui s'affiche sur la page about et dans la page archive.
 ```
 
 - **News longues** : la news est cliquable et mène à une page dédiée, utile pour un contenu plus détaillé (par exemple : le fichier [\_news/journeePhonetiqueClinique.md](_news/journeePhonetiqueClinique.md)).
-  Format à utiliser : (remplacer la date et le titre dans l'en-tête et le corps du texte)
+
+Format à utiliser : (remplacer la date et le titre dans l'en-tête et le corps du texte)
 
 ```yaml
 ---
@@ -118,15 +121,177 @@ Pour **ajouter ou supprimer des news**, voir la section correspondante dans la [
 
 ## Page publications
 
-### Supprimer une publication
+### Organisation des publications
+
+Toutes les publications sont stockées dans le fichier [\_bibliography/papers.bib](_bibliography/papers.bib), au format BibTex.
+
+Les publications sont regroupées selon 4 catégories :
+
+- **Peer-reviewed publications**
+- **Book chapters with reviewing committee**
+- **Academic dissertations**
+- **Peer-reviewed presentations in conferences**
+
+A l'intérieur de chaque catégorie, les publications sont triés par ordre chronologique décroissant.
+
+L'ordre des publications dans le fichier n'a pas d'impact sur l'affichage final du site mais permet de garder le fichier propre, lisible et facile à maintenir.
 
 ---
 
 ### Ajouter une publication
 
+1. **Ouvrir le fichier [\_bibliography/papers.bib](_bibliography/papers.bib)**
+
+Toutes les publications sont enregistrées dans ce fichier, il faut l'éditer pour ajouter une nouvelle publication.
+
+2. **Choisir le bon type de publication** : `@article`, `@inproceedings` ou `@incollection`
+
+| Type             |                               Utilisation                                |
+| ---------------- | :----------------------------------------------------------------------: |
+| `@article`       |          Pour les articles parus dans des revues scientifiques           |
+| `@inproceedings` | Pour les communications publiées dans les actes de colloques/conférences |
+| `@incollection`  |                   Un chapitre dans un livre collectif                    |
+
+3. **Créer une nouvelle entrée dans le fichier**
+
+Ajouter un bloc comme celui-ci dans le fichier [\_bibliography/papers.bib](_bibliography/papers.bib), en remplaçant les valeurs par les informations de la publication :
+
+```bibtex
+@article{NomCle,
+  author = {Nom, Prénom and Nom2, Prénom2},
+  title = {Titre de la publication},
+  year = {2025},
+  category = {Peer-reviewed publications}
+}
+
+-- ou
+
+@inproceedings{NomCle,
+  author = {Nom, Prénom and Nom2, Prénom2},
+  title = {Titre de la publication},
+  year = {2025},
+  category = {Peer-reviewed publications}
+}
+```
+
+**À noter :**
+
+- La clé `NomCle` et les champs `author`, `title`, `year` et `category` doivent être obligatoirement rempli.
+
+- `NomCle` est un **identifiant unique**, appelé clé BibTex. Elle doit être unique dans tout le fichier.bib (aucune autre publication ne doit avoir la même), elle n'est jamais affichée sur le site (son seul but est de servir d'identifiant interne) et elle peut être choisie librement.
+
+- Les noms des auteurs dans le champ `author` doivent respecter une certaine syntaxe pour que l'affichage fonctionne : les auteurs sont séparés par `and` et chaque nom est écrit sous la forme `NomDeFamille, Initiale.`. Par exemple :
+
+```bibtex
+author = {Nom1, A. and Nom2, B. and Nom3, C.}
+```
+
+- `category` doit correspondre exactement à l'une des 4 catégories suivantes (sauf si l'on souhaite créer une nouvelle catégorie) :
+  - `Peer-reviewed publications`
+  - `Peer-reviewed presentations in conferences`
+  - `Book chapters with reviewing committee`
+  - `Academic dissertations`.
+
+4. **Ajouter les champs optionnels nécessaires**
+
+Selon le type de la publication, certains champs peuvent être ajoutés.
+
+| Champ       |                Description                |               Type                |
+| ----------- | :---------------------------------------: | :-------------------------------: |
+| `journal`   |              Nom de la revue              |            `@article`             |
+| `booktitle` | Titre du livre ou des actes de conférence | `@inproceedings`, `@incollection` |
+| `volume`    |            Volume de la revue             |                                   |
+| `number`    |            Numéro de la revue             |                                   |
+| `pages`     |        Plage de pages (ex: 18-14)         |                                   |
+| `publisher` |             Maison d'édition              |          `@incollection`          |
+| `editor`    |             Editeur du livre              |          `@incollection`          |
+| `location`  |           Lieu de la conférence           |         `@inproceedings`          |
+| `month`     |           Mois de présentation            |         `@inproceedings`          |
+| `url`       |      Lien direct vers la publication      |                                   |
+
+Quelques exemples d'entrées de publications :
+
+```bibtex
+@article{agerelateddifferencesincoherence2021,
+  title={Age-related differences in coherence between brain activation and speech envelope at word and sentence levels},
+  author={Kolozsvári°, O. and  Xu. W and Parviainen, T. and Nieminen, L. and Noiray, A. and Hämäläinen, J},
+  year={2021},
+  journal = {Journal of Speech, Language, and Hearing Research},
+  volume = {2},
+  number = {2},
+  pages = {226-253},
+  pdf={https://direct.mit.edu/nol/article/2/2/226/97419/Coherence-Between-Brain-Activation-and-Speech},
+  category = {Peer-reviewed publications}
+}
+
+-- ou
+
+@inproceedings{articulatingpape2025,
+  title={Articulating while listening? The perception-production link in pre-babbling infants},
+  author={Frota, S. and Severino, C. and Pejovic, J. and Paulino, N. and Vigário, M. and  Noiray, A},
+  year={2025},
+  booktitle = {Conférence Phonology and Phonetics in Europe (PaPe)},
+  pages = {2p},
+  category = {Peer-reviewed presentations in conferences}
+}
+
+-- ou encore
+
+@incollection{liproundinganticipatory2010,
+  title={Lip Rounding Anticipatory Control: Crosslinguistically Lawful and Ontogenetically Attuned},
+  author={Noiray, A. and Cathiard, M.A. and Abry, C. and Ménard, L},
+  year={2010},
+  editors={ F. Gayraud and E. Marsico},
+  booktitle = {Speech Motor Control: New developments in basic and applied research},
+  publisher={Oxford University Press},
+  pages = {153-171},
+  category = {Book chapters with reviewing committee}
+}
+
+```
+
+---
+
+### Supprimer une publication
+
+Les publications sont répertoriées dans le fichiers [\_bibliography/papers.bib](_bibliography/papers.bib). Pour supprimer une publication du site, il faut supprimer l'entrée correspondante dans ce fichier.
+
+Une entrée commence par une ligne de ce type :
+
+```bibtex
+@article{NomCle,
+...}
+
+-- ou
+
+@inproceedings{NomCle,
+...}
+```
+
+et se termine par une accolade fermante.
+Il faut veiller à bien supprimer l'ensemble de l'entrée.
+
 ---
 
 ### Ajouter un co-auteur
+
+Les co-auteurs permettent d'associer les nom des auteurs des publications à leurs sites webs.
+
+Cette association est gérée dans le fichier [\_data/coauthors.yml](_data/coauthors.yml).
+
+Chaque co-auteur est défini par une clé qui correspond à son **nom de famille en minuscules**, et comprend :
+
+- une liste des différentes formes possibles de son prénom qui peuvent apparaître dans les publications (prénom complet, initiale, initiale avec un point, etc.)
+
+- une URL vers son site personnel.
+
+Pour ajouter un co-auteur, il faut insérer une nouvelle entrée dans le fichier [\_data/coauthors.yml](_data/coauthors.yml), en suivant ce format :
+
+```yaml
+"nom_de_famille":
+  - firstname: ["P", "P.", "Prénom"]
+    url: https://nom_prenom.com
+```
 
 ## Page projects
 

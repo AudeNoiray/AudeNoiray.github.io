@@ -714,7 +714,7 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-text-color-light);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
@@ -868,6 +868,13 @@ footer.sticky-bottom {
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
     }
+  }
+
+  h3.bibliography {
+    color: var(--global-text-color-light);
+    padding-top: 1rem;
+    margin-top: 2rem;
+    text-align: left;
   }
 }
 

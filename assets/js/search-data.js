@@ -86,7 +86,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/journeePhonetiqueClinique/";
-            },},{id: "projects-project-1",
+            },},{id: "news-i-will-give-a-workshop-on-ultrasound-imaging-at-stem-ix-summer-training-in-experimental-methods-on-july-16-2025-9-00-to-12-00",
+          title: 'I will give a workshop on ultrasound imaging at STEM IX (Summer Training...',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {

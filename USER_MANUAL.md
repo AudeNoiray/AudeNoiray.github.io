@@ -25,6 +25,9 @@ Ce manuel utilisateur explique comment personnaliser le site web avec des instru
   - [Page cv](#page-cv)
   - [Page teaching](#page-teaching)
   - [Page team](#page-team)
+    - [Ajouter un membre](#ajouter-un-membre)
+    - [Modifier le profil d'un membre](#modifier-le-profil-dun-membre)
+    - [Supprimer un membre](#supprimer-un-membre)
   - [Guide HTML](#guide-html)
 
 ## Page about
@@ -176,17 +179,23 @@ Ajouter un bloc comme celui-ci dans le fichier [\_bibliography/papers.bib](_bibl
 
 **À noter :**
 
-- La clé `NomCle` et les champs `author`, `title`, `year` et `category` doivent être obligatoirement rempli.
+- La clé `NomCle` et les champs `author`, `title`, `year` et `category` doivent être **obligatoirement rempli**.
 
-- `NomCle` est un **identifiant unique**, appelé clé BibTex. Elle doit être unique dans tout le fichier.bib (aucune autre publication ne doit avoir la même), elle n'est jamais affichée sur le site (son seul but est de servir d'identifiant interne) et elle peut être choisie librement.
+- `NomCle` est un **identifiant unique**, appelé clé BibTex. Il doit être **différent pour chaque publication** du fichier. Il n'est **jamais affichée sur le site** (son seul but est de servir d'identifiant interne) et il peut être choisie librement.
 
-- Les noms des auteurs dans le champ `author` doivent respecter une certaine syntaxe pour que l'affichage fonctionne : les auteurs sont séparés par `and` et chaque nom est écrit sous la forme `NomDeFamille, Initiale.`. Par exemple :
+- Le champ `author` doit respecter une **syntaxe stricte** pour que l'affichage fonctionne : les auteurs sont séparés par `and` et chaque auteur est écrit sous la forme `NomDeFamille, Initiale.`. Par exemple :
 
 ```bibtex
 author = {Nom1, A. and Nom2, B. and Nom3, C.}
 ```
 
-- `category` doit correspondre exactement à l'une des 4 catégories suivantes (sauf si l'on souhaite créer une nouvelle catégorie) :
+- Chaque champ est écrit sur une ligne distincte, la valeur du champ est toujours entre **accolades** et chaque ligne se termine par une **virgule** `,` (sauf la dernière) :
+
+```bibtex
+nomduchamp = {valeurs},
+```
+
+- Le champ `category` doit correspondre **exactement** à l'une des 4 catégories suivantes (respecter les majuscules, espaces, orthographe) :
   - `Peer-reviewed publications`
   - `Peer-reviewed presentations in conferences`
   - `Book chapters with reviewing committee`
@@ -194,7 +203,7 @@ author = {Nom1, A. and Nom2, B. and Nom3, C.}
 
 4. **Ajouter les champs optionnels nécessaires**
 
-Selon le type de la publication, certains champs peuvent être ajoutés.
+Selon le type de la publication, certains champs peuvent être ajoutés pour donner plus d'informations.
 
 | Champ       |                Description                |               Type                |
 | ----------- | :---------------------------------------: | :-------------------------------: |
@@ -213,19 +222,19 @@ Quelques exemples d'entrées de publications :
 
 ```bibtex
 @article{agerelateddifferencesincoherence2021,
-  title={Age-related differences in coherence between brain activation and speech envelope at word and sentence levels},
-  author={Kolozsvári°, O. and  Xu. W and Parviainen, T. and Nieminen, L. and Noiray, A. and Hämäläinen, J},
-  year={2021},
+  title = {Age-related differences in coherence between brain activation and speech envelope at word and sentence levels},
+  author = {Kolozsvári°, O. and  Xu. W and Parviainen, T. and Nieminen, L. and Noiray, A. and Hämäläinen, J},
+  year = {2021},
   journal = {Journal of Speech, Language, and Hearing Research},
   volume = {2},
   number = {2},
   pages = {226-253},
-  pdf={https://direct.mit.edu/nol/article/2/2/226/97419/Coherence-Between-Brain-Activation-and-Speech},
+  pdf = {https://direct.mit.edu/nol/article/2/2/226/97419/Coherence-Between-Brain-Activation-and-Speech},
   category = {Peer-reviewed publications}
 }
+```
 
--- ou
-
+```bibtex
 @inproceedings{articulatingpape2025,
   title={Articulating while listening? The perception-production link in pre-babbling infants},
   author={Frota, S. and Severino, C. and Pejovic, J. and Paulino, N. and Vigário, M. and  Noiray, A},
@@ -234,9 +243,9 @@ Quelques exemples d'entrées de publications :
   pages = {2p},
   category = {Peer-reviewed presentations in conferences}
 }
+```
 
--- ou encore
-
+```bibtex
 @incollection{liproundinganticipatory2010,
   title={Lip Rounding Anticipatory Control: Crosslinguistically Lawful and Ontogenetically Attuned},
   author={Noiray, A. and Cathiard, M.A. and Abry, C. and Ménard, L},
@@ -247,7 +256,6 @@ Quelques exemples d'entrées de publications :
   pages = {153-171},
   category = {Book chapters with reviewing committee}
 }
-
 ```
 
 ---
@@ -297,8 +305,110 @@ Pour ajouter un co-auteur, il faut insérer une nouvelle entrée dans le fichier
 
 ## Page cv
 
+Toutes les informations de la page CV du site sont enregistrées dans un seul fichier : [assets/json/resume.json](assets/json/resume.json).
+
+Ce fichier est organisé en blocs, chacun correspondant à une section du CV :
+
+- `basics`
+- `education`
+- `professional experiences`
+- `fundings`
+- `collaboration`
+
 ## Page teaching
 
 ## Page team
+
+### Ajouter un membre
+
+1. Aller dans le **dossier [\_pages/team](_pages/team)**.
+
+2. Créer un **nouveau fichier en .md** pour le nouveau membre, par exemple **nomprenom.md** (sans espace ni accent).
+
+3. **Rédiger le contenu du fichier** en markdown (exemple ci-dessous).
+
+- Ouvrir le fichier **nomprenom.md**.
+- Exemple de contenu à utiliser :
+
+```markdown
+[**Prénom Nom**](https://lien-vers-sa-page-personnelle.fr)
+ou juste
+**Prénom Nom** (si la personne n'a pas de page personnelle)
+
+Texte de présentation de la personne.
+Pour ajouter des liens dans le texte, écrit le texte cliquable entre crochet, suivi entre parenthèse du lien, par exemple :
+[Nom du projet](https://lien-du-projet.com)
+```
+
+4. Ajouter cette personne dans le fichier [\_pages/profiles.md](_pages/profiles.md)
+
+- Ouvrir le fichier [profiles.md](_pages/profiles.md).
+- Dans la section qui commence par `profiles: ...`, il y a une liste de bloc de ce type :
+
+```markdown
+profiles:
+
+# Aude
+
+- align: right
+  image: prof_pic.jpg
+  content: team/aude.md
+
+# Suzanne Fuchs
+
+- align: left
+  content: team/suzannefuchs.md
+
+# Elina Rubertus
+
+- align: right
+  content: team/elinarubertus.md
+```
+
+- **Ajouter un nouveau bloc** à la suite des autres, sous le même format, en remplaçant par le lien du fichier .md créé.
+
+```markdown
+# Nouveau membre
+
+- align: right
+  content: team/nomprenom.md
+```
+
+- La ligne `align: left` ou `align: right` permet d'alterner le côté d'affichage des photos (si il y en a).
+
+5. **Ajouter une photo** (optionnel).
+
+- Placer une image de la personne dans le dossier [assets/img](assets/img).
+- Dans le bloc [profiles.md](_pages/profiles.md), ajoute une ligne `image: ...` avec le nom de l'image.
+
+```markdown
+# Nouveau membre
+
+- align: right
+  image: assets/img/nomprenom.png
+  content: team/nomprenom.md
+```
+
+---
+
+### Modifier le profil d'un membre
+
+Il est possible de modifier le texte, les liens ou la photo d'un membre de la page Team.
+
+Pour modifier le **texte de présentation**, trouver le fichier correspondant dans le dossier [\_pages/team](_pages/team) et apporter les modififations nécessaires.
+
+Pour **modifier ou ajouter une photo de profil**, placer la nouvelle photo de la personne dans le dossier [assets/img](assets/img) et dans le bloc du fichier [profiles.md](_pages/profiles.md) correspondant, ajoute une ligne `image: ...` avec le nom de l'image ou remplacer par le nom de la nouvelle photo.
+
+Pour **supprimer la photo**, supprimer la ligne `image: ...` dans le bloc du fichier [profiles.md](_pages/profiles.md) correspondant à la personne.
+
+---
+
+### Supprimer un membre
+
+1. Dans le fichier [\_pages/profiles.md](_pages/profiles.md), repère le bloc du membre à enlever et le supprimer.
+
+2. Dans le dossier [\_pages/team](_pages/team), supprimer le fichier .md du membre à enlever. (optionnel)
+
+3. Si une image avait été ajoutée pour cette personne dans [assets/img](assets/img), tu peux aussi la supprimer. (optionnel)
 
 ## Guide HTML

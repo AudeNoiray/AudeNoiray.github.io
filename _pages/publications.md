@@ -12,8 +12,14 @@ nav_order: 2
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
+<!-- {% include bib_search.liquid %} -->
 
-{% include bib_search.liquid %}
+<p><strong>Sommaire :</strong>
+  <a href="#peer-reviewed-publications">Peer-reviewed</a> |
+  <a href="#book-chapters-with-reviewing-committee">Book chapters</a> |
+  <a href="#academic-dissertations">Dissertations</a> |
+  <a href="#peer-reviewed-presentations-in-conferences">Presentations</a>
+</p>
 
 <div class="publications">
   {% bibliography %}

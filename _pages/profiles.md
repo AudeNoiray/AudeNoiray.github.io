@@ -16,7 +16,13 @@ profiles:
   # Suzanne Fuchs
   - align: left
     content: team/suzannefuchs.md
-  # Elina Rubertus
+    image: SuzanneFuchs.png
+  # Lucie Chasseur
   - align: right
+    content: team/luciechasseur.md
+    image: LucieChasseur.png
+  # Elina Rubertus
+  - align: left
     content: team/elinarubertus.md
+    image: ElinaRubertus.png
 ---

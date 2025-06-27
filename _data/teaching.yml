@@ -1,0 +1,47 @@
+- date: "2014-2019"
+  role: "Seminars (4h blocks)"
+  institution: "University of Potsdam (UP)"
+  programmes:
+    - Master Linguistics
+    - Patholinguistics
+    - Computational Linguistics
+    - European Master in Experimental Linguistics
+    - Master Experimental and Clinical Linguistics
+    - IDEALAB
+
+- date: "2012-2014"
+  role: "Lecturer"
+  institution: "University of Potsdam (UP)"
+  programmes:
+    - Bachelor Linguistics
+    - Patholinguistics
+    - Computational Linguistics
+    - Master Experimental and Clinical Linguistics
+    - European Master in Experimental Linguistics
+    - Master IECL
+    - EMCL
+
+- date: "2010"
+  role: "Invited seminar"
+  institution: "New York University (NYU)"
+  programmes:
+    - Phonetics-Phonology, Master Linguistics
+    - Master & PhD candidates
+
+- date: "2006-2007"
+  role: "A.T.E.R."
+  institution: "Université Grenoble Alpes (UGA)"
+  programmes:
+    - Bachelor Linguistics
+
+- date: "2004-2006"
+  role: "Monitorat"
+  institution: "Université Stendhal (UGA)"
+  programmes:
+    - Bachelor Linguistics
+
+- date: "2003-2004"
+  role: "Vacataire"
+  institution: "Université Stendhal (UGA)"
+  programmes:
+    - Bachelor Linguistics

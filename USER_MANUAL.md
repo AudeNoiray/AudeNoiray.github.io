@@ -346,8 +346,7 @@ Chaque bloc est de la forme :
     "cléB": "valeur8",
     "cléC": "valeur9"
   }
-],
-...
+]
 ```
 
 Chaque élément dans un bloc est écrit entre `{ }`, sous forme de paires clé-valeur.
@@ -472,6 +471,24 @@ Chaque élément dans un bloc est écrit entre `{ }`, sous forme de paires clé-
 
 ## Page teaching
 
+Les informations de la page Teaching sont stockées dans le fichier [\_data/teaching.yml](_data/teaching.yml). Chaque poste correspond à une entrée dans ce fichier.
+
+Pour **ajouter un poste d'enseignement** :
+
+1. Ouvrir le fichier [\_data/teaching.yml](_data/teaching.yml).
+
+2. Copier-coller un bloc existant et adapter les valeurs.
+   Exemple de bloc à copier :
+
+```yaml
+- date: "Période (par exemple : 2014-2019)"
+  role: "Intitulé du rôle"
+  institution: "Nom de l'université"
+  programmes:
+    - Liste des parcours ou formation concernés par le cours
+    - Une formation par tiret
+```
+
 ## Page team
 
 ### Ajouter un membre
@@ -570,18 +587,20 @@ Pour **supprimer la photo**, supprimer la ligne `image: ...` dans le bloc du fic
 
 ## Guide HTML
 
-Mettre en italique
+### Mettre du texte en italique
 
-Mettre en gras
+Encadrer le texte à mettre en italique par les balises `<em>texte italique</em>`.
 
-Mettre un lien
+### Mettre en gras
 
-Sauter une ligne
+### Mettre un lien
+
+### Sauter une ligne
 
 ## Guide MarkDown
 
-Mettre en italique
+### Mettre en italique
 
-Mettre en gras
+### Mettre en gras
 
-Mettre un lien
+### Mettre un lien

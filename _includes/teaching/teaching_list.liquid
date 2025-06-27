@@ -1,0 +1,31 @@
+<ul class="list-group list-group-flush card-text font-weight-light">
+  {% assign grouped_teaching = site.data.teaching | group_by: 'date' | sort: 'name' | reverse %}
+  {% for group in grouped_teaching %}
+    <li class="list-group-item bg-transparent">
+      <div class="row">
+        <!-- Colonne date -->
+        <div class="col-md-2 text-center align-self-center">
+          <span
+            class="badge font-weight-bold text-uppercase"
+            style="background-color: var(--global-theme-color); color: var(--global-bg-color); font-size: 1.0rem;"
+          >
+            {{ group.name }}
+          </span>
+        </div>
+
+        <!-- Colonne contenu -->
+        <div class="col-md-10">
+          {% for item in group.items %}
+            <p class="mb-1">
+              <strong>{{ item.role }}</strong>
+              {%- if item.institution %}, {{ item.institution }}{% endif %}
+            </p>
+            {% if item.programmes %}
+              <p class="var(--global-text-color-light)">Programme(s): {{ item.programmes | join: ', ' }}</p>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

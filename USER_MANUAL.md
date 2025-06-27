@@ -315,10 +315,15 @@ Toutes les informations de la page CV du site sont enregistrées dans un seul fi
 Ce fichier est organisé en **blocs**, chacun correspondant à une section du CV :
 
 - `basics` - Informations générales
-- `education`
-- `professional experiences`
+- `education` - Education
+- `professional experiences` - Professional experiences
 - `fundings` - Third-Part Funding, Scholarships & Awards
 - `collaboration` - Collaborations on Funded Projects
+- `scientificActivities` - Other Scientific Activities
+- `supervision` - Student (Co)-Supervision
+- `organization` - Organization of Conferences, Workshops & Scientific Events
+- `trainingActivities` -Training Activities
+- `reviewing` - Reviewing Services
 
 Chaque bloc est de la forme :
 
@@ -354,6 +359,8 @@ Chaque élément dans un bloc est écrit entre `{ }`, sous forme de paires clé-
 2. Copier-coller un exemple d'élément du bloc concernée (exemples pour chaque blocs disponibles dans le paragraphe [Détail des champs possibles par section](#détail-des-champs-possibles-par-section)).
 
 3. Modifier les valeurs et supprimer les champs inutiles.
+
+4. Vérifier la mise en page (accolades, virgules...). Si il y a une erreur dans la mise en page du fichier [resume.json](assets/json/resume.json), rien ne s'affichera sur la page web.
 
 ### Détail des champs possibles par section
 
@@ -407,6 +414,62 @@ Chaque élément dans un bloc est écrit entre `{ }`, sous forme de paires clé-
 }
 ```
 
+- `scientificActivities` - Other Scientific Activities
+
+```json
+{
+  "date": "Année ou période de l'activité (format AAAA ou AAAA - AAAA)",
+  "title": "Titre ou fonction",
+  "description": "Texte descriptif ou rôle détaillé"
+}
+```
+
+- `supervision` - Student (Co)-Supervision
+
+```json
+{
+  "date": "Année ou période de supervision (format AAAA ou AAAA - AAAA)",
+  "name": "Nom de la personne supervisée",
+  "level": "Niveau du projet (`PhD project` ou  `Post-doctoral project`)",
+  "title": "Titre ou description du projet",
+  "institution": "Etablissement ou université",
+  "note": "Lien vers la thèse, mention complémentaire..."
+}
+```
+
+- `organization` - Organization of Conferences, Workshops & Scientific Events
+
+```json
+{
+  "date": "Année ou période (format AAAA ou AAAA - AAAA)",
+  "event": "Nom de l'événement",
+  "location": "Lieu de l'événement",
+  "role": "Rôle joué dans l'organisation",
+  "details": ["Informations complémentaires (optionnel)", "Une information par ligne entre guillement et chaque ligne séparée par des virgules."]
+}
+```
+
+- `trainingActivities` -Training Activities
+
+```json
+{
+  "year": "format AAA",
+  "date_detail": "Date précise ou plages de dates (sans l'année)",
+  "title": "Titre de l'intervention",
+  "location": "Lieu",
+  "note": "Infos complémentaires (optionnel)"
+}
+```
+
+- `reviewing` - Reviewing Services
+
+```json
+{
+  "category": "Nom de la catégorie",
+  "items": ["Liste des éléments associés à cette catégorie", "Un élément par ligne entre guillement et chaque ligne séparée par des virgules."]
+}
+```
+
 ## Page teaching
 
 ## Page team
@@ -423,9 +486,11 @@ Chaque élément dans un bloc est écrit entre `{ }`, sous forme de paires clé-
 - Exemple de contenu à utiliser :
 
 ```markdown
-[**Prénom Nom**](https://lien-vers-sa-page-personnelle.fr)
+## [Prénom Nom](https://lien-vers-sa-page-personnelle.fr)
+
 ou juste
-**Prénom Nom** (si la personne n'a pas de page personnelle)
+
+## Prénom Nom (si la personne n'a pas de page personnelle)
 
 Texte de présentation de la personne.
 Pour ajouter des liens dans le texte, écrit le texte cliquable entre crochet, suivi entre parenthèse du lien, par exemple :
@@ -504,3 +569,19 @@ Pour **supprimer la photo**, supprimer la ligne `image: ...` dans le bloc du fic
 3. Si une image avait été ajoutée pour cette personne dans [assets/img](assets/img), tu peux aussi la supprimer. (optionnel)
 
 ## Guide HTML
+
+Mettre en italique
+
+Mettre en gras
+
+Mettre un lien
+
+Sauter une ligne
+
+## Guide MarkDown
+
+Mettre en italique
+
+Mettre en gras
+
+Mettre un lien

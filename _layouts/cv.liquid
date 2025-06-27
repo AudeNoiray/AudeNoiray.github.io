@@ -92,8 +92,16 @@ layout: default
               <h3 class="card-title font-weight-medium">Third-Part Funding, Scholarships &amp; Awards</h3>
             {% elsif data[0] == 'collaboration' %}
               <h3 class="card-title font-weight-medium">Collaborations on Funded Projects</h3>
-            {% elsif data[0] == 'other' %}
-              <h3 class="card-title font-weight-medium">Other scientific activities</h3>
+            {% elsif data[0] == 'scientificActivities' %}
+              <h3 class="card-title font-weight-medium">Other Scientific Activities</h3>
+            {% elsif data[0] == 'supervision' %}
+              <h3 class="card-title font-weight-medium">Student (Co)-Supervision</h3>
+            {% elsif data[0] == 'organization' %}
+              <h3 class="card-title font-weight-medium">Organization of Conferences, Workshops & Scientific Events</h3>
+            {% elsif data[0] == 'trainingActivities' %}
+              <h3 class="card-title font-weight-medium">Training Activities</h3>
+            {% elsif data[0] == 'reviewing' %}
+              <h3 class="card-title font-weight-medium">Reviewing Services</h3>
             {% else %}
               <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
             {% endif %}
@@ -111,6 +119,16 @@ layout: default
                   {% include resume/funding.liquid %}
                 {% when 'collaboration' %}
                   {% include resume/collaboration.liquid %}
+                {% when 'scientificActivities' %}
+                  {% include resume/scientific_activities.liquid %}
+                {% when 'supervision' %}
+                  {% include resume/supervision.liquid %}
+                {% when 'organization' %}
+                  {% include resume/organization.liquid %}
+                {% when 'trainingActivities' %}
+                  {% include resume/training_activities.liquid %}
+                {% when 'reviewing' %}
+                  {% include resume/reviewing.liquid %}
                 {% when 'volunteer' %}
                   {% include resume/volunteer.liquid %}
                 {% when 'projects' %}

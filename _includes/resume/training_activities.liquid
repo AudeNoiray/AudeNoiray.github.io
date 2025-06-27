@@ -1,0 +1,43 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% assign trainingsActivities = data[1] | sort: 'year' | reverse %}
+  {% assign grouped = trainingsActivities | group_by: 'year' %}
+
+  {% for group in grouped %}
+    <li class="list-group-item">
+      <div class="row">
+        <!-- Colonne date (affichée une seule fois par groupe) -->
+        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column" style="vertical-align: top;">
+          {% if group.name %}
+            <table class="table-cv">
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+                      {{ group.name }}
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          {% endif %}
+        </div>
+
+        <!-- Colonne contenu : tous les workshops de cette année -->
+        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+          {% for item in group.items %}
+            <h6 class="ml-1 ml-md-4 mb-1" style="font-size: 0.95rem;">
+              <strong>{{ item.title }}</strong>
+              {%- if item.location %}, {{ item.location }}{% endif -%}
+              {%- if item.date_detail %}, {{ item.date_detail }}{% endif %}.
+            </h6>
+            {% if item.note %}
+              <p class="ml-1 ml-md-4" style="font-size: 0.9rem;">
+                <em>{{ item.note }}</em>
+              </p>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

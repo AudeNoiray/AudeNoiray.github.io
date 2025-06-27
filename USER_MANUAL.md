@@ -23,6 +23,9 @@ Ce manuel utilisateur explique comment personnaliser le site web avec des instru
     - [Ajouter un co-auteur](#ajouter-un-co-auteur)
   - [Page projects](#page-projects)
   - [Page cv](#page-cv)
+    - [Structure générale](#structure-générale)
+    - [Ajouter une nouvelle entrée](#ajouter-une-nouvelle-entrée)
+    - [Détail des champs possible par section](#détail-des-champs-possibles-par-section)
   - [Page teaching](#page-teaching)
   - [Page team](#page-team)
     - [Ajouter un membre](#ajouter-un-membre)
@@ -305,15 +308,104 @@ Pour ajouter un co-auteur, il faut insérer une nouvelle entrée dans le fichier
 
 ## Page cv
 
+### Structure générale
+
 Toutes les informations de la page CV du site sont enregistrées dans un seul fichier : [assets/json/resume.json](assets/json/resume.json).
 
-Ce fichier est organisé en blocs, chacun correspondant à une section du CV :
+Ce fichier est organisé en **blocs**, chacun correspondant à une section du CV :
 
-- `basics`
+- `basics` - Informations générales
 - `education`
 - `professional experiences`
-- `fundings`
-- `collaboration`
+- `fundings` - Third-Part Funding, Scholarships & Awards
+- `collaboration` - Collaborations on Funded Projects
+
+Chaque bloc est de la forme :
+
+```json
+"bloc1" : [
+  {
+    "clé1": "valeur1",
+    "clé2": "valeur2",
+    "clé3": "valeur3"
+  },
+  {
+    "clé1": "valeur4",
+    "clé2": "valeur5",
+    "clé3": "valeur6"
+  }
+],
+"bloc2" : [
+  {
+    "cléA": "valeur7",
+    "cléB": "valeur8",
+    "cléC": "valeur9"
+  }
+],
+...
+```
+
+Chaque élément dans un bloc est écrit entre `{ }`, sous forme de paires clé-valeur.
+
+### Ajouter une nouvelle entrée
+
+1. Repérer le bon bloc dans le fichier.
+
+2. Copier-coller un exemple d'élément du bloc concernée (exemples pour chaque blocs disponibles dans le paragraphe [Détail des champs possibles par section](#détail-des-champs-possibles-par-section)).
+
+3. Modifier les valeurs et supprimer les champs inutiles.
+
+### Détail des champs possibles par section
+
+- `education`
+
+```json
+{
+  "studyType": "Nom du diplôme ou de la formation",
+  "degree": "Domaine ou section (optionnel)",
+  "institution": "Etablissement de la formation",
+  "location": "Ville (optionnel)",
+  "year": "Année d'obtention, format AAAA",
+  "details": ["Informations complémentaires (optionnel)", "Mettre une info par ligne entre guillement", "et séparé chaque ligne par une virgule"]
+}
+```
+
+- `professional experiences`
+
+```json
+{
+  "position": "Intitulé du poste",
+  "place": "Nom du laboratoire ou de l'unité",
+  "location": "Université ou organisme, pays",
+  "startDate": "Format AAAA, date de début",
+  "endDate": "Format AAAA, date de fin (laisser guillement vide si en cours)"
+}
+```
+
+- `fundings` - Third-Part Funding, Scholarships & Awards
+
+```json
+{
+  "title": "Nom du financement, prix ou bourse",
+  "place": "Nom de l'organisme financeur (optionnel)",
+  "date": "Date de début, format AAAA",
+  "endDate": "format AAAA, date de fin (laisser vide ou supprimer le champs si date de début et de fin sont les mêmes) (optionnel)",
+  "amount": "Montant (optionnel)",
+  "coauthors": "Co-auteurs si prix partagé (optionnel)",
+  "details": ["Informations complémentaires (optionnel)", "Mettre une info par ligne entre guillement", "et séparer chaque ligne par une virgule"]
+}
+```
+
+- `collaboration` - Collaborations on Funded Projects
+
+```json
+{
+  "project": "Titre du projet",
+  "date": "Période (format libre ou 'AAAA - AAAA')",
+  "funder": "Organisme financeur",
+  "pi": "Nom du (ou des) PI"
+}
+```
 
 ## Page teaching
 

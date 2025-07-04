@@ -7,28 +7,50 @@ nav: true
 nav_order: 2
 ---
 
-(\*authors whose postdoctoral or ° doctoral project I supervised)
+## Sommaire
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-<!-- {% include bib_search.liquid %} -->
-
-<p><strong>Sommaire :</strong>
-  <a href="#peer-reviewed-publications">Peer-reviewed</a> |
-  <a href="#book-chapters-with-reviewing-committee">Book chapters</a> |
-  <a href="#academic-dissertations">Dissertations</a> |
-  <a href="#peer-reviewed-presentations-in-conferences">Presentations</a>
-</p>
-
-<div class="publications">
-  {% bibliography %}
+<div id="menu-categories" class="category-menu">
+  <button data-cat="peer-reviewed">Peer-reviewed publications</button>
+  <button data-cat="conference">Peer-reviewed presentations in conferences</button>
+  <button data-cat="book-chapters">Book chapters with reviewing committee</button>
+  <button data-cat="dissertations">Academic dissertations</button>
 </div>
 
-<!-- Peer-reviewed publications -->
+<div class="publications" id="peer-reviewed">
+  <h2>Peer-reviewed publications</h2>
+  {% bibliography --file peer-reviewed.bib %}
+</div>
 
-<!-- Book chapters with reviewing committee -->
+<div class="publications" id="conference" style="display:none;">
+  <h2>Peer-reviewed presentations in conferences</h2>
+  {% bibliography --file conference.bib %}
+</div>
 
-<!-- Academic dissertations -->
+<div class="publications" id="book-chapters" style="display:none;">
+  <h2>Book chapters with reviewing committee</h2>
+  {% bibliography --file book-chapters.bib %}
+</div>
 
-<!-- Peer-reviewed presentations in conferences  -->
+<div class="publications" id="dissertations" style="display:none;">
+  <h2>Academic dissertations</h2>
+  {% bibliography --file dissertations.bib %}
+</div>
+
+---
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const menu = document.getElementById('menu-categories');
+  const sections = document.querySelectorAll('.publications');
+
+  menu.querySelectorAll('button').forEach(button => {
+    button.addEventListener('click', (e) => {
+      const cat = button.getAttribute('data-cat');
+
+      sections.forEach(section => {
+        section.style.display = (section.id === cat) ? 'block' : 'none';
+      });
+    });
+  });
+});
+</script>

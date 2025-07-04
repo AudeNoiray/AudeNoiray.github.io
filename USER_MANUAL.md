@@ -257,7 +257,6 @@ Quelques exemples d'entrées de publications :
   booktitle = {Speech Motor Control: New developments in basic and applied research},
   publisher={Oxford University Press},
   pages = {153-171},
-  category = {Book chapters with reviewing committee}
 }
 ```
 
@@ -305,6 +304,65 @@ Pour ajouter un co-auteur, il faut insérer une nouvelle entrée dans le fichier
 ```
 
 ## Page projects
+
+### Ajouter un projet
+
+1. Créer un nouveau fichier .md dans le dossier [\_projects/](_projects/), par exemple `nouveau-projet.md`.
+
+2. Copier-coller dans ce fichier le modèle ci-dessous et le modifier avec les informations spécifiques du projet.
+   Ce fichier doit être écrit en markdown ou en html. Plus d'informations dans les sections [Guide Html](#guide-html) ou [Guide Markdown](#guide-markdown). Privilégier plutôt le markdown qui est plus simple. Le langage HTML peut servir principalement pour de la mise en page plus complexe comme l'insertion de photos à une certaine taille, etc.
+
+```markdown
+---
+layout: page
+title: TITRE_DU_PROJET
+description: courte description du projet visible sur la page principale (optionnel)
+img: /assets/img/projects/image-projet.png  (optionnel)
+importance: 1
+---
+
+Texte du projet
+
+---
+
+### Collaborators
+
+NOM Collaborateur 1, NOM Collaborateur 2, etc.
+
+---
+
+### Publications
+
+**Peer-reviewed publications**:  
+Auteur, A., Auteur, B. (année). _Titre de l'article_. _Nom de la revue_, volume(numéro), pages. [lien]
+
+**Communications**:  
+Auteur, A., & Auteur, B. (année). _Titre de la présentation_. _Nom de la conférence_, date, lieu.
+
+---
+
+### Fundings
+
+**Period**: AAAA–AAAA
+
+Organisme de financement, programme (référence du projet)
+
+<img src="/assets/img/fundings/logo-funding.png" alt="logo" style="height:100px; vertical-align:middle; margin-left:5px;">
+```
+
+- Il est possible de supprimer complètement une section si elle n'est pas nécessaire (par exemple, Fundings), en supprimant toute la partie du fichier qui y fait référence.
+
+- Pour ajouter une image, place la dans le dossier [assets/img/](assets/img/) ou dans le dossier [assets/img/fundings](assets/img/fundings/) pour le logo d'un financeur. Il est possible de créer d'autre dossier dans [img/](assets/img/), il faut juste toujours faire attention de mettre le bon chemin dans le fichier .md.
+
+- Le champ `importance` dans l'en tête détermine l'ordre d'affichage des projets dans l'onglet projet du site web. Plus la valeur est petite, plus le projet s'affiche en haut de la page.
+
+3. Pour ajouter une image sur la page onglet du site, mettre l'image dans le dossier [assets/img/projects](assets/img/projects/). Dans l'en tête du fichier, met le nom de l'image dans la ligne `image: assets/img/projects/nom-img.png`.
+
+---
+
+### Supprimer un projet
+
+Dans le dossier [\_projects/](_projects/), supprimer le fichier .md associé au projet.
 
 ## Page cv
 

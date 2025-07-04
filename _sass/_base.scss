@@ -669,6 +669,9 @@ footer.sticky-bottom {
   .card {
     img {
       width: 100%;
+      max-height: 150px;
+      object-fit: contain;
+      margin-top: 8px;
     }
   }
 
@@ -707,6 +710,7 @@ footer.sticky-bottom {
 
   h2 {
     margin-bottom: 1rem;
+    color: var(--global-text-color-light);
 
     span {
       font-size: 1.5rem;
@@ -903,6 +907,32 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
+}
+
+// sommaire
+
+.category-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.category-menu button {
+  background-color: var(--global-theme-color); /* couleur bleue personnalisée */
+  color: #ffffff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 999px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.category-menu button:hover {
+  background-color: #005fa3;
 }
 
 // Transitioning Themes

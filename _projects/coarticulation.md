@@ -3,7 +3,7 @@ layout: page
 title: Coarticulation
 description: a metric to study spoken language fluency (development)
 img: assets/img/projects/coarticulation.png
-importance: 3
+importance: 4
 ---
 
 Human beings are endowed with the unique ability to communicate orally with others. While the act of speaking is very natural and effortless for adults, it takes more than a decade for children to become proficient speakers in their native language. Sometimes, neurocognitive or articulatory challenges may affect the typical course of their language progression.

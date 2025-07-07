@@ -3,7 +3,7 @@ layout: page
 title: Pathological speech
 description: speech disfluencies in patients with language-related deficiencies
 img:
-importance: 3
+importance: 6
 ---
 
 ## _SEMO : Intégration SEnsori-MOtrice pour la rééducation du langage chez des patients avec une aphasie non fluente après accident vasculaire cérébral_
@@ -21,9 +21,13 @@ Ainsi, les patients accèdent à plusieurs sources d’information : auditives (
     </div>
 </div>
 
+---
+
 ### Collaborators
 
-Célise Haldin (post-doctoral fellow), Monica Baciu (LPNC), Thomas Hueber (GIPSA), Pascal Perrier (GIPSA)., Hélène Loevenbruck; Olivier Detante (CHUGA), Isabelle Favre-Wiki (CHUGA), Stéphanie Maurice (CHUGA).
+Célise Haldin (post-doctoral fellow), [Monica Baciu](https://lpnc.univ-grenoble-alpes.fr/fr/monica-baciu) (LPNC), [Thomas Hueber](https://www.gipsa-lab.grenoble-inp.fr/~thomas.hueber/) (GIPSA), [Pascal Perrier](https://cv.hal.science/pascal-perrier) (GIPSA), [Hélène Loevenbruck](https://lpnc.univ-grenoble-alpes.fr/fr/helene-loevenbruck), Olivier Detante (CHUGA), Isabelle Favre-Wiki (CHUGA), Stéphanie Maurice (CHUGA).
+
+---
 
 ### Publications
 
@@ -33,6 +37,8 @@ Haldin, C., Hueber, T., Perrier, P., Detante, O., Maurice, S., , Favre-Wiki, I.,
 
 Haldin, C., Loevenbruck, H., Hueber, T., detante, O., Maurice, S., Perrier, P., **Noiray, A.**, & Baciu, M. (2024). SEMO : Intégration SEnsori-MOtrice pour la rééducation du langage chez des patients avec une aphasie non fluente post-AVC. Convention scientifique de l'Institut Carnot Cognition, Paris.
 
+---
+
 ### Fundings
 
 Institut Carnot Cognition
@@ -41,11 +47,13 @@ Institut Carnot Cognition
 
 ---
 
-## Speech perception and production in patients with Parkinson disease
+## _Speech perception and production in patients with Parkinson disease_
 
 In collaboration with Martijn Wieling and Teja Rebernik at the University of Groningen, we examine differences in speech planning and its production in Dutch patients with Parkinson disease as compared to healthy age matched speakers. Parkinson’s disease is a neurodegenerative disease, characterized by both motor and non-motor impairments. Besides impairment of limb motor control (Jankovic, 2007), around 70% of patients experience speech difficulties (Ho et al. 1999), especially during the later stages of the disease (e.g., Skodda et al. 2013). Speech related impairments include atypical speech rates and prosodic patterns (e.g., reduced stress, monotonous pitch), phonation (e.g., breathy voice), respiration (e.g. reduced intensity) and difficulty in spoken articulation (e.g., Pinto et al. 2004). Previous research has also suggested that two mechanisms essential to efficient speech motor control may be impaired in Parkinson’s disease patients: 1) feedforward mechanism (that characterizes stored movement representations drawn from past experiences to be used for speech motor planning) and/or, 2) feedback mechanisms (that consists in monitoring sensory input relative to individual expectations).
 
 In this project, we examine how newly diagnosed and advanced stage Parkinson patients cope with feedback/feedforward perturbations in comparison to healthy adults. To achieve this goal, we measure speech motor planning and articulation (e.g., imprecise pronunciation, slurred, erroneous speech, coarticulatory deficiency) using electromagnetic articulography or ultrasound tongue imaging and acoustic measurements (Rebernik, Jacobbi, Noiray, & Wieling, 2020, 2022). ﻿To assess whether impairments of the feedback and/or feedforward system are speech-specific or part of a general movement disorder, we also carry out feedback perturbation tests in non-verbal motor movement tasks.
+
+---
 
 ### Publications
 

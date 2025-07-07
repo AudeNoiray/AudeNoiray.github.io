@@ -2,8 +2,8 @@
 layout: page
 title: Disharmonious babblers
 description:
-img:
-importance: 3
+img: assets/img/projects/disharmonious_babblers1.png
+importance: 8
 ---
 
 Across languages a number of phonological patterns tend to reflect constraints on speech production and perception. In this study, we focus on vowel harmony, a phonological process whereby non-adjacent vowels within a given word share similar phonetic characteristics (e.g., same frontness). In languages without a vowel harmony rule (e.g., English), infants nonetheless use vowel harmony for word segmentation. Does an equivalent production bias for vowel harmony exist? If so, how long may it last? In this research, we address these questions focusing on the babbling period when infants start producing their first coarticulated exemplars that emulate syllabic structures produced by adults. From a speech motor perspective, babbling is assumed to reflect minimal independent control of speech articulators other than the jaw. In this context, babbling may primarily include identical and harmonious vowels that are easier to produce (e.g., [bæbæ]) before integrating disharmonious vowels requiring more complex inter-articulator coordinations (e.g., [dedu]).
@@ -17,14 +17,12 @@ This research is carried out in collaboration with Anne Vilain (GIPSA) and Clair
 
 ### Collaborators
 
-Sharon Peperkamp, Anne Vilain, Claire lalevee
+This research is carried out in collaboration with [Anne Vilain](https://www.ins2i.cnrs.fr/fr/personne/anne-vilain) (GIPSA), Claire Lalevée (CMPP, speech therapist) and [Sharon Peperkamp](http://www.lscp.net/persons/peperkamp/) (LSCP-ENS).
 
 ---
 
 <!-- Publications -->
 
 ## Publications
-
-**Peer-reviewed publications** :
 
 à venir

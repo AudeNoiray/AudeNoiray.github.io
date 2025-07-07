@@ -2,8 +2,8 @@
 layout: page
 title: VOC2SPEAK
 description: an integrative-interactive approach to vocal development
-img:
-importance: 2
+img: assets/img/projects/voc2speak1.png
+importance: 3
 ---
 
 Speech development is shaped by multiple interactions between sensory, motor, cognitive and language skills. While the individual development of these skills has been relatively well studied in recent decades, many questions remain about their interactions.
@@ -19,8 +19,8 @@ Within the project, two post-doctoral fellows as well as a PhD candidate will ca
 
 ### Collaborators
 
-Caterina Petrone, Marianne Jover, Marvin Lavechin, Martin Wieling  
- **Postdoctoral fellow**: Elina Rubertus
+[Caterina Petrone](https://www.lpl-aix.fr/contact/caterina-petrone/), [Marianne Jover](https://centrepsycle-amu.fr/membres/marianne-jover/), [Marvin Lavechin](https://marvinlvn.github.io), [Martin Wieling](https://www.martijnwieling.nl)  
+ **Postdoctoral fellow**: [Elina Rubertus](https://elinarubertus.github.io)
 
 ---
 
@@ -40,8 +40,8 @@ Fuchs, S., Jover, M., Noiray, A., & Petrone, C (2025). Le co-développement du c
 
 ## Fundings
 
-**Period**: 2025-2029
-
+**Period**: 2025-2029  
 Agence Nationale de la Recherche and Deutsch Forschungsgemeinschaft (ANR-24-FRAL-0004-01 ; FU791/10-1)
 
-<img src="/assets/img/fundings/voc2speak.png" alt="logo" style="height:100px; vertical-align:middle; margin-left:5px;">
+<img src="/assets/img/fundings/DeutschForschungsgemeinschaft.jpeg" alt="logo" style="height:100px; vertical-align:middle; margin-left:5px;">
+<img src="/assets/img/fundings/ANR.jpg" alt="logo" style="height:100px; vertical-align:middle; margin-left:5px;">

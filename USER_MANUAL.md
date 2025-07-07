@@ -141,9 +141,9 @@ Pour **ajouter ou supprimer des news**, voir la section correspondante dans la [
 Toutes les publications sont stockées dans le dossier [\_bibliography/](_bibliography/), au format BibTex. Elles sont réparties dans quatre fichiers .bib en fonctions de leur type :
 
 - `peer-reviewed.bib` - **Peer-reviewed publications**
-- `book-chapters.bib` - **Book chapters with reviewing committee**
+- `book-chapters.bib` - **Book chapters**
 - `cdissertation.bib` - **Academic dissertations**
-- `conference.bib` - **Peer-reviewed presentations in conferences**
+- `conference.bib` - **Talks and Conferences**
 
 Sur la apge _Publications_, des boutons permettent de choisir quelle catégorie afficher.
 
@@ -209,8 +209,8 @@ nomduchamp = {valeurs},
 
 - Le champ `category` doit correspondre **exactement** à l'une des 4 catégories suivantes (respecter les majuscules, espaces, orthographe) :
   - `Peer-reviewed publications`
-  - `Peer-reviewed presentations in conferences`
-  - `Book chapters with reviewing committee`
+  - `Talks and Conferences`
+  - `Book chapters`
   - `Academic dissertations`.
 
 4. **Ajouter les champs optionnels nécessaires**
@@ -253,7 +253,7 @@ Quelques exemples d'entrées de publications :
   year={2025},
   booktitle = {Conférence Phonology and Phonetics in Europe (PaPe)},
   pages = {2p},
-  category = {Peer-reviewed presentations in conferences}
+  category = {Talks and Conferences}
 }
 ```
 
@@ -389,7 +389,7 @@ Ce fichier est organisé en **blocs**, chacun correspondant à une section du CV
 - `collaboration` - Collaborations on Funded Projects
 - `scientificActivities` - Other Scientific Activities
 - `supervision` - Student (Co)-Supervision
-- `organization` - Organization of Conferences, Workshops & Scientific Events
+- `organization` - Organization of Scientific Events
 - `trainingActivities` -Training Activities
 - `reviewing` - Reviewing Services
 
@@ -504,7 +504,7 @@ Chaque élément dans un bloc est écrit entre `{ }`, sous forme de paires clé-
 }
 ```
 
-- `organization` - Organization of Conferences, Workshops & Scientific Events
+- `organization` - Organization of Scientific Events
 
 ```json
 {

@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /people/
-title: team
+title: Team
 description: members of the lab or group
 nav: true
 nav_order: 7
@@ -15,8 +15,8 @@ profiles:
     content: team/aude.md
   # Suzanne Fuchs
   - align: left
-    content: team/suzannefuchs.md
-    image: SuzanneFuchs.png
+    content: team/susannefuchs.md
+    image: SusanneFuchs.png
   # Lucie Chasseur
   - align: right
     content: team/luciechasseur.md

@@ -37,33 +37,40 @@ Ce manuel utilisateur explique comment personnaliser le site web avec des instru
 
 ### Modifier le texte de présentation
 
-Ouvrir le fichier [\_pages/about.md](_pages/about.md).
-
-Modifier le texte situé après l’en-tête du fichier pour changer le contenu principal de la page.
+Ouvrir le fichier [\_pages/about.md](_pages/about.md).  
+Modifier le texte situé après l’en-tête du fichier (la partie entourée de `---`) pour changer le contenu principal de la page.
 
 ---
 
 ### Modifier la photo de profil
 
-Placer la nouvelle photo dans le dossier asset/img/.
-Dans le fichier [\_pages/about.md](_pages/about.md) remplacer le nom du fichier image à la ligne 9 (image : …) par le nom de la nouvelle photo.
+Ajouter la nouvelle photo dans le dossier [asset/img/](asset/img/).  
+Dans le fichier [\_pages/about.md](_pages/about.md), remplacer le nom du fichier image à la ligne 9 (`image : …`) par le nom de la nouvelle photo.
 
 ---
 
 ### Modifier le texte sous la photo
 
-Dans le fichier [\_pages/about.md](_pages/about.md), trouver la section profile → more_info (ligne 11 environ).
-Remplacer le texte à cet endroit (le texte est écrit en HTML, chaque ligne doit être encadrée par les balises \<p>...\</p>).
+Dans le fichier [\_pages/about.md](_pages/about.md), chercher la ligne qui commence par `more_info: ...` (ligne 11).  
+Remplacer le texte à cet endroit. Le texte est écrit en HTML, chaque ligne doit être encadrée par les balises \<p>...\</p>.
 
 ---
 
 ### Gérer les "selected publications"
 
-Les publications affichées sur la page about proviennent du fichier [\_bibliography/papers.bib](_bibliography/papers.bib).
+Les publications affichées dans la section _Selected publications_ de la page About sont listées dans le fichier [\_bibliography/papers.bib](_bibliography/papers.bib).
 
-Pour **ajouter une publication** dans selected publications : trouver la publication correspondante dans le fichier et ajouter la ligne _selected = {true}_ (faire attention aux virgules, chaque ligne de l'entrée de publication se termine par une virgule sauf la dernière).
+Les publications sont stockées dans les fichiers [book-chapters.bib](_bibliography/book-chapters.bib), [conference.bib](_bibliography/conference.bib), [dissertation.bib](_bibliography/dissertation.bib) et [peer-reviewed.bib](_bibliography/peer-reviewed.bib), en fonction de leurs catégories.
 
-Pour **supprimer une publication** : trouver la publication correspondante dans le fichier et supprimer la ligne selected = {true} (faire attention aux virgules).
+Pour **ajouter une publication** dans _Selected publications_ :
+
+1. Trouver la publication a ajouté dans l'un des fichiers listés ci-dessus.
+2. Copier toute l'entrée (le bloc de texte qui commence par `@article{...}` ou `@inproceedings(...)`) dans le fichier [\_bibliography/papers.bib](_bibliography/papers.bib).
+3. Ajouter la ligne suivante dans l'entrée : `selected = {true}` (faire attention aux virgules, chaque ligne de l'entrée d'une publication se termine par une virgule sauf la dernière).
+
+Pour **supprimer une publication** :
+
+Supprimer l'entrée correspondante dans le fichier [\_bibliography/papers.bib](_bibliography/papers.bib).
 
 ---
 
@@ -71,7 +78,7 @@ Pour **supprimer une publication** : trouver la publication correspondante dans 
 
 Ouvrir le fichier [\_data/socials.yml](_data/socials.yml).
 
-Pour **ajouter un réseau social** : décommenter (supprimer le #) de la ligne correspondante au réseau souhaité et ajouter l’identifiant dans le champ correspondant.
+Pour **ajouter un réseau social** : décommenter (supprimer le #) de la ligne correspondante au réseau souhaité et ajouter l’identifiant ou l'URL du profil dans le champ correspondant.
 
 Pour **supprimer un réseau social** : commenter la ligne du réseau à enlever (ajouter # au début de la ligne).
 
@@ -81,16 +88,17 @@ Pour **supprimer un réseau social** : commenter la ligne du réseau à enlever 
 
 #### Modifier le nombre de news
 
-Pour modifier le nombre de news qui s'affichent sur la page about : dans le fichier [\_pages/about.md](_pages/about.md), trouver la section annoucements → limit (ligne 21) et modifier le nombre.
+Pour modifier le nombre de news qui s'affichent sur la page about : dans le fichier [\_pages/about.md](_pages/about.md), trouver la section annoucements → limit (ligne 21) et changer la valeur.
 
 #### Supprimer une news
 
-Dans le dossier [\_news](_news), supprimer le fichier correspondant à la news à supprimer.
+Dans le dossier [\_news](_news), supprimer le fichier .md correspondant à la news à supprimer.
 
 #### Ajouter une news
 
-Dans le dossier [\_news](_news), créer un nouveau fichier avec un nom en .md (par exemple : nouvelle-news.md).
-Rédiger la news en suivant un des deux formats possibles :
+1. Ouvrir le dossier [\_news](_news).
+2. Créer un nouveau fichier avec un nom en .md (par exemple : `nouvelle-news.md`).
+3. Rédiger la news en suivant un des deux formats possibles :
 
 - **News courte** : la news apparaît sur une seule ligne et n'est pas cliquable (par exemple : le fichier [\_news/voc2speak.md](_news/voc2speak.md)).
 
@@ -102,7 +110,7 @@ layout: post
 date: 2024-06-10
 inline: true
 ---
-Nom de la news qui s'affiche sur la page about et dans la page archive.
+Texte de la news qui s'affiche sur la page About et dans la page Archive.
 ```
 
 - **News longues** : la news est cliquable et mène à une page dédiée, utile pour un contenu plus détaillé (par exemple : le fichier [\_news/journeePhonetiqueClinique.md](_news/journeePhonetiqueClinique.md)).
@@ -117,28 +125,29 @@ title: "Texte de la news qui va s’afficher sur la ligne"
 inline: false
 ---
 Texte complet de la news qui va être affichée sur la page dédiée lorsque l’on clique dessus.
-Ce texte peut être écrit en HTML si besoin d’une mise en page spécifique (cf. Guide HTML).
+Ce texte peut être écrit en HTML ou en markdown si besoin d’une mise en page spécifique (cf. Guide HTML).
 ```
 
 ## Page archives
 
-La page _archives_ permet d'afficher l'ensemble des **news** ajoutées au site. Elle répertorie chronologiquement toutes les actualités.  
+La page _Archives_ permet d'afficher l'ensemble des **news** ajoutées au site. Elle répertorie chronologiquement toutes les actualités.  
+Il n'est pas nécessaire de modifier cette page manuellement. Elle se met à jour toute seule lors de l'ajout ou de la suppression d'une news.
 Pour **ajouter ou supprimer des news**, voir la section correspondante dans la [page about](#gérer-les-news).
 
 ## Page publications
 
 ### Organisation des publications
 
-Toutes les publications sont stockées dans le fichier [\_bibliography/papers.bib](_bibliography/papers.bib), au format BibTex.
+Toutes les publications sont stockées dans le dossier [\_bibliography/](_bibliography/), au format BibTex. Elles sont réparties dans quatre fichiers .bib en fonctions de leur type :
 
-Les publications sont regroupées selon 4 catégories :
+- `peer-reviewed.bib` - **Peer-reviewed publications**
+- `book-chapters.bib` - **Book chapters with reviewing committee**
+- `cdissertation.bib` - **Academic dissertations**
+- `conference.bib` - **Peer-reviewed presentations in conferences**
 
-- **Peer-reviewed publications**
-- **Book chapters with reviewing committee**
-- **Academic dissertations**
-- **Peer-reviewed presentations in conferences**
+Sur la apge _Publications_, des boutons permettent de choisir quelle catégorie afficher.
 
-A l'intérieur de chaque catégorie, les publications sont triés par ordre chronologique décroissant.
+A l'intérieur de chaque fichier, les publications sont triés par ordre chronologique décroissant.
 
 L'ordre des publications dans le fichier n'a pas d'impact sur l'affichage final du site mais permet de garder le fichier propre, lisible et facile à maintenir.
 
@@ -226,7 +235,7 @@ Quelques exemples d'entrées de publications :
 ```bibtex
 @article{agerelateddifferencesincoherence2021,
   title = {Age-related differences in coherence between brain activation and speech envelope at word and sentence levels},
-  author = {Kolozsvári°, O. and  Xu. W and Parviainen, T. and Nieminen, L. and Noiray, A. and Hämäläinen, J},
+  author = {Kolozsvári^, O. and  Xu. W and Parviainen, T. and Nieminen, L. and Noiray, A. and Hämäläinen, J},
   year = {2021},
   journal = {Journal of Speech, Language, and Hearing Research},
   volume = {2},
@@ -264,9 +273,10 @@ Quelques exemples d'entrées de publications :
 
 ### Supprimer une publication
 
-Les publications sont répertoriées dans le fichiers [\_bibliography/papers.bib](_bibliography/papers.bib). Pour supprimer une publication du site, il faut supprimer l'entrée correspondante dans ce fichier.
-
-Une entrée commence par une ligne de ce type :
+1. Identifier dans quelle catégorie se trouve la publication à supprimer.
+2. Trouver et ouvrir le fichier .bib correspondant : [book-chapters.bib](_bibliography/book-chapters.bib), [conference.bib](_bibliography/conference.bib), [dissertation.bib](_bibliography/dissertation.bib) et [peer-reviewed.bib](_bibliography/peer-reviewed.bib).
+3. Rechercher l'entrée à supprimer.
+   Une entrée est sous cette forme :
 
 ```bibtex
 @article{NomCle,
@@ -278,22 +288,22 @@ Une entrée commence par une ligne de ce type :
 ...}
 ```
 
-et se termine par une accolade fermante.
-Il faut veiller à bien supprimer l'ensemble de l'entrée.
+4. Supprimer l'ensemble du bloc correspondant à la publication.
+   Il faut veiller à bien supprimer l'ensemble de l'entrée.
 
 ---
 
 ### Ajouter un co-auteur
 
-Les co-auteurs permettent d'associer les nom des auteurs des publications à leurs sites webs.
+Les co-auteurs permettent de rendre les nom des auteurs dans les publications cliquables, en les associant à leur site web personnel.
 
 Cette association est gérée dans le fichier [\_data/coauthors.yml](_data/coauthors.yml).
 
-Chaque co-auteur est défini par une clé qui correspond à son **nom de famille en minuscules**, et comprend :
+Chaque co-auteur est défini par une clé qui correspond à son **nom de famille en minuscules et sans accents**, et comprend :
 
 - une liste des différentes formes possibles de son prénom qui peuvent apparaître dans les publications (prénom complet, initiale, initiale avec un point, etc.)
 
-- une URL vers son site personnel.
+- l'URL vers son site personnel.
 
 Pour ajouter un co-auteur, il faut insérer une nouvelle entrée dans le fichier [\_data/coauthors.yml](_data/coauthors.yml), en suivant ce format :
 

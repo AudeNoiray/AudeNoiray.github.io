@@ -26,7 +26,7 @@
             <strong>{{ item.name }}</strong> ({{ item.level }}) — {{ item.title -}}
             {%- if item.institution %}, {{ item.institution }}{% endif -%}
             {%- if item.note -%}
-              . <span class="text-muted">{{ item.note }}</span>
+              <span>{{ item.note | markdownify }}</span>
             {%- endif %}
           </h6>
         </div>

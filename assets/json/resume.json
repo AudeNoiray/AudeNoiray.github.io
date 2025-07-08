@@ -405,32 +405,74 @@
 
   "trainingActivities": [
     {
+      "year": "2025",
+      "date": "July 17th",
+      "title": "Tracking the invisible in speech with ultrasound imaging",
+      "location": "<em>Summer Training in Experimental Methods(STEM VIII)</em>. Laboratory of Phonetics and Phonology, Lisbon University"
+    },
+    {
+      "year": "2025",
+      "date": "April 24th",
+      "title": "Kinematic insights on the development of spoken and reading language fluency",
+      "location": "Seminars from the Childhood Application Seminar Series (CASS)"
+    },
+    {
+      "year": "2025",
+      "date": "January 16th",
+      "title": "L’imagerie par échographie, un outil  prometteur pour évaluer la communication (a)typique chez l’adulte et sondéveloppement chez l’enfant.",
+      "location": "Société Universitaire de Recherche en Orthophonie (SURO)"
+    },
+    {
+      "year": "2024",
+      "date": "December 11th",
+      "title": "Tracking the invisible in infants’ vocalisations, an introduction to ultrasound imaging to study language acquisition",
+      "location": "acquisition. DEPARTMENT OF LANGUAGE AND LINGUISTIC SCIENCE, York University"
+    },
+    {
+      "year": "2024",
+      "date": "November 21st",
+      "title": "Apports de la technique d’imagerie par échographie pour la recherche sur le langage (a)typique",
+      "location": "LABTIME, LPNC"
+    },
+    {
+      "year": "2024",
+      "date": "September 3rd",
+      "title": "Tracking the invisible in the (a)typical development of spoken language fluency with ultrasound imaging (STEM VIII)",
+      "location": "LABORATORY OF PHONETICS AND PHONOLOGY, CLUL Lisbon"
+    },
+    {
+      "year": "2023",
+      "date": "September 5th",
+      "title": "Ultrasound imaging in developmental speech sciences.  Summer Training in Experimental Methods (STEM VII)",
+      "location": "LABORATORY OF PHONETICS AND PHONOLOGY, CLUL Lisbon"
+    },
+    {
       "year": "2022",
-      "date_detail": "October 16 &amp; 17th",
+      "date": "October 16 &amp; 17th",
       "title": "Applying ultrasound imaging to study the early coupling between perception and production in infancy",
       "location": "Center of Linguistics, Lisbon University"
     },
     {
       "year": "2022",
-      "date_detail": "June 20th",
+      "date": "June 20th",
       "title": "Apport de l’imagerie par échographie pour l’évaluation de la parole (a)typique. Séminaireorthophonie",
       "location": "Laboratoire Dynamique du Langage, Lyon"
     },
     {
       "year": "2022",
-      "date_detail": "January 18th",
+      "date": "January 18th",
       "title": "Applicabilité de l’imagerie par échographie pour l’étude du développement de la parole chez les tout petits",
       "location": "Laboratoire Dynamique du Langage, Lyon"
     },
     {
       "year": "2021",
-      "date_detail": "June 17th",
+      "date": "June 17th",
       "title": "Ultrasound imaging to study child language development",
       "location": "<em>International Child Phonology conference</em> ICPC"
     },
     {
       "year": "2019",
-      "date_detail": "April 19th",
+      "date": "April 19th",
       "title": "Kinematic data analyses from ultrasound imaging",
       "location": "Groningen University"
     },
@@ -442,26 +484,26 @@
     },
     {
       "year": "2018",
-      "date_detail": "August 17-19th",
+      "date": "August 17-19th",
       "title": "Training on ultrasound imaging in linguistic investigation (2 days in the framework of a scientific dissemination event “Zpannend Zernike”)",
       "location": "Groningen University",
       "note": "Organisation: Martijn Wieling"
     },
     {
       "year": "2018",
-      "date_detail": "October 5th",
+      "date": "October 5th",
       "title": "Tracking spoken language development from infants to school-aged children",
       "location": "Groningen University"
     },
     {
       "year": "2018",
-      "date_detail": "June 11th",
+      "date": "June 11th",
       "title": "Seeing the invisible in the speech of children using ultrasound imaging",
       "location": "<em>ISOLDE Ecole d’Été</em>, Potsdam University"
     },
     {
       "year": "2018",
-      "date_detail": "July 19th",
+      "date": "July 19th",
       "title": "Tutorial on ultrasound research in (a)typical language acquisition",
       "location": "<em>Labphon 16</em>, Satellite: Ultrasound Evidence in Phonology, Lisbon University"
     }

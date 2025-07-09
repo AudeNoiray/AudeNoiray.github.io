@@ -86,7 +86,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/journeePhonetiqueClinique/";
-            },},{id: "news-i-will-give-a-workshop-on-ultrasound-imaging-at-stem-ix-summer-training-in-experimental-methods-on-july-16-2025-9-00-to-12-00-on-july-16-2025",
+            },},{id: "news-two-new-publications-fuchs-s-jover-m-noiray-a-amp-amp-petrone-c-in-press-on-the-development-of-breathing-and-vocalization-in-a-prelinguistic-child-a-case-study-folia-phoniatrica-et-logopaedica-doi-10-1159-000547328-paper-rubertus-e-popescu-a-amp-amp-noiray-a-2025-seriality-in-word-reading-kinematic-insights-into-beginning-and-proficient-readers-journal-of-experimental-psychology-learning-memory-and-cognition-paper",
+          title: 'Two new publications: Fuchs, S., Jover, M., Noiray, A., &amp;amp;amp; Petrone, C. (in...',
+          description: "",
+          section: "News",},{id: "news-i-will-give-a-workshop-on-ultrasound-imaging-at-stem-ix-summer-training-in-experimental-methods-on-july-16-2025-9-00-to-12-00-on-july-16-2025",
           title: 'I will give a workshop on ultrasound imaging at STEM IX (Summer Training...',
           description: "",
           section: "News",},{id: "news-i-am-delighted-to-give-a-talk-on-speech-motor-control-development-at-the-next-rencontre-des-jeunes-chercheurs-en-parole-rjpc-in-paris-november-10th-2025",

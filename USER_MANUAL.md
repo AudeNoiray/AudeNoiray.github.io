@@ -143,7 +143,7 @@ Toutes les publications sont stockées dans le dossier [\_bibliography/](_biblio
 - `peer-reviewed.bib` - **Peer-reviewed publications**
 - `book-chapters.bib` - **Book chapters**
 - `cdissertation.bib` - **Academic dissertations**
-- `conference.bib` - **Talks and Conferences**
+- `conference.bib` - **Conferences and invited Talks**
 
 Sur la apge _Publications_, des boutons permettent de choisir quelle catégorie afficher.
 
@@ -209,7 +209,7 @@ nomduchamp = {valeurs},
 
 - Le champ `category` doit correspondre **exactement** à l'une des 4 catégories suivantes (respecter les majuscules, espaces, orthographe) :
   - `Peer-reviewed publications`
-  - `Talks and Conferences`
+  - `Conferences and invited Talks`
   - `Book chapters`
   - `Academic dissertations`.
 
@@ -253,7 +253,6 @@ Quelques exemples d'entrées de publications :
   year={2025},
   booktitle = {Conférence Phonology and Phonetics in Europe (PaPe)},
   pages = {2p},
-  category = {Talks and Conferences}
 }
 ```
 

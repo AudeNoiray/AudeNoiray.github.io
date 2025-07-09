@@ -171,33 +171,59 @@
       {% capture entrytype %}{% endcapture %}
     {% endif %}
     {% assign volume_info = '' %}
+    {% capture volume_info %}{% endcapture %}
+    {% if entry.date %}
+      {% assign volume_info = volume_info | append: entry.date %}
+    {% endif %}
     {% if entry.volume %}
-      {% assign volume_info = volume_info | append: ' ' | append: entry.volume | append: '' %}
+      {% if volume_info != '' %}{% assign volume_info = volume_info | append: ', ' %}{% endif %}
+      {% assign volume_info = volume_info | append: entry.volume %}
     {% endif %}
     {% if entry.number %}
+      {% if volume_info != '' %}{% assign volume_info = volume_info | append: ', ' %}{% endif %}
       {% assign volume_info = volume_info | append: '(' | append: entry.number | append: ')' %}
     {% endif %}
     {% if entry.pages %}
-      {% assign volume_info = volume_info | append: ', ' | append: entry.pages %}
+      {% if volume_info != '' %}{% assign volume_info = volume_info | append: ', ' %}{% endif %}
+      {% assign volume_info = volume_info | append: entry.pages %}
     {% endif %}
     {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
-    {% if entry.year %}
-      {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
-    {% endif %}
+    {% comment %}  {% endcomment %}
+    {% assign cleaned_entrytype = entrytype | strip_html | strip %}
+
+    {% assign extras = '' %}
     {% if entry.location %}
-      {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
-    {% endif -%}
-    {% if entry.additional_info %}
-      {% capture entrytype %}{{ entrytype }}{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+      {% assign extras = entry.location %}
     {% endif %}
+
+    {% if entry.additional_info %}
+      {% assign cleaned_additional_info = entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' | strip %}
+      {% if extras != '' %}
+        {% assign extras = extras | append: ', ' | append: cleaned_additional_info %}
+      {% else %}
+        {% assign extras = cleaned_additional_info %}
+      {% endif %}
+    {% endif %}
+
+    {% if extras != '' %}
+      {% if cleaned_entrytype != '' %}
+        {% assign entrytype = entrytype | append: ', ' | append: extras %}
+      {% else %}
+        {% assign entrytype = extras %}
+      {% endif %}
+    {% endif %}
+
+    {% comment %}  {% endcomment %}
     {% capture hook_exists %}{% file_exists _includes/hook/bib.liquid %}{% endcapture %}
     {% if hook_exists == 'true' %}
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{{ volume_info }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture periodical %}
+      {{ entrytype }}{% if volume_info != '' %}, {{ volume_info }}{% endif %}
+    {% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>

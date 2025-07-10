@@ -2,6 +2,8 @@
 
 Ce manuel utilisateur explique comment personnaliser le site web avec des instructions pour modifier le texte, les images et les différentes sections. Il est organisé en fonction des différents onglets du site, avec pour chacun les modifications possibles à effectuer.
 
+A chaque modification, le site peut mettre plusieurs minutes à s'actualiser. Pensez à vérifier environ dix minutes plus tard pour voir si les changements ont bien été pris en compte.
+
 ## Sommaire
 
 - [Manuel utilisateur](#manuel-utilisateur)

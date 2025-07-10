@@ -181,14 +181,17 @@
       {% endif %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
+
     {% elsif misc contains entry.type %}
       {% assign cleaned_event = entry.event | markdownify | strip | remove: '<p>' | remove: '</p>' | strip_newlines %}
-      {% assign cleaned_location = entry.place | markdownify | strip %}
+      {% assign cleaned_location = entry.place | markdownify | strip | remove: '<p>' | remove: '</p>' | strip_newlines %}
       {% assign cleaned_date = entry.date | strip %}
-
+    
       {% capture entrytype %}
-        {% if cleaned_event != '' %}<em>{{ cleaned_event }}</em>{% endif %}{% if cleaned_event != '' and cleaned_location != '' %}, {{ cleaned_location }}{% elsif cleaned_event == '' and cleaned_location != '' %}{{ cleaned_location }}{% endif %}{% if cleaned_date != '' %}{% if cleaned_event != '' or cleaned_location != '' %}, {% endif %}{{ cleaned_date }}{% endif %}
-      {% endcapture %}
+        {% if cleaned_event != '' %}<em>{{ cleaned_event }}</em>{% endif %}{% if cleaned_event != '' and cleaned_location != '' %}, {{ cleaned_location }}{% elsif cleaned_event == '' and cleaned_location != '' %}{{ cleaned_location }}{% endif %}{% if cleaned_date != '' %}{% if cleaned_event != '' or cleaned_location != '' %}, {% endif %}{{ cleaned_date }}
+        {% endif %}
+      {% endcapture %}    
+
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}

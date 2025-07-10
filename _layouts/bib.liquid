@@ -157,24 +157,48 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>{{ entry.booktitle }}</em>{% endcapture %}
-      {% if entry.editor %}
-        {% capture entrytype %}{{ entrytype }}, edited by {{ entry.editor }}{% endcapture %}
+      {% assign editors = entry.editor | split: ' and ' %}
+      {% assign editor_list = '' %}
+      {% for e in editors %}
+        {% assign editor_name = e | strip %}
+        {% if forloop.first %}
+          {% assign editor_list = editor_name %}
+        {% elsif forloop.last %}
+          {% assign editor_list = editor_list | append: ' & ' | append: editor_name %}
+        {% else %}
+          {% assign editor_list = editor_list | append: ', ' | append: editor_name %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign entrytype = '' %}
+      {% if editor_list != '' %}
+        {% assign entrytype = 'In ' | append: editor_list | append: ' (eds.), ' %}
+      {% endif %}
+      {% assign entrytype = entrytype | append: '<em>' | append: entry.booktitle | append: '</em>' %}
+
+      {% if entry.publisher %}
+        {% assign entrytype = entrytype | append: ', ' | append: entry.publisher %}
       {% endif %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% elsif misc contains entry.type %}
-      {% assign cleaned_place = entry.place | markdownify | strip | remove: '<p>' | remove: '</p>' | strip_newlines %}
+      {% assign cleaned_event = entry.event | markdownify | strip | remove: '<p>' | remove: '</p>' | strip_newlines %}
+      {% assign cleaned_location = entry.place | markdownify | strip %}
       {% assign cleaned_date = entry.date | strip %}
-      {% capture entrytype %}{{ cleaned_place }}{% if cleaned_place != '' and cleaned_date != '' %}, {% endif %}{{ cleaned_date }}{% endcapture %}
+
+      {% capture entrytype %}
+        {% if cleaned_event != '' %}<em>{{ cleaned_event }}</em>{% endif %}{% if cleaned_event != '' and cleaned_location != '' %}, {{ cleaned_location }}{% elsif cleaned_event == '' and cleaned_location != '' %}{{ cleaned_location }}{% endif %}{% if cleaned_date != '' %}{% if cleaned_event != '' or cleaned_location != '' %}, {% endif %}{{ cleaned_date }}{% endif %}
+      {% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
     {% assign volume_info = '' %}
     {% capture volume_info %}{% endcapture %}
-    {% if entry.date %}
-      {% assign volume_info = volume_info | append: entry.date %}
-    {% endif %}
+    {% unless misc contains entry.type %}
+      {% if entry.date %}
+        {% assign volume_info = volume_info | append: entry.date %}
+      {% endif %}
+    {% endunless %}
     {% if entry.volume %}
       {% if volume_info != '' %}{% assign volume_info = volume_info | append: ', ' %}{% endif %}
       {% assign volume_info = volume_info | append: entry.volume %}

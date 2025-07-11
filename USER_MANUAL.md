@@ -482,7 +482,8 @@ Chaque élément dans un bloc est écrit entre `{ }`, sous forme de paires clé-
   "endDate": "format AAAA, date de fin (laisser vide ou supprimer le champs si date de début et de fin sont les mêmes) (optionnel)",
   "amount": "Montant (optionnel)",
   "coauthors": "Co-auteurs si prix partagé (optionnel)",
-  "details": ["Informations complémentaires (optionnel)", "Mettre une info par ligne entre guillement", "et séparer chaque ligne par une virgule"]
+  "details": ["Informations complémentaires (optionnel)", 
+    "Mettre une info par ligne entre guillement", "et séparer chaque ligne par une virgule"]
 }
 ```
 
@@ -528,16 +529,17 @@ Chaque élément dans un bloc est écrit entre `{ }`, sous forme de paires clé-
   "event": "Nom de l'événement",
   "location": "Lieu de l'événement",
   "role": "Rôle joué dans l'organisation",
-  "details": ["Informations complémentaires (optionnel)", "Une information par ligne entre guillement et chaque ligne séparée par des virgules."]
+  "details": ["Informations complémentaires (optionnel)", 
+    "Une information par ligne entre guillement et chaque ligne séparée par des virgules."]
 }
 ```
 
-- `trainingActivities` -Training Activities
+- `trainingActivities` - Training Activities
 
 ```json
 {
   "year": "format AAA",
-  "date_detail": "Date précise ou plages de dates (sans l'année)",
+  "date": "Date précise ou plages de dates (sans l'année)",
   "title": "Titre de l'intervention",
   "location": "Lieu",
   "note": "Infos complémentaires (optionnel)"
@@ -549,7 +551,8 @@ Chaque élément dans un bloc est écrit entre `{ }`, sous forme de paires clé-
 ```json
 {
   "category": "Nom de la catégorie",
-  "items": ["Liste des éléments associés à cette catégorie", "Un élément par ligne entre guillement et chaque ligne séparée par des virgules."]
+  "items": ["Liste des éléments associés à cette catégorie", 
+    "Un élément par ligne entre guillement et chaque ligne séparée par des virgules."]
 }
 ```
 
@@ -569,7 +572,7 @@ Pour **ajouter un poste d'enseignement** :
   role: "Intitulé du rôle"
   institution: "Nom de l'université"
   programmes:
-    - Liste des parcours ou formation concernés par le cours
+    - Liste des parcours ou formations concernés par le cours
     - Une formation par tiret
 ```
 

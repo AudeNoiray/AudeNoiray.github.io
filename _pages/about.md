@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: aude.png
+  image: audenoiray.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Bâtiment : Bât. Michel Dubois</p>

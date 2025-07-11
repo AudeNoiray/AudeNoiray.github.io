@@ -11,7 +11,7 @@ profiles:
   # and create one content file for each profile inside _pages/
   # Aude
   - align: right
-    image: aude.png
+    image: audenoiray.png
     content: team/aude.md
   # Suzanne Fuchs
   - align: left

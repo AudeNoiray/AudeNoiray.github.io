@@ -159,18 +159,20 @@ L'ordre des publications dans le fichier n'a pas d'impact sur l'affichage final 
 
 1. **Ouvrir le fichier .bib dans le dossier [\_bibliography/](_bibliography/) qui correspond au type de la publication à ajouter** (Voir ci-dessus les noms de fichier correspondant aux différents type de publications).
 
-2. **Choisir le bon type de publication** : `@article`, `@inproceedings`, `@incollection` ou `misc` (un type de publications peut être assez flexible, il faut prendre celui ou l'affichage correspond le mieux)
+2. **Choisir le bon type de publication** : `@article`, `@inproceedings`, `@incollection`, `@unpublished` ou `@misc`.
+Un type de publication peut être utilisé de manière assez flexible : choisissez celui dont l’affichage convient le mieux sur le site.
 
 | Type             |                               Utilisation                                |
 | ---------------- | :----------------------------------------------------------------------: |
-| `@article`       |          Pour les articles parus dans des revues scientifiques           |
-| `@inproceedings` | Pour les communications publiées dans les actes de colloques/conférences |
-| `@incollection`  |                Pour un chapitre dans un livre collectif                  |
-| `@misc`          |         Pour une présentation orale non publiée, comme un talk           |
+| `@article`       |          Pour les articles parus dans des revues scientifiques.           |
+| `@inproceedings` | Pour les communications publiées dans les actes de colloques/conférences. |
+| `@incollection`  |                Pour un chapitre dans un livre collectif.               |
+| `@unpublished`   |                Pour les academics dissertations.                  |
+| `@misc`          |         Pour une présentation orale non publiée, comme un talk.           |
 
 3. **Créer une nouvelle entrée dans le fichier**
 
-Ajouter un bloc comme celui-ci dans le fichier [\_bibliography/papers.bib](_bibliography/papers.bib), en remplaçant les valeurs par les informations de la publication :
+Ajouter un bloc comme celui-ci dans le fichier [\_bibliography/papers.bib](_bibliography/papers.bib), en remplaçant les valeurs par les informations de la publication et par le bon type :
 
 ```bibtex
 @article{NomCle,
@@ -182,9 +184,9 @@ Ajouter un bloc comme celui-ci dans le fichier [\_bibliography/papers.bib](_bibl
 
 **À noter :**
 
-- La clé `NomCle` et les champs `author`, `title` et `year`doivent être **obligatoirement rempli**.
+- La clé `NomCle` et les champs `author`, `title` et `year` doivent être **obligatoirement rempli**.
 
-- `NomCle` est un **identifiant unique**, appelé clé BibTex. Il doit être **différent pour chaque publication** du fichier. Il n'est **jamais affichée sur le site** (son seul but est de servir d'identifiant interne) et il ne doit pas contenir d'espace ou de caractères spéciaux.
+- `NomCle` est un **identifiant unique**, appelé clé BibTex. Il doit être **différent pour chaque publication** du fichier. Il n'est **jamais affiché sur le site** (son seul but est de servir d'identifiant interne) et il ne doit pas contenir d'espace ou de caractères spéciaux.
 
 - Le champ `author` doit respecter une **syntaxe stricte** pour que l'affichage fonctionne correctement : les auteurs sont séparés par `and` et chaque auteur est écrit sous la forme `NomDeFamille, Initiale.`. Par exemple :
 
@@ -208,13 +210,22 @@ Selon le type de la publication, certains champs peuvent être ajoutés pour don
 | `booktitle` | Titre du livre ou des actes de conférence | `@inproceedings`, `@incollection` |
 | `volume`    |            Volume de la revue             |                                   |
 | `number`    |            Numéro de la revue             |                                   |
-| `pages`     |        Plage de pages (ex: 18-14)         |                                   |
+| `pages`     |        Plage de pages (ex: 16-18)         |                                   |
 | `publisher` |             Maison d'édition              |          `@incollection`          |
-| `editors`   |             Editeur du livre              |          `@incollection`          |
-| `location`  |           Lieu de la conférence           |       `@inproceedings`, `@misc`   |
+| `editor`   |             Editeur du livre              |          `@incollection`          |
+| `location`  |     Lieu de la conférence ou du talk      |       `@inproceedings`, `@misc`   |
 | `date`      |    Date de la conférence ou du talk       |    `@inproceedings`, `@misc`      |
-| `pdf`       |      Lien direct vers la publication      |                                   |
-| `event`     |  Nom de l'évènement où a lieu le talks    |              `@misc`              |
+| `pdf`       |      Lien direct vers la publication (peut être un lien vers une page web ou nom de fichier pdf)     |                                   |
+| `event`     |  Nom de l'évènement où le talk a lieu    |              `@misc`              |
+| `note`     |  Pour ajouter des informations complémentaires    |              `@unpublished`              |
+| `additional_info` |  Informations supplémentaires       |                                   |
+
+**À noter :**
+- Pour ajouter un pdf dans le document, mettre le fichier pdf dans le dossier [assets/pdf/](assets/pdf/). Il faudra dans le champ `pdf` mettre le nom du pdf (exemple : `pdf = {nomdupdf.pdf}`).
+
+- Le champ `additional_info` peut contenir n’importe quelle information complémentaire. Il peut notamment être utilisé pour remplacer certains champs existants, dans le but d’ajuster la mise en page de manière plus souple.
+
+- Les champs peuvent être remplis en markdown (cf. [Guide markdown](#guide-markdown)) ce qui permet de pouvoir y mettre du texte en gras ou en italique ou des liens.
 
 Quelques exemples d'entrées de publications :
 
@@ -234,9 +245,9 @@ Quelques exemples d'entrées de publications :
 
 ```bibtex
 @inproceedings{articulatingpape2025,
-  title={Articulating while listening? The perception-production link in pre-babbling infants},
-  author={Frota, S. and Severino, C. and Pejovic, J. and Paulino, N. and Vigário, M. and  Noiray, A},
-  year={2025},
+  title = {Articulating while listening? The perception-production link in pre-babbling infants},
+  author = {Frota, S. and Severino, C. and Pejovic, J. and Paulino, N. and Vigário, M. and  Noiray, A},
+  year = {2025},
   booktitle = {Conférence Phonology and Phonetics in Europe (PaPe)},
   pages = {2p},
 }
@@ -244,23 +255,33 @@ Quelques exemples d'entrées de publications :
 
 ```bibtex
 @incollection{liproundinganticipatory2010,
-  title={Lip Rounding Anticipatory Control: Crosslinguistically Lawful and Ontogenetically Attuned},
-  author={Noiray, A. and Cathiard, M.A. and Abry, C. and Ménard, L},
-  year={2010},
-  editors={ F. Gayraud and E. Marsico},
+  title = {Lip Rounding Anticipatory Control: Crosslinguistically Lawful and Ontogenetically Attuned},
+  author = {Noiray, A. and Cathiard, M.A. and Abry, C. and Ménard, L},
+  year = {2010},
+  editor = { F. Gayraud and E. Marsico},
   booktitle = {Speech Motor Control: New developments in basic and applied research},
-  publisher={Oxford University Press},
+  publisher = {Oxford University Press},
   pages = {153-171},
 }
 ```
 
 ```bibtex
-@misc{cass2025,
+@unpublished{developmentofspokenlanguage,
+  title = {Towards an integrative interactive approach to the development of spoken language fluency.},
+  author = {Noiray, A.},
+  year = {2022},
+  note = {Habilitation à Diriger des Recherches (HDR). Presented publically at Université Lyon 2.}
+}
+```
+
+```bibtex
+@misc{mampf2021,
   author = {Aude Noiray},
-  title = {Kinematic insights on the relation between speech motor control, phonological awareness and vocabulary for the development of spoken language fluency},
-  event = {Seminars from the Childhood Application Seminar Series (CASS)},
-  date = {24 avril},
-  year = {2025}
+  title = {Towards an integrative-interactive approach to spoken language development},
+  event = {Colloque Mampf},
+  location = {LMU, Munich},
+  date = {15 juillet},
+  year = {2021}
 }
 ```
 
@@ -355,13 +376,13 @@ Organisme de financement, programme (référence du projet)
 <img src="/assets/img/fundings/logo-funding.png" alt="logo" style="height:100px; vertical-align:middle; margin-left:5px;">
 ```
 
-- Il est possible de supprimer complètement une section si elle n'est pas nécessaire (par exemple, Fundings), en supprimant toute la partie du fichier qui y fait référence.
+- Il est possible de supprimer complètement une section si elle n'est pas nécessaire (par exemple : Fundings), en supprimant toute la partie du fichier qui y fait référence.
 
-- Pour ajouter une image, place la dans le dossier [assets/img/](assets/img/) ou dans le dossier [assets/img/fundings](assets/img/fundings/) pour le logo d'un financeur. Il est possible de créer d'autre dossier dans [img/](assets/img/), il faut juste toujours faire attention de mettre le bon chemin dans le fichier .md.
+- Pour ajouter une image, placer la dans le dossier [assets/img/](assets/img/) ou dans le dossier [assets/img/fundings](assets/img/fundings/) pour le logo d'un financeur. Il est possible de créer d'autre dossier dans [img/](assets/img/), il faut juste toujours faire attention de mettre le bon chemin dans le fichier .md.
 
 - Le champ `importance` dans l'en tête détermine l'ordre d'affichage des projets dans l'onglet projet du site web. Plus la valeur est petite, plus le projet s'affiche en haut de la page.
 
-3. Pour ajouter une image sur la page onglet du site, mettre l'image dans le dossier [assets/img/projects](assets/img/projects/). Dans l'en tête du fichier, met le nom de l'image dans la ligne `image: assets/img/projects/nom-img.png`.
+3. Pour ajouter une image sur la page avec les onglets des différents projets, mettre l'image dans le dossier [assets/img/projects](assets/img/projects/). Dans l'en tête du fichier, met le nom de l'image dans la ligne `image: assets/img/projects/nom-img.png`.
 
 ---
 
@@ -385,7 +406,7 @@ Ce fichier est organisé en **blocs**, chacun correspondant à une section du CV
 - `scientificActivities` - Other Scientific Activities
 - `supervision` - Student (Co)-Supervision
 - `organization` - Organization of Scientific Events
-- `trainingActivities` -Training Activities
+- `trainingActivities` - Training Activities
 - `reviewing` - Reviewing Services
 
 Chaque bloc est de la forme :

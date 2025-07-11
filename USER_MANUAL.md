@@ -62,7 +62,7 @@ Remplacer le texte à cet endroit. Le texte est écrit en HTML, chaque ligne doi
 
 Les publications affichées dans la section _Selected publications_ de la page About sont listées dans le fichier [\_bibliography/papers.bib](_bibliography/papers.bib).
 
-Les publications sont stockées dans les fichiers [book-chapters.bib](_bibliography/book-chapters.bib), [conference.bib](_bibliography/conference.bib), [dissertation.bib](_bibliography/dissertation.bib) et [peer-reviewed.bib](_bibliography/peer-reviewed.bib), en fonction de leurs catégories.
+Les publications sont rangées dans les fichiers [book-chapters.bib](_bibliography/book-chapters.bib), [conference.bib](_bibliography/conference.bib), [dissertation.bib](_bibliography/dissertation.bib) et [peer-reviewed.bib](_bibliography/peer-reviewed.bib), en fonction de leurs catégories.
 
 Pour **ajouter une publication** dans _Selected publications_ :
 
@@ -144,10 +144,10 @@ Toutes les publications sont stockées dans le dossier [\_bibliography/](_biblio
 
 - `peer-reviewed.bib` - **Peer-reviewed publications**
 - `book-chapters.bib` - **Book chapters**
-- `cdissertation.bib` - **Academic dissertations**
+- `dissertations.bib` - **Academic dissertations**
 - `conference.bib` - **Conferences and invited Talks**
 
-Sur la apge _Publications_, des boutons permettent de choisir quelle catégorie afficher.
+Sur la page _Publications_, des boutons permettent de choisir la catégorie afficher.
 
 A l'intérieur de chaque fichier, les publications sont triés par ordre chronologique décroissant.
 
@@ -157,9 +157,7 @@ L'ordre des publications dans le fichier n'a pas d'impact sur l'affichage final 
 
 ### Ajouter une publication
 
-1. **Ouvrir le fichier [\_bibliography/papers.bib](_bibliography/papers.bib)**
-
-Toutes les publications sont enregistrées dans ce fichier, il faut l'éditer pour ajouter une nouvelle publication.
+1. **Ouvrir le fichier .bib dans le dossier [\_bibliography/](_bibliography/) qui correspond au type de la publication à ajouter** (Voir ci-dessus les noms de fichier correspondant aux différents type de publications).
 
 2. **Choisir le bon type de publication** : `@article`, `@inproceedings` ou `@incollection`
 
@@ -167,7 +165,8 @@ Toutes les publications sont enregistrées dans ce fichier, il faut l'éditer po
 | ---------------- | :----------------------------------------------------------------------: |
 | `@article`       |          Pour les articles parus dans des revues scientifiques           |
 | `@inproceedings` | Pour les communications publiées dans les actes de colloques/conférences |
-| `@incollection`  |                   Un chapitre dans un livre collectif                    |
+| `@incollection`  |                Pour un chapitre dans un livre collectif                  |
+| `@misc`          |         Pour une présentation orale non publiée, comme un talk           |
 
 3. **Créer une nouvelle entrée dans le fichier**
 

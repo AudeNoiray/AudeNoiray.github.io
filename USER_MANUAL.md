@@ -159,7 +159,7 @@ L'ordre des publications dans le fichier n'a pas d'impact sur l'affichage final 
 
 1. **Ouvrir le fichier .bib dans le dossier [\_bibliography/](_bibliography/) qui correspond au type de la publication à ajouter** (Voir ci-dessus les noms de fichier correspondant aux différents type de publications).
 
-2. **Choisir le bon type de publication** : `@article`, `@inproceedings` ou `@incollection`
+2. **Choisir le bon type de publication** : `@article`, `@inproceedings`, `@incollection` ou `misc` (un type de publications peut être assez flexible, il faut prendre celui ou l'affichage correspond le mieux)
 
 | Type             |                               Utilisation                                |
 | ---------------- | :----------------------------------------------------------------------: |
@@ -176,27 +176,17 @@ Ajouter un bloc comme celui-ci dans le fichier [\_bibliography/papers.bib](_bibl
 @article{NomCle,
   author = {Nom, Prénom and Nom2, Prénom2},
   title = {Titre de la publication},
-  year = {2025},
-  category = {Peer-reviewed publications}
-}
-
--- ou
-
-@inproceedings{NomCle,
-  author = {Nom, Prénom and Nom2, Prénom2},
-  title = {Titre de la publication},
-  year = {2025},
-  category = {Peer-reviewed publications}
+  year = {2025}
 }
 ```
 
 **À noter :**
 
-- La clé `NomCle` et les champs `author`, `title`, `year` et `category` doivent être **obligatoirement rempli**.
+- La clé `NomCle` et les champs `author`, `title` et `year`doivent être **obligatoirement rempli**.
 
-- `NomCle` est un **identifiant unique**, appelé clé BibTex. Il doit être **différent pour chaque publication** du fichier. Il n'est **jamais affichée sur le site** (son seul but est de servir d'identifiant interne) et il peut être choisie librement.
+- `NomCle` est un **identifiant unique**, appelé clé BibTex. Il doit être **différent pour chaque publication** du fichier. Il n'est **jamais affichée sur le site** (son seul but est de servir d'identifiant interne) et il ne doit pas contenir d'espace ou de caractères spéciaux.
 
-- Le champ `author` doit respecter une **syntaxe stricte** pour que l'affichage fonctionne : les auteurs sont séparés par `and` et chaque auteur est écrit sous la forme `NomDeFamille, Initiale.`. Par exemple :
+- Le champ `author` doit respecter une **syntaxe stricte** pour que l'affichage fonctionne correctement : les auteurs sont séparés par `and` et chaque auteur est écrit sous la forme `NomDeFamille, Initiale.`. Par exemple :
 
 ```bibtex
 author = {Nom1, A. and Nom2, B. and Nom3, C.}
@@ -208,13 +198,7 @@ author = {Nom1, A. and Nom2, B. and Nom3, C.}
 nomduchamp = {valeurs},
 ```
 
-- Le champ `category` doit correspondre **exactement** à l'une des 4 catégories suivantes (respecter les majuscules, espaces, orthographe) :
-  - `Peer-reviewed publications`
-  - `Conferences and invited Talks`
-  - `Book chapters`
-  - `Academic dissertations`.
-
-4. **Ajouter les champs optionnels nécessaires**
+4. **Ajouter les champs optionnels**
 
 Selon le type de la publication, certains champs peuvent être ajoutés pour donner plus d'informations.
 
@@ -226,10 +210,11 @@ Selon le type de la publication, certains champs peuvent être ajoutés pour don
 | `number`    |            Numéro de la revue             |                                   |
 | `pages`     |        Plage de pages (ex: 18-14)         |                                   |
 | `publisher` |             Maison d'édition              |          `@incollection`          |
-| `editor`    |             Editeur du livre              |          `@incollection`          |
-| `location`  |           Lieu de la conférence           |         `@inproceedings`          |
-| `month`     |           Mois de présentation            |         `@inproceedings`          |
-| `url`       |      Lien direct vers la publication      |                                   |
+| `editors`   |             Editeur du livre              |          `@incollection`          |
+| `location`  |           Lieu de la conférence           |       `@inproceedings`, `@misc`   |
+| `date`      |    Date de la conférence ou du talk       |    `@inproceedings`, `@misc`      |
+| `pdf`       |      Lien direct vers la publication      |                                   |
+| `event`     |  Nom de l'évènement où a lieu le talks    |              `@misc`              |
 
 Quelques exemples d'entrées de publications :
 
@@ -266,6 +251,16 @@ Quelques exemples d'entrées de publications :
   booktitle = {Speech Motor Control: New developments in basic and applied research},
   publisher={Oxford University Press},
   pages = {153-171},
+}
+```
+
+```bibtex
+@misc{cass2025,
+  author = {Aude Noiray},
+  title = {Kinematic insights on the relation between speech motor control, phonological awareness and vocabulary for the development of spoken language fluency},
+  event = {Seminars from the Childhood Application Seminar Series (CASS)},
+  date = {24 avril},
+  year = {2025}
 }
 ```
 

@@ -184,7 +184,7 @@
 
     {% elsif misc contains entry.type %}
       {% assign cleaned_event = entry.event | markdownify | strip | remove: '<p>' | remove: '</p>' | strip_newlines %}
-      {% assign cleaned_location = entry.place | markdownify | strip | remove: '<p>' | remove: '</p>' | strip_newlines %}
+      {% assign cleaned_location = entry.location | markdownify | strip | remove: '<p>' | remove: '</p>' | strip_newlines %}
       {% assign cleaned_date = entry.date | strip %}
     
       {% capture entrytype %}
@@ -221,9 +221,11 @@
     {% assign cleaned_entrytype = entrytype | strip_html | strip %}
 
     {% assign extras = '' %}
-    {% if entry.location %}
-      {% assign extras = entry.location %}
-    {% endif %}
+    {% unless misc contains entry.type %}
+      {% if entry.location %}
+        {% assign extras = entry.location %}
+      {% endif %}
+    {% endunless %}
 
     {% if entry.additional_info %}
       {% assign cleaned_additional_info = entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' | strip %}

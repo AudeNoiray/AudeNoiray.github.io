@@ -207,7 +207,7 @@
       {% assign volume_info = volume_info | append: entry.volume %}
     {% endif %}
     {% if entry.number %}
-      {% if volume_info != '' %}{% assign volume_info = volume_info | append: ', ' %}{% endif %}
+      {% if volume_info != '' %}{% assign volume_info = volume_info %}{% endif %}
       {% assign volume_info = volume_info | append: '(' | append: entry.number | append: ')' %}
     {% endif %}
     {% if entry.pages %}

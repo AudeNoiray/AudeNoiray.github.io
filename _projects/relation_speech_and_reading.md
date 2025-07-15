@@ -51,3 +51,5 @@ Krüger, S. & **Noiray, A.** (2021). Developmental differences in perceptual ant
 
 **Period**: 2015-2019  
  Marie Skłodowska-Curie Actions (MSCA): [PredictAble (H2020, 641858)](https://www.uni-potsdam.de/en/predictable/index)
+
+ <img src="/assets/img/fundings/MarieCurieActions.png" alt="logo" style="height:100px; vertical-align:middle; margin-left:5px;">

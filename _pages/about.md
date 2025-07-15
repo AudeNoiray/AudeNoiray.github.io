@@ -2,15 +2,16 @@
 layout: about
 title: About
 permalink: /
-subtitle: Experimental phonetico-psycholinguist, senior researcher, LPNC, Université Grenoble Alpes, France
+subtitle: >
+  <div>Senior researcher in speech and language (development)</div>
+  <div>Former head of the Laboratory for Oral Language Acquisition (LOLA)</div>
 
 profile:
   align: right
   image: audenoiray.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Bâtiment : Bât. Michel Dubois</p>
-    <p>Bureau : D 105</p>
+    Bâtiment : Bât. Michel Dubois, Bureau : D 105
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -21,7 +22,7 @@ announcements:
   limit: 3 # leave blank to include all the news in the `_news` folder
 ---
 
-I am a researcher at the [Laboratoire de Psychologie & Neurocognition](https://lpnc.univ-grenoble-alpes.fr/fr) (LPNC) at the University Grenoble Alpes (UGA). I am a member of the [Babylab](https://lpnc.univ-grenoble-alpes.fr/fr/babylab) as well as the [Développement & Apprentissage](https://lpnc.univ-grenoble-alpes.fr/fr/recherche-0/equipes-recherche/equipe-developpement-et-apprentissage) and [Language](https://lpnc.univ-grenoble-alpes.fr/fr/recherche-0/equipes-recherche/equipe-langage) teams.
+I am a senior researcher at the [Laboratoire de Psychologie & Neurocognition](https://lpnc.univ-grenoble-alpes.fr/fr) (LPNC) at the University Grenoble Alpes (UGA). I am a member of the [Babylab](https://lpnc.univ-grenoble-alpes.fr/fr/babylab) as well as the [Développement & Apprentissage](https://lpnc.univ-grenoble-alpes.fr/fr/recherche-0/equipes-recherche/equipe-developpement-et-apprentissage) and [Language](https://lpnc.univ-grenoble-alpes.fr/fr/recherche-0/equipes-recherche/equipe-langage) teams.
 
 I am passionate about speech, language, and their development. My research lies at the intersection of several disciplines, including experimental, articulatory and acoustic phonetics; psycholinguistics; laboratory phonology; developmental psychology and biology.
 My current research focuses on the (a)typical development of spoken language fluency. I study the evolving connections between speech motor control and other language-related skills, such as perception, phonology, vocabulary and reading. I also conduct research on vocal development in infants, on speech production and perception in patients with pathological speech, such as those with Parkinson's disease, strokes or brain tumours.

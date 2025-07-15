@@ -2,7 +2,7 @@
 layout: page
 title: Pathological speech
 description: speech disfluencies in patients with language-related deficiencies
-img:
+img: assets/img/projects/pathological_speech_cover.png
 importance: 6
 ---
 
@@ -66,3 +66,9 @@ Hoekzema, E., Rebernik°, T., Tienkamp, T.B., Chaboksavar, S., Ciot, V., Gleichm
 **Communications**:
 
 Hoekzema, E., Rebernik°, T., Tienkamp, T.B., Chaboksavar, S., Ciot, V., Gleichman, A., Jonkers, R., **Noiray, A.**,Wieling, M., & Abur, D. (2024). Kinematic and acoustic contributors to formant perturbation responses in individuals with and without Parkinson’s disease. Proceedings of the International Conference on Motor Speech, San Diego, USA, 1-4.
+
+### Fundings
+
+NWO
+
+<img src="/assets/img/fundings/nwo.jpg" alt="logo" style="height:100px; vertical-align:middle; margin-left:5px;">

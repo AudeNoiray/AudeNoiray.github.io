@@ -3,7 +3,7 @@ layout: page
 title: Methodologies
 description: conceptualizing tailored tools to study (a)typical speech (development)
 img: assets/img/projects/multimodal_speech.png
-importance: 7
+importance: 9
 ---
 
 This part of our research is centered around the conceptualization of data collection and analysis from sources.

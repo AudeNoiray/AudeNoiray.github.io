@@ -49,7 +49,7 @@
       "endDate": ""
     },
     {
-      "position": "Researcher « Langage et son Acquisition » team",
+      "position": "Researcher",
       "place": "Laboratoire de Sciences Cognitives et Psycholinguistique",
       "location": "Ecole Normale Supérieure, UMR 8455, Paris, France",
       "startDate": "2022",
@@ -70,13 +70,13 @@
       "endDate": "2022"
     },
     {
-      "position": "Résidence de Recherche",
+      "position": "Research resident",
       "location": "Collegium de Lyon",
       "startDate": "2021",
       "endDate": "2022"
     },
     {
-      "position": "Lab director",
+      "position": "Group Leader",
       "place": "Laboratory for Oral Language Acquisition",
       "location": "Département de Linguistique &amp; Sciences Cognitives, Université de Potsdam, Allemagne",
       "startDate": "2015",
@@ -90,7 +90,7 @@
       "endDate": "2014"
     },
     {
-      "position": "Post-Doctorate Researcher",
+      "position": "Post-Doctoral Researcher",
       "place": "Haskins Laboratories",
       "location": "New Haven, USA",
       "startDate": "2007",
@@ -104,7 +104,7 @@
       "endDate": "2007"
     },
     {
-      "position": "Doctorate fellow",
+      "position": "Doctoral fellow",
       "place": "Institut de la Communication Parlée",
       "location": "Université Grenoble Alpes",
       "startDate": "2003",
@@ -114,54 +114,52 @@
 
   "funding": [
     {
-      "title": "Peter Jusczyk Best Paper Award",
-      "date": "2022",
-      "coauthors": "with Anisia Popescu",
-      "details": ["The Society for Language Development and the Journal of Language Learning and Development"]
+      "title": "ANR-DFG",
+      "date": "2025",
+      "endDate": "2028",
+      "details": ["«Voc2Speak: An integrative-interactive approach to speech development». ANR-DFG, co-PI: Susanne Fuchs."]
     },
     {
-      "title": "IXXI Institut Rhônalpin des systèmes complexes",
-      "date": "2022",
-      "amount": "5000€",
-      "details": ["Funding for the organization of a workshop (to be planned)"]
+      "title": "AAP UGA / INP Programme",
+      "date": "2025",
+      "details": ["«Multimodal Speech: Studying the multimodal development of typical and atypical language». "]
+    },
+    {
+      "title": " Institut Carnot Cognition, France",
+      "date": "2024",
+      "details": ["«Intégration SEnsori-MOtrice pour la rééducation du langage chez des patients avec une aphasie non fluente après accident vasculaire cérébral». Main collaborators: Monica Baciu, Hélène Löevenbruck."]
     },
     {
       "title": "Deutsche Forschungsgemeinschaft (DFG)",
       "date": "2021",
-      "amount": "66 333€",
       "details": ["Research stimulus"]
     },
     {
       "title": "Deutsche Forschungsgemeinschaft (DFG)",
       "date": "2019",
       "endDate": "2021",
-      "amount": "372 100€",
       "details": ["« Understanding spoken language organization in the first years of life (II) »"]
     },
     {
       "title": "Deutsche Forschungsgemeinschaft (DFG)",
       "date": "2017",
-      "amount": "5 460€",
       "details": ["Funding for the organization of the international conférence « Ultrafest VIII »"]
     },
     {
       "title": "Deutsche Forschungsgemeinschaft (DFG)",
       "date": "2017",
       "endDate": "2019",
-      "amount": "276 300€",
       "details": ["« Understanding spoken language organization in the first years of life (I) »"]
     },
     {
       "title": "Various projects’ seed funding (SBKW, Potsdam)",
       "date": "2015",
-      "endDate": "2017",
-      "amount": "4 970€"
+      "endDate": "2017"
     },
     {
       "title": "Marie Skłodowska-Curie International Training Network",
       "date": "2015",
       "endDate": "2019",
-      "amount": "3,848,639€",
       "details": [
         "« PredictAble: Understanding and predicting developmental language abilities and disorders in multilingual Europe ». Co-porteur du projet. Coordinatrice principale : Barbara Höhle",
         "Investigateur de l’axe « Processing of acoustic and phonological information as indicators of risk for language related difficulties »"
@@ -171,7 +169,6 @@
       "title": "Deutsche Forschungsgemeinschaft (DFG)",
       "date": "2014",
       "endDate": "2017",
-      "amount": "373 439€",
       "details": ["« New methods for investigating the development of coarticulation in children »"]
     },
     {
@@ -253,7 +250,7 @@
     },
     {
       "date": "2023 - 2025",
-      "title": "Member of piloting committee",
+      "title": "Committee Member",
       "description": "for the creation of a Speech Language Pathology school in Grenoble, together with various researchers and speech language pathologists in the Grenoble area."
     },
     {
@@ -292,7 +289,7 @@
     {
       "date": "2025 - 2028",
       "name": "Lucie Chasseur",
-      "level": "Doctoral fellow",
+      "level": "PhD project",
       "title": " project VOC2SPEAK on the co-development of infants' attention and speech motor control",
       "institution": "LPNC, UGA, Grenoble"
     },
@@ -324,7 +321,7 @@
       "level": "PhD project",
       "title": "“Coarticulatory changes across childhood: implications for speech motor and phonological development”",
       "institution": "University of Potsdam, Germany",
-      "note": "Dissertation [here](https://publishup.uni-potsdam.de/frontdoor/index/index/docId/63012)"
+      "note": "Dissertation [here](https://publishup.uni-potsdam.de/frontdoor/index/index/start/2/rows/10/sortfield/score/sortorder/desc/searchtype/simple/query/rubertus/docId/63012)"
     },
     {
       "date": "2016 - 2021",
@@ -526,7 +523,8 @@
     {
       "category": "Adhoc reviewer for peer-reviewed journals",
       "items": [
-        "Frontiers Psychology; Journal of Acoustic Society of America; Journal of Speech, Language, and Hearing Research; Child Development; Journal of Language, Learning and Development; Journal of the International Phonetic Association; Phonetica; Language and Speech; Journal of Clinical Linguistics; Journal of Child Langage,  Journal of Child Language Acquisition and Development"
+        "Frontiers Psychology; Journal of Acoustic Society of America; Journal of Speech, Language, and Hearing Research; Child Development; Journal of Language, Learning and Development; Journal of the International Phonetic Association; Phonetica; Language and Speech; Journal of Clinical Linguistics; Journal of Child Langage,  Journal of Child Language Acquisition and Development; Journal of Child Language Acquisition and Development  (JCLAD); Bilingualism: Language and Cognition",
+        ""
       ]
     },
     {

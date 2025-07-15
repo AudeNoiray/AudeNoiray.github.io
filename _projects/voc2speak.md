@@ -1,7 +1,7 @@
 ---
 layout: page
 title: VOC2SPEAK
-description: an integrative-interactive approach to vocal development
+description: An integrative-interactive approach to vocal development
 img: assets/img/projects/voc2speak1.png
 importance: 3
 ---
@@ -19,8 +19,10 @@ Within the project, two post-doctoral fellows as well as a PhD candidate will ca
 
 ### Collaborators
 
-[Caterina Petrone](https://www.lpl-aix.fr/contact/caterina-petrone/), [Marianne Jover](https://centrepsycle-amu.fr/membres/marianne-jover/), [Marvin Lavechin](https://marvinlvn.github.io), [Martin Wieling](https://www.martijnwieling.nl)  
- **Postdoctoral fellow**: [Elina Rubertus](https://elinarubertus.github.io)
+co-PI: [Susanne Fuchs](https://www.leibniz-zas.de/en/people/details/fuchs-susanne/susanne-fuchs)  
+[Caterina Petrone](https://www.lpl-aix.fr/contact/caterina-petrone/), [Marianne Jover](https://centrepsycle-amu.fr/membres/marianne-jover/), Mathilde Fort, [Marvin Lavechin](https://marvinlvn.github.io), [Martin Wieling](https://www.martijnwieling.nl), Anne Vilain, Amélie Rochet-Capellan  
+Postdoctoral fellow: [Elina Rubertus](https://elinarubertus.github.io)  
+Doctoral fellow: Lucie Chasseur
 
 ---
 
@@ -29,7 +31,7 @@ Within the project, two post-doctoral fellows as well as a PhD candidate will ca
 ## Publications
 
 **Peer-reviewed publications**:  
-Fuchs, S., Jover, M., Noiray, A., Petrone, C. ([in production](https://www.researchgate.net/publication/389875157_On_the_development_of_breathing_and_vocalization_in_a_prelinguistic_child_A_case_study)).
+Fuchs, S., Jover, M., Noiray, A., Petrone, C. (in press). On the development of breathing and vocalization in a prelinguistic child: A case study. Folia Phoniatrica et Logopaedica DOI: 10.1159/000547328 [paper](https://www.researchgate.net/publication/389875157_On_the_development_of_breathing_and_vocalization_in_a_prelinguistic_child_A_case_study).
 
 **Communications**:  
 Fuchs, S., Jover, M., Noiray, A., & Petrone, C (2025). Le co-développement du contrôle respiratoire et vocal du nourrisson : une exploration longitudinale. Journées de Phonétique Clinique, 10-12 Juin, Sète

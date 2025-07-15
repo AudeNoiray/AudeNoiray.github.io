@@ -122,7 +122,7 @@ ninja.data = [{
               window.location.href = "/projects/relation_speech_and_reading/";
             },},{id: "projects-voc2speak",
           title: 'VOC2SPEAK',
-          description: "an integrative-interactive approach to vocal development",
+          description: "An integrative-interactive approach to vocal development",
           section: "Projects",handler: () => {
               window.location.href = "/projects/voc2speak/";
             },},{

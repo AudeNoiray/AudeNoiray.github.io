@@ -145,7 +145,7 @@ Toutes les publications sont stockées dans le dossier [\_bibliography/](_biblio
 - `peer-reviewed.bib` - **Peer-reviewed publications**
 - `book-chapters.bib` - **Book chapters**
 - `dissertations.bib` - **Academic dissertations**
-- `conference.bib` - **Conferences and invited Talks**
+- `conference.bib` - **Conferences and Invited Talks**
 
 Sur la page _Publications_, des boutons permettent de choisir la catégorie afficher.
 

@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: Team
-description: members of the lab or group
+description:
 nav: true
 nav_order: 7
 
@@ -11,12 +11,12 @@ profiles:
   # and create one content file for each profile inside _pages/
   # Aude
   - align: right
-    image: audenoiray.png
     content: team/aude.md
+    image: audenoiray.png
   # Suzanne Fuchs
   - align: left
     content: team/susannefuchs.md
-    image: SusanneFuchs.png
+    image: SusanneFuchs.jpg
   # Lucie Chasseur
   - align: right
     content: team/luciechasseur.md

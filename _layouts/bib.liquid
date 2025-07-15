@@ -251,7 +251,7 @@
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}
-      {{ entrytype }}{% if volume_info != '' %}, {{ volume_info }}{% endif %}
+      {{ entrytype }}{% if volume_info != '' %}, {{ volume_info }}{% endif %}{% if entry.selected == 'true' and entry.year %}, {{ entry.year }}{% endif %}
     {% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}

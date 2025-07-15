@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle:
+subtitle: Experimental phonetico-psycholinguist, senior researcher, LPNC, Université Grenoble Alpes, France
 
 profile:
   align: right
@@ -21,7 +21,10 @@ announcements:
   limit: 3 # leave blank to include all the news in the `_news` folder
 ---
 
-I am a researcher at the [Laboratoire de Psychologie & Neurocognition](https://lpnc.univ-grenoble-alpes.fr/fr) at the University Grenoble Alpes (UGA). I am a member of the [Babylab](https://lpnc.univ-grenoble-alpes.fr/fr/babylab) as well as the Développement & Apprentissage and Language teams.
-My research interests revolve around the development of spoken language fluency in (a)typically developing children. I study the developing relationships between speech motor control and other language-related abilities such as perception, phonology, lexicon, and reading. I also researches on vocal development in infants, speech production and speech perception in pathological speech (Parkinson, post-stroke or post Schwanome tumor patients).
+I am a researcher at the [Laboratoire de Psychologie & Neurocognition](https://lpnc.univ-grenoble-alpes.fr/fr) (LPNC) at the University Grenoble Alpes (UGA). I am a member of the [Babylab](https://lpnc.univ-grenoble-alpes.fr/fr/babylab) as well as the [Développement & Apprentissage](https://lpnc.univ-grenoble-alpes.fr/fr/recherche-0/equipes-recherche/equipe-developpement-et-apprentissage) and [Language](https://lpnc.univ-grenoble-alpes.fr/fr/recherche-0/equipes-recherche/equipe-langage) teams.
 
-My research is empirically grounded; I employ various methods such as audiovisual recordings, ultrasound imaging, eye-tracking, assessments of language and reading abilities, or perception tests.
+I am passionate about speech, language, and their development. My research lies at the intersection of several disciplines, including experimental, articulatory and acoustic phonetics; psycholinguistics; laboratory phonology; developmental psychology and biology.
+My current research focuses on the (a)typical development of spoken language fluency. I study the evolving connections between speech motor control and other language-related skills, such as perception, phonology, vocabulary and reading. I also conduct research on vocal development in infants, on speech production and perception in patients with pathological speech, such as those with Parkinson's disease, strokes or brain tumours.
+My research is empirically grounded. I use various methods, such as audiovisual recordings, ultrasound imaging, eye tracking, and assessments of language and reading abilities.
+
+When I am not researching, I am in the mountains, hiking. There is nothing more energising and inspiring for me than being in the mountains.

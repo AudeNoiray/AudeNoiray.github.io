@@ -97,7 +97,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-coarticulation",
           title: 'Coarticulation',
-          description: "a metric to study spoken language fluency (development)",
+          description: "A metric to study spoken language fluency (development)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/coarticulation/";
             },},{id: "projects-disharmonious-babblers",
@@ -107,12 +107,12 @@ ninja.data = [{
               window.location.href = "/projects/disharmonious_babblers/";
             },},{id: "projects-methodologies",
           title: 'Methodologies',
-          description: "conceptualizing tailored tools to study (a)typical speech (development)",
+          description: "Conceptualizing tailored tools to study (a)typical speech (development)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/methodologies/";
             },},{id: "projects-pathological-speech",
           title: 'Pathological speech',
-          description: "speech disfluencies in patients with language-related deficiencies",
+          description: "Speech disfluencies in patients with language-related deficiencies",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pathological_speech/";
             },},{id: "projects-relation-between-the-development-of-speech-and-reading-fluency",

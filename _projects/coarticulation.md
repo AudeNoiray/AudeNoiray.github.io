@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Coarticulation
-description: a metric to study spoken language fluency (development)
+description: A metric to study spoken language fluency (development)
 img: assets/img/projects/coarticulation.png
 importance: 4
 ---
@@ -12,7 +12,7 @@ In this research, we are interested in understanding how children develop the ar
 More specifically, we study (co)articulatory mechanism. Coarticulation underlies the ability from our speech motor system to produce speech segments continuously in various sized chunks (syllables, words, sentences). Coarticulation is therefore essential to spoken language fluency. In this domain, a central question remains whether speech motor gestures are initially organized in smaller or greater phonological units in children compared to adults in the native language and how patterns evolve over time to (1) lead to spoken language fluency, (2), signal deviant trajectories.
 To address this pressing question, we carry out kinematic studies in adults who have a full knowledge of their language and a mature control of their speech motor system and in children starting in preschool at the age of 3 up to 10 years of age in primary school.
 
-**Selective results**:
+**Selected results**:
 
 ​A quantitative cross-sectional investigation of 62 German children from 3- to 7-year-old have highlighted significantly greater vocalic anticipation in 3-, 4-, and 5-year-old compared to 7-year-old children and compared to adults (within syllables: Noiray et al. 2018; across syllables: Rubertus & Noiray, 2018). The finding supported the view of a holistic organization of articulatory gestures in children around large linguistic chunks of at least the size of a syllable (Nittrouer et al., 1996). In German adults, we found gradients of lingual coarticulatory overlap between neighboring phonemes which directly result from the articulatory demands upon the tongue for a given consonantal context (Figure 1).
 

@@ -57,6 +57,14 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- Affiliations -->
+
+    {% if page.affiliation %} 
+      Affiliations <br>
+      {{ page.affiliation }}  
+      <br>
+    {% endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>

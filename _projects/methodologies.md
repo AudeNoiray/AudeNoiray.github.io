@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Methodologies
-description: conceptualizing tailored tools to study (a)typical speech (development)
+description: Conceptualizing tailored tools to study (a)typical speech (development)
 img: assets/img/projects/multimodal_speech.png
 importance: 9
 ---

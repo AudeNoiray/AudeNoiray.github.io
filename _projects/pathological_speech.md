@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pathological speech
-description: speech disfluencies in patients with language-related deficiencies
+description: Speech disfluencies in patients with language-related deficiencies
 img: assets/img/projects/pathological_speech_cover.png
 importance: 6
 ---
@@ -61,14 +61,16 @@ In this project, we examine how newly diagnosed and advanced stage Parkinson pat
 
 Rebernik, T., Jacobi, J., Jonkers, R., **Noiray, A.**, & Wieling, M. (en révision). Kinematic and acoustic contributors to sensorimotor control of speech in Parkinson’s disease.
 
-Hoekzema, E., Rebernik°, T., Tienkamp, T.B., Chaboksavar, S., Ciot, V., Gleichman, A., Jonkers, R., **Noiray, A.**,Wieling, & M., Abur, D. (2024). Assessing differences in articulatory-acoustic vowel space in Parkinson’s disease phenotypes. Proceedings of the International Seminar of Speech Production (ISSP), 69-72 [paper](https://aburlab.web.rug.nl/wp-content/uploads/2024/04/Hoekzema_Rebernik_EtAl_2024.pdf).
+Hoekzema, E., Rebernik°, T., Tienkamp, T.B., Chaboksavar, S., Ciot, V., Gleichman, A., Jonkers, R., **Noiray, A.**, Wieling, M., Abur, D. (2024). Assessing differences in articulatory-acoustic vowel space in Parkinson’s disease phenotypes. Proceedings of the International Seminar of Speech Production (ISSP), 69-72 [paper](https://aburlab.web.rug.nl/wp-content/uploads/2024/04/Hoekzema_Rebernik_EtAl_2024.pdf).
 
 **Communications**:
 
 Hoekzema, E., Rebernik°, T., Tienkamp, T.B., Chaboksavar, S., Ciot, V., Gleichman, A., Jonkers, R., **Noiray, A.**,Wieling, M., & Abur, D. (2024). Kinematic and acoustic contributors to formant perturbation responses in individuals with and without Parkinson’s disease. Proceedings of the International Conference on Motor Speech, San Diego, USA, 1-4.
 
+---
+
 ### Fundings
 
 NWO
 
-<img src="/assets/img/fundings/nwo.jpg" alt="logo" style="height:100px; vertical-align:middle; margin-left:5px;">
+<img src="/assets/img/fundings/nwo.jpg" alt="logo" style="height:200px; vertical-align:middle; margin-left:5px;">

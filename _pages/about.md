@@ -2,16 +2,15 @@
 layout: about
 title: About
 permalink: /
-subtitle: >
-  <div>Senior researcher in speech and language (development)</div>
-  <div>Former head of the Laboratory for Oral Language Acquisition (LOLA)</div>
+subtitle: Experimental phonetico-psycholinguist, senior researcher, LPNC, Université Grenoble Alpes, France
+affiliation: Associate Member at <a href=https://phonetique.uqam.ca/>Laboratoire de Phonétique de l’UQAM, Montréal</a> ;  <a href=https://haskinslabs.org/>Haskins Laboratories</a>  ; <a href=https://speechlabgroningen.nl/>Speech Lab Groningen</a> 
 
 profile:
   align: right
   image: audenoiray.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    Bâtiment : Bât. Michel Dubois, Bureau : D 105
+    Bât. Michel Dubois, Bureau D105
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

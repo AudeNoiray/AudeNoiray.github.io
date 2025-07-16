@@ -6,7 +6,7 @@ img: assets/img/projects/relation_speech_and_reading.png
 importance: 5
 ---
 
-In the first decade of life, multiple competences in the speech motor, perception, lexical and phonological domains occur in a seemingly parallel fashion. While their development has mostly been conducted in separate strands, the findings suggest that they interact at various stages of spoken language development. In this research, **we investigate relations between developing spoken and reading fluency**.
+In the first decade of life, multiple competences in the speech motor, perception, lexical and phonological domains occur in a seemingly parallel fashion. While their development has mostly been conducted in separate strands, the findings suggest that they interact at various stages of spoken language development. In this research, we investigate relations between developing spoken and reading fluency.
 
 In a first step, we assessed whether the development of phonological awareness and children’s vocabulary interacts with the maturation of coarticulatory organization in typically developing children.
 Phonological awareness relates to the ability to consciously extract functional units of phonological organization from the continuous speech flow (e.g., syllables, segments) and combine those discrete units into new sequences of variable size and meaning (e.g., Metsala, 2011). Coarticulation embodies speakers´ structural knowledge of the language, combining and (re)modeling its elementary particles into continuous articulatory movements and acoustic streams, hence contextualizing abstract representations into a decipherable speech code. Interestingly, the way coarticulatory organization changes over developmental time aligns well with children’s phonological developments.
@@ -30,7 +30,7 @@ In a second step, we tested for **a possible relationship between children’s r
 
 ## Publications
 
-Rubertus, E., Popescu, A. & **Noiray, A.** (accepted). Seriality in Word Reading: Kinematic Insights in Beginning and Proficient Readers.
+[Rubertus^, E.](https://elinarubertus.github.io/), [Popescu*, A.](https://anisiapopescu.github.io/) & **Noiray, A.** (accepted). Seriality in Word Reading: Kinematic Insights in Beginning and Proficient Readers. Journal of Experimental Psychology: Learning, Memory, and Cognition.
 
 Popescu, A. & **Noiray, A.** (2021). Learning to read interacts with children’s spoken language fluency. Journal of Language, Learning and Development, 1-21 [paper](https://www.tandfonline.com/doi/full/10.1080/15475441.2021.1941032?src=).
 

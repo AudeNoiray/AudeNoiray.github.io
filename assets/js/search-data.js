@@ -89,11 +89,11 @@ ninja.data = [{
             },},{id: "news-two-new-publications-fuchs-s-jover-m-noiray-a-amp-amp-petrone-c-in-press-on-the-development-of-breathing-and-vocalization-in-a-prelinguistic-child-a-case-study-folia-phoniatrica-et-logopaedica-doi-10-1159-000547328-paper-rubertus-e-popescu-a-amp-amp-noiray-a-2025-seriality-in-word-reading-kinematic-insights-into-beginning-and-proficient-readers-journal-of-experimental-psychology-learning-memory-and-cognition-paper",
           title: 'Two new publications: Fuchs, S., Jover, M., Noiray, A., &amp;amp;amp; Petrone, C. (in...',
           description: "",
-          section: "News",},{id: "news-i-will-give-a-workshop-on-ultrasound-imaging-at-stem-ix-summer-training-in-experimental-methods-on-july-16-2025-9-00-to-12-00-on-july-16-2025",
+          section: "News",},{id: "news-i-will-give-a-workshop-on-ultrasound-imaging-at-stem-ix-summer-training-in-experimental-methods-on-july-16-2025",
           title: 'I will give a workshop on ultrasound imaging at STEM IX (Summer Training...',
           description: "",
-          section: "News",},{id: "news-i-am-delighted-to-give-a-talk-on-speech-motor-control-development-at-the-next-rencontre-des-jeunes-chercheurs-en-parole-rjpc-in-paris-november-10th-2025",
-          title: 'I am delighted to give a talk on speech motor control development at...',
+          section: "News",},{id: "news-i-am-delighted-to-give-a-talk-at-the-next-rencontre-des-jeunes-chercheurs-en-parole-rjpc-in-paris-november-10th-2025",
+          title: 'I am delighted to give a talk at the next Rencontre des Jeunes...',
           description: "",
           section: "News",},{id: "projects-coarticulation",
           title: 'Coarticulation',
@@ -115,8 +115,8 @@ ninja.data = [{
           description: "Speech disfluencies in patients with language-related deficiencies",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pathological_speech/";
-            },},{id: "projects-relation-between-the-development-of-speech-and-reading-fluency",
-          title: 'Relation between the development of speech and reading fluency',
+            },},{id: "projects-links-between-speech-and-reading-development",
+          title: 'Links between speech and reading development',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/relation_speech_and_reading/";

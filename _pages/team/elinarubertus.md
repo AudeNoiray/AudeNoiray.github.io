@@ -1,13 +1,12 @@
 ## Elina Rubertus (postdoctoral fellow)
 
-[Elina Rubertus](https://elinarubertus.github.io/) completed her PhD at the Linguistics department of University of Potsdam at the laboratory for Oral Language Acquisition (LOLA) under the supervision of Aude Noiray and Barbara Höhle. Her doctoral research addressed the dev of coarticulatory organization across childhood. To this end, she employed acoustic as well as articulatory measures to investigate speech motor and phonological development in kindergarten and school-aged children
+[Elina Rubertus](https://elinarubertus.github.io/) completed her PhD at the Linguistics department of University of Potsdam at the laboratory for Oral Language Acquisition ([LOLA](https://www.uni-potsdam.de/en/lola/index)) under the supervision of Aude Noiray and Barbara Höhle. Her doctoral research addressed the dev of coarticulatory organization across childhood. To this end, she employed acoustic as well as articulatory measures to investigate speech motor and phonological development in kindergarten and school-aged children
 In 2025, she was awarded the prize of best student of the year at the University of Potsdam, for her doctoral research.
 Within VOC2SPEAK, Elina Rubertus will investigate interactions between respiration, body movements, attention, and speech motor control in infancy.
-  
 
 **Publications/conferences**:
 
-Rubertus, E., Popescu, A., & Noiray, A. (2025). Seriality in word reading: Kinematic insights in beginning and proficient readers. *Journal of Experimental Psychology: Learning, Memory, and Cognition*.
+Rubertus, E., Popescu, A., & Noiray, A. (2025). Seriality in word reading: Kinematic insights in beginning and proficient readers. *Journal of Experimental Psychology: Learning, Memory, and Cognition*, 1-15.
 
 Noiray, A., Ries, J., Tiede, M., Rubertus, E., Laporte, C., & Ménard, L. (2020). Recording and analyzing kinematic data in children and adults with SOLLAR: Sonographic & Optical Linguo-Labial Articulation Recording system. *Journal of Laboratory Phonology*, 11(1), 14.
 

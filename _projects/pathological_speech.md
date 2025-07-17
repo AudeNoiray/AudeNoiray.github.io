@@ -6,7 +6,7 @@ img: assets/img/projects/pathological_speech_cover.png
 importance: 6
 ---
 
-## _SEMO : Intégration SEnsori-MOtrice pour la rééducation du langage chez des patients avec une aphasie non fluente après accident vasculaire cérébral_
+#### _SEMO : Intégration SEnsori-MOtrice pour la rééducation du langage chez des patients avec une aphasie non fluente après accident vasculaire cérébral_
 
 L’aphasie non-fluente, une conséquence fréquente des accidents vasculaires cérébraux (AVC), est un trouble du langage et de la parole qui perturbe les capacités de communication, avec des répercussions importantes sur la qualité de vie du patient. Malgré l’efficacité indéniable de la rééducation orthophonique classique dans les premiers mois suivant l’AVC, la récupération atteint généralement un plateau après 3 à 6 mois. Cela souligne la nécessité de développer de nouvelles approches complémentaires à la rééducation conventionnelle.
 
@@ -23,13 +23,13 @@ Ainsi, les patients accèdent à plusieurs sources d’information : auditives (
 
 ---
 
-### Collaborators
+#### Collaborators
 
 Célise Haldin (post-doctoral fellow), [Monica Baciu](https://lpnc.univ-grenoble-alpes.fr/fr/monica-baciu) (LPNC), [Thomas Hueber](https://www.gipsa-lab.grenoble-inp.fr/~thomas.hueber/) (GIPSA), [Pascal Perrier](https://cv.hal.science/pascal-perrier) (GIPSA), [Hélène Loevenbruck](https://lpnc.univ-grenoble-alpes.fr/fr/helene-loevenbruck), Olivier Detante (CHUGA), Isabelle Favre-Wiki (CHUGA), Stéphanie Maurice (CHUGA).
 
 ---
 
-### Publications
+#### Publications
 
 **Communications**:
 
@@ -39,7 +39,7 @@ Haldin, C., Loevenbruck, H., Hueber, T., detante, O., Maurice, S., Perrier, P., 
 
 ---
 
-### Fundings
+#### Fundings
 
 Institut Carnot Cognition
 
@@ -47,7 +47,7 @@ Institut Carnot Cognition
 
 ---
 
-## _Speech perception and production in patients with Parkinson disease_
+### _Speech perception and production in patients with Parkinson disease_
 
 In collaboration with Martijn Wieling and Teja Rebernik at the University of Groningen, we examine differences in speech planning and its production in Dutch patients with Parkinson disease as compared to healthy age matched speakers. Parkinson’s disease is a neurodegenerative disease, characterized by both motor and non-motor impairments. Besides impairment of limb motor control (Jankovic, 2007), around 70% of patients experience speech difficulties (Ho et al. 1999), especially during the later stages of the disease (e.g., Skodda et al. 2013). Speech related impairments include atypical speech rates and prosodic patterns (e.g., reduced stress, monotonous pitch), phonation (e.g., breathy voice), respiration (e.g. reduced intensity) and difficulty in spoken articulation (e.g., Pinto et al. 2004). Previous research has also suggested that two mechanisms essential to efficient speech motor control may be impaired in Parkinson’s disease patients: 1) feedforward mechanism (that characterizes stored movement representations drawn from past experiences to be used for speech motor planning) and/or, 2) feedback mechanisms (that consists in monitoring sensory input relative to individual expectations).
 
@@ -55,21 +55,21 @@ In this project, we examine how newly diagnosed and advanced stage Parkinson pat
 
 ---
 
-### Publications
+#### Publications
 
 **Peer-reviewed publications**:
 
-Rebernik, T., Jacobi, J., Jonkers, R., **Noiray, A.**, & Wieling, M. (en révision). Kinematic and acoustic contributors to sensorimotor control of speech in Parkinson’s disease.
+Rebernik*, T., Jacobi, J., Jonkers, R., **Noiray, A.**, & Wieling, M. (2nd revision). Kinematic and acoustic contributors to sensorimotor control of speech in Parkinson’s disease.
 
 Hoekzema, E., Rebernik°, T., Tienkamp, T.B., Chaboksavar, S., Ciot, V., Gleichman, A., Jonkers, R., **Noiray, A.**, Wieling, M., Abur, D. (2024). Assessing differences in articulatory-acoustic vowel space in Parkinson’s disease phenotypes. Proceedings of the International Seminar of Speech Production (ISSP), 69-72 [paper](https://aburlab.web.rug.nl/wp-content/uploads/2024/04/Hoekzema_Rebernik_EtAl_2024.pdf).
 
 **Communications**:
 
-Hoekzema, E., Rebernik°, T., Tienkamp, T.B., Chaboksavar, S., Ciot, V., Gleichman, A., Jonkers, R., **Noiray, A.**,Wieling, M., & Abur, D. (2024). Kinematic and acoustic contributors to formant perturbation responses in individuals with and without Parkinson’s disease. Proceedings of the International Conference on Motor Speech, San Diego, USA, 1-4.
+Hoekzema, E., Rebernik*, T., Tienkamp, T.B., Chaboksavar, S., Ciot, V., Gleichman, A., Jonkers, R., **Noiray, A.**, Wieling, M., & Abur, D. (2024). Kinematic and acoustic contributors to formant perturbation responses in individuals with and without Parkinson’s disease. Proceedings of the International Conference on Motor Speech, San Diego, USA, 1-4.
 
 ---
 
-### Fundings
+#### Fundings
 
 NWO
 

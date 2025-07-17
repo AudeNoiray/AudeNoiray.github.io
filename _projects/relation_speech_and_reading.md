@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Relation between the development of speech and reading fluency
+title: Links between speech and reading development
 description:
 img: assets/img/projects/relation_speech_and_reading.png
 importance: 5
@@ -32,11 +32,11 @@ In a second step, we tested for **a possible relationship between children’s r
 
 [Rubertus^, E.](https://elinarubertus.github.io/), [Popescu*, A.](https://anisiapopescu.github.io/) & **Noiray, A.** (accepted). Seriality in Word Reading: Kinematic Insights in Beginning and Proficient Readers. Journal of Experimental Psychology: Learning, Memory, and Cognition.
 
-Popescu, A. & **Noiray, A.** (2021). Learning to read interacts with children’s spoken language fluency. Journal of Language, Learning and Development, 1-21 [paper](https://www.tandfonline.com/doi/full/10.1080/15475441.2021.1941032?src=).
+[Popescu*, A.](https://anisiapopescu.github.io/) & **Noiray, A.** (2021). Learning to read interacts with children’s spoken language fluency. Journal of Language, Learning and Development, 1-21 [paper](https://www.tandfonline.com/doi/full/10.1080/15475441.2021.1941032?src=).
 
-Krüger, S. & **Noiray, A.** (2021). Developmental differences in perceptual anticipation underlie different sensitivities to coarticulatory dynamics. Journal of Child Language, 1-20 [paper](https://www.cambridge.org/core/journals/journal-of-child-language/article/developmental-differences-in-perceptual-anticipation-underlie-different-sensitivities-to-coarticulatory-dynamics/92C7BEF5A7FECED2AE1A96C404CD5C51).
+Krüger^, S. & **Noiray, A.** (2021). Developmental differences in perceptual anticipation underlie different sensitivities to coarticulatory dynamics. Journal of Child Language, 1-20 [paper](https://www.cambridge.org/core/journals/journal-of-child-language/article/developmental-differences-in-perceptual-anticipation-underlie-different-sensitivities-to-coarticulatory-dynamics/92C7BEF5A7FECED2AE1A96C404CD5C51).
 
-**Noiray, A.**, Popescu, A., Killmer, H., Rubertus, E., Krüger, S., & Hintermeier, L. (2019). Spoken language development and the challenge of skill integration. Frontiers in Psychology, section Language Sciences, 1-17 [paper](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02777/full?utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Psychology&id=470799).
+**Noiray, A.**, [Popescu*, A.](https://anisiapopescu.github.io/), Killmer, H., [Rubertus^, E.](https://elinarubertus.github.io/), Krüger, S., & Hintermeier, L. (2019). Spoken language development and the challenge of skill integration. Frontiers in Psychology, section Language Sciences, 1-17 [paper](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02777/full?utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Psychology&id=470799).
 
 ---
 

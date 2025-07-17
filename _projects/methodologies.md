@@ -9,10 +9,10 @@ importance: 9
 This part of our research is centered around the conceptualization of data collection and analysis from sources.
 To this end, we use different methodologies:
 
-- Eye-movement tracking to assess infants, children or adults’ attention, perception, recognition, anticipation in various language-related tasks.
-- Ultrasound imaging to track the movement of participants’ tongue during speech related tasks.
-- Measures of respiration with a RespTrack system to assess breathing control during adult’s speech or its development in infants and children
-- Audiovisual recordings.
+Eye-movement tracking to assess infants, children or adults’ attention, perception, recognition, anticipation in various language-related tasks.  
+Ultrasound imaging to track the movement of participants’ tongue during speech related tasks.  
+Measures of respiration with a RespTrack system to assess breathing control during adult’s speech or its development in infants and children.  
+Audiovisual recordings.
 
 **SOLLAR platform : Sonographic & Optical Linguo-Labial Articulation Recording system**
 
@@ -40,6 +40,8 @@ In our new VOC2SPEAK project, we record infants’ vocalisations together with t
 **Peer-reviewed publications** :
 
 Noiray, A. Ries, J., Tiede, M., Rubertus, E., Laporte, C, & Ménard, L. (2020). Recording and analyzing kinematic data in children and adults with SOLLAR: Sonographic & Optical Linguo-Labial Articulation Recording system (SOLLAR). Laboratory Phonology: special collection: Techniques and Methods for Investigating Speech Articulation, 11(1): 14, 1-25 [paper](https://www.journal-labphon.org/article/id/6272/).
+
+Rebernik*, T., Jacobi, J., Jonkers, R., Noiray, A., & Wieling, M. (2021). Reviewing 30 years of electromagnetic articulography: some suggestions for improved experimental approaches. Laboratory Phonology: special collection: Techniques and Methods for Investigating Speech Articulation, 12(1):6, 1-42 [paper](https://www.journal-labphon.org/article/id/6289/).
 
 ---
 

@@ -132,6 +132,18 @@ blockquote {
   }
 }
 
+// About
+
+.desc {
+  margin-bottom: 2rem; /* espace plus grand sous le sous-titre */
+}
+
+
+.affiliations {
+  margin-bottom: 2rem;
+}
+
+
 // Checklist
 
 ul.task-list {
@@ -193,6 +205,7 @@ ul.task-list input[type="checkbox"] {
 // Profile
 
 .profile {
+  height: 100%;
   width: 100%;
 
   .more-info {
@@ -208,6 +221,7 @@ ul.task-list input[type="checkbox"] {
     }
   }
 }
+
 
 .profile.float-right {
   margin-left: 1rem;

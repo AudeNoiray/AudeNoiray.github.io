@@ -11,6 +11,7 @@ A chaque modification, le site peut mettre plusieurs minutes à s'actualiser. Pe
     - [Modifier le texte de présentation](#modifier-le-texte-de-présentation)
     - [Modifier la photo de profil](#modifier-la-photo-de-profil)
     - [Modifier le texte sous la photo](#modifier-le-texte-sous-la-photo)
+    - [Modifier les affiliations]()
     - [Gérer les "selected publications"](#gérer-les-selected-publications)
     - [Gérer les réseaux sociaux](#gérer-les-réseaux-sociaux)
     - [Gérer les "news"](#gérer-les-news)
@@ -53,8 +54,14 @@ Dans le fichier [\_pages/about.md](_pages/about.md), remplacer le nom du fichier
 
 ### Modifier le texte sous la photo
 
-Dans le fichier [\_pages/about.md](_pages/about.md), chercher la ligne qui commence par `more_info: ...` (ligne 11).  
-Remplacer le texte à cet endroit. Le texte est écrit en HTML, chaque ligne doit être encadrée par les balises \<p>...\</p>.
+Dans le fichier [\_pages/about.md](_pages/about.md), chercher la ligne qui commence par `more_info: ...` (ligne 11). Remplacer le texte à cet endroit.
+
+---
+
+### Modifier les affiliations
+
+Ouvrir le fichier [\_pages/about.md](_pages/about.md).  
+Modifier le texte de la partie `affiliation: ...` dans l'en tête du fichier (ligne 6 environ).
 
 ---
 
@@ -62,7 +69,7 @@ Remplacer le texte à cet endroit. Le texte est écrit en HTML, chaque ligne doi
 
 Les publications affichées dans la section _Selected publications_ de la page About sont listées dans le fichier [\_bibliography/papers.bib](_bibliography/papers.bib).
 
-Les publications sont rangées dans les fichiers [book-chapters.bib](_bibliography/book-chapters.bib), [conference.bib](_bibliography/conference.bib), [dissertation.bib](_bibliography/dissertation.bib) et [peer-reviewed.bib](_bibliography/peer-reviewed.bib), en fonction de leurs catégories.
+Les publications sont rangées dans les fichiers [book-chapters.bib](_bibliography/book-chapters.bib), [conference.bib](_bibliography/conference.bib), [dissertation.bib](_bibliography/dissertation.bib), [workshops.bib](_bibliography/workshops.bib) et [peer-reviewed.bib](_bibliography/peer-reviewed.bib), en fonction de leurs catégories.
 
 Pour **ajouter une publication** dans _Selected publications_ :
 
@@ -102,7 +109,7 @@ Dans le dossier [\_news](_news), supprimer le fichier .md correspondant à la ne
 2. Créer un nouveau fichier avec un nom en .md (par exemple : `nouvelle-news.md`).
 3. Rédiger la news en suivant un des deux formats possibles :
 
-- **News courte** : la news apparaît sur une seule ligne et n'est pas cliquable (par exemple : le fichier [\_news/voc2speak.md](_news/voc2speak.md)).
+- **News courte** (le plus simple) : la news apparaît sur une seule ligne et n'est pas cliquable (par exemple : le fichier [\_news/voc2speak.md](_news/voc2speak.md)).
 
 Format à utiliser : (remplacer la date dans l'en-tête et le corps du texte)
 
@@ -146,6 +153,7 @@ Toutes les publications sont stockées dans le dossier [\_bibliography/](_biblio
 - `book-chapters.bib` - **Book chapters**
 - `dissertations.bib` - **Academic dissertations**
 - `conference.bib` - **Conferences and Invited Talks**
+- `workshops.bib` - **Workshops**
 
 Sur la page _Publications_, des boutons permettent de choisir la catégorie afficher.
 
@@ -162,13 +170,13 @@ L'ordre des publications dans le fichier n'a pas d'impact sur l'affichage final 
 2. **Choisir le bon type de publication** : `@article`, `@inproceedings`, `@incollection`, `@unpublished` ou `@misc`.
 Un type de publication peut être utilisé de manière assez flexible : choisissez celui dont l’affichage convient le mieux sur le site.
 
-| Type             |                               Utilisation                                |
-| ---------------- | :----------------------------------------------------------------------: |
+| Type             |                                Utilisation                                |
+| ---------------- | :-----------------------------------------------------------------------: |
 | `@article`       |          Pour les articles parus dans des revues scientifiques.           |
 | `@inproceedings` | Pour les communications publiées dans les actes de colloques/conférences. |
-| `@incollection`  |                Pour un chapitre dans un livre collectif.               |
-| `@unpublished`   |                Pour les academics dissertations.                  |
-| `@misc`          |         Pour une présentation orale non publiée, comme un talk.           |
+| `@incollection`  |                 Pour un chapitre dans un livre collectif.                 |
+| `@unpublished`   |                      Pour les academics dissertations.                    |
+| `@misc`          |   Pour une présentation orale non publiée, comme un talk ou un workshop.  |
 
 3. **Créer une nouvelle entrée dans le fichier**
 
@@ -290,7 +298,7 @@ Quelques exemples d'entrées de publications :
 ### Supprimer une publication
 
 1. Identifier dans quelle catégorie se trouve la publication à supprimer.
-2. Trouver et ouvrir le fichier .bib correspondant : [book-chapters.bib](_bibliography/book-chapters.bib), [conference.bib](_bibliography/conference.bib), [dissertation.bib](_bibliography/dissertation.bib) et [peer-reviewed.bib](_bibliography/peer-reviewed.bib).
+2. Trouver et ouvrir le fichier .bib correspondant : [book-chapters.bib](_bibliography/book-chapters.bib), [conference.bib](_bibliography/conference.bib), [dissertation.bib](_bibliography/dissertation.bib), [workshops.bib](_bibliography/workshops.bib) et [peer-reviewed.bib](_bibliography/peer-reviewed.bib).
 3. Rechercher l'entrée à supprimer.
    Une entrée est sous cette forme :
 
@@ -674,15 +682,45 @@ Pour **supprimer la photo**, supprimer la ligne `image: ...` dans le bloc du fic
 
 ## Guide HTML
 
-### Mettre du texte en italique
+Le langage HTML permet de mettre en forme du texte sur une page web. Il fonctionne avec des balises qui encadrent les parties de texte à formater.
 
-Encadrer le texte à mettre en italique par les balises `<em>texte italique</em>`.
+Exemple:
 
-### Mettre en gras
+```html
+<strong>Texte en gras</strong>
+```
 
-### Mettre un lien
+`<strong>` -> balise d'ouverture
+`</strong>` -> balise de fermeture
 
-### Sauter une ligne
+1) Mettre du texte en italique
+
+```html
+<em>texte italique</em>
+```
+
+2) Mettre en gras
+
+```html
+<strong>texte en gras</strong>
+```
+
+3) Mettre un lien
+
+```html
+<a href="https://www.exemple.com">Texte du lien</a>
+```
+
+4) Sauter une ligne
+
+```html
+Texte avant <br>
+texte après
+```
+
+5) Insérer une image
+
+Il faut utiliser la balise <img> (qui n'a pas de balise de fermeture).
 
 ## Guide MarkDown
 

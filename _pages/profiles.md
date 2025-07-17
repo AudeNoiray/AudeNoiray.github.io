@@ -17,12 +17,12 @@ profiles:
   - align: left
     content: team/susannefuchs.md
     image: SusanneFuchs.jpg
-  # Lucie Chasseur
-  - align: right
-    content: team/luciechasseur.md
-    image: LucieChasseur.png
   # Elina Rubertus
-  - align: left
+  - align: right
     content: team/elinarubertus.md
     image: ElinaRubertus.png
+  # Lucie Chasseur
+  - align: left
+    content: team/luciechasseur.md
+    image: LucieChasseur.png
 ---

@@ -7,7 +7,7 @@ layout: default
       {% if site.title == 'blank' %}
         {{ site.first_name }}
         <span class="font-weight-bold">{{ site.last_name }}</span>
-        ({{ site.degree }})
+        <span style="font-size:0.8em;">({{ site.degree }})</span>
       {% else %}
         {{ site.title }}
       {% endif %}
@@ -41,6 +41,17 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Affiliations -->
+
+    {% if page.affiliation %} 
+      <h2>
+        Affiliations
+      </h2>
+      <div class=affiliations>
+        {{ page.affiliation }}
+      </div>
+    {% endif %}
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
@@ -55,14 +66,6 @@ layout: default
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
-    {% endif %}
-
-    <!-- Affiliations -->
-
-    {% if page.affiliation %} 
-      Affiliations <br>
-      {{ page.affiliation }}  
-      <br>
     {% endif %}
 
     <!-- Selected papers -->

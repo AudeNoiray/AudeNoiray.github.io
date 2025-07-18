@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Links between speech and reading development
+title: Links between speech & reading fluency
 description:
 img: assets/img/projects/relation_speech_and_reading.png
 importance: 5

@@ -143,6 +143,10 @@ blockquote {
   margin-bottom: 2rem;
 }
 
+.about p {
+  text-align: justify;
+}
+
 // Checklist
 
 ul.task-list {
@@ -669,6 +673,8 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+  text-align: center;
+
   a {
     text-decoration: none;
 

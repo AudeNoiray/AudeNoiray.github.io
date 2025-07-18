@@ -19,7 +19,7 @@ nav_order: 4
 
 <div id="menu-categories" class="category-menu">
   <button data-cat="peer-reviewed">Peer-reviewed publications</button>
-  <button data-cat="conference">Conferences and Invited Talks</button>
+  <button data-cat="conference">Conferences and invited talks</button>
   <button data-cat="book-chapters">Book chapters</button>
   <button data-cat="dissertations">Academic dissertations</button>
   <button data-cat="workshops">Workshops</button>
@@ -31,7 +31,7 @@ nav_order: 4
 </div>
 
 <div class="publications" id="conference" style="display:none;">
-  <h2>Conferences and Invited Talks</h2>
+  <h2>Conferences and invited talks</h2>
   {% bibliography --file conference.bib %}
 </div>
 

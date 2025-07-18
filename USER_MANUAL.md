@@ -119,11 +119,13 @@ Format à utiliser : (remplacer la date dans l'en-tête et le corps du texte)
 ```yaml
 ---
 layout: post
-date: 2024-06-10
+date: 2024-06-13
 inline: true
 ---
 Texte de la news qui s'affiche sur la page About et dans la page Archive.
 ```
+
+Pour qu'il y ait uniquement le mois et l'année qui apparaissent dans la colonne de droite, il faut ajouter le champ `month: AAAA-MM` dans l'en-tête du fichier (il faut quand même laisser le champ date remplie).
 
 - **News longues** : la news est cliquable et mène à une page dédiée, utile pour un contenu plus détaillé (par exemple : le fichier [\_news/journeePhonetiqueClinique.md](_news/journeePhonetiqueClinique.md)).
 

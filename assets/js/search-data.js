@@ -115,8 +115,8 @@ ninja.data = [{
           description: "Speech disfluencies in patients with language-related deficiencies",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pathological_speech/";
-            },},{id: "projects-links-between-speech-and-reading-development",
-          title: 'Links between speech and reading development',
+            },},{id: "projects-links-between-speech-amp-reading-fluency",
+          title: 'Links between speech &amp;amp; reading fluency',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/relation_speech_and_reading/";

@@ -1,5 +1,7 @@
 # al-folio
 
+Pour mettre à jour le site, consultez le [Manuel Utilisateur](USER_MANUAL.md).
+
 <div align="center">
 
 [![Preview](readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)

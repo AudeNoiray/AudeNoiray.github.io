@@ -693,39 +693,134 @@ Exemple:
 `<strong>` -> balise d'ouverture
 `</strong>` -> balise de fermeture
 
-1) Mettre du texte en italique
+1) Mettre du **texte en italique**
 
 ```html
-<em>texte italique</em>
+<em>Texte en italique</em>
 ```
 
-2) Mettre en gras
+2) Mettre du **texte en gras**
 
 ```html
-<strong>texte en gras</strong>
+<strong>Texte en gras</strong>
 ```
 
-3) Mettre un lien
+3) Mettre un **lien**
 
 ```html
 <a href="https://www.exemple.com">Texte du lien</a>
 ```
 
-4) Sauter une ligne
+On peut aussi ajouter `target="_blank"` dans la balise après le lien pour que le texte s'ouvre dans un nouvel onglet.
+
+4) **Sauter une ligne**
 
 ```html
 Texte avant <br>
-texte après
+Texte après
 ```
 
-5) Insérer une image
+La balise `<br>` force un retour à la ligne. Pour faire un texte composé de plusieurs paragraphes, il vaut mieux utiliser la balise `<p>`.
 
-Il faut utiliser la balise <img> (qui n'a pas de balise de fermeture).
+```html
+<p>Premier paragraphe</p>
+<p>Deuxième paragraphe</p>
+<p>Troisième paragraphe</p>
+```
+
+5) **Faire un titre**
+
+```html
+<h2>Titre de niveau 2</h2>
+<h3>Titre de niveau 3</h3>
+<h4>Titre de niveau 4</h4>
+```
+
+Il existe 6 niveaux de titre de `<h1>` à `<h6>`.
+
+6) **Insérer une image**
+
+Il faut utiliser la balise `<img>` (qui n'a pas de balise de fermeture).
+
+```html
+<img src="img.png" alt="Texte alternatif">
+```
+
+`src` : chemin de l'image (par exemple : `src="assets/img/img.png"`).
+`alt` : texte alternatif qui s'affichera si l'image ne s'affiche pas.
+
+Il est possible de rajouter d'autres champs pour contrôler la taille, l'alignement...
+
+`width` : largeur de l'image en pixel.
+`height` : hauteur de l'image en pixel.
+Si l'on ne met que l'un des deux, l'autre s'ajuste automatiquement pour garder les proportions.
+
+Ordre de grandeur conseillé :
+
+- logo de financeur : `height="100"` est souvent suffisant.
+- Image d'illustration dans un projet : `width="300"` si l'image est en portrait ou `width="600"` si l'image est en format paysage.
+
+**Mettre une légende** :
+
+Pour mettre une légende sous une image, il faut utiliser la balise `<div class="caption">Légende</div>`.
+
+Exemple :
+
+```html
+<img src="img.png" alt="Texte alternatif" widht="300">
+<div class="caption">Figure 1 : Légende de l'image.</div>
+```
 
 ## Guide MarkDown
 
-### Mettre en italique
+1) Faire un **retour à la ligne**
 
-### Mettre en gras
+Mettre deux espaces à la fin de la ligne précédente.
 
-### Mettre un lien
+2) **Sauter une ligne**
+
+Laisser une ligne vide entre deux paragraphes.
+
+3) Mettre du **texte en italique**
+
+Encadrer le texte à mettre en italique par `*`.
+
+```markdown
+*Texte en italique*
+```
+
+4) Mettre du **texte en gras**
+
+Encadrer le texte à mettre en gras par `**`.
+
+```markdown
+**Texte en gras**
+```
+
+5) Mettre un **lien cliquable**
+
+```markdown
+[Lien](https://siteweb.com)
+```
+
+Le texte entre crochets est le texte qui sera cliquable et l'URL entre parenthèses est l'adresse vers laquelle le lien enverra.
+
+6) **Faire un titre**
+
+Mettre des # devant le texte.
+
+```markdown
+# Titre de niveau 1
+## Titre de niveau 2
+### Titre de niveau 3
+```
+
+7) **Insérer une image**
+
+```markdown
+![Texte alternatif](dossier1/dossier2/nom-img.png)
+```
+
+Le texte alternatif est le texte qui s'affichera si l'image n'est pas chargée.
+Entre parenthèses, il s'agit du chemin des dossiers jusqu'à l'image. Pour le site web, il s'agit généralement de `assets/img/nom-img.png`.
+En markdown, il n'est pas possible de contrôler la taille ou l'alignement, pour cela, il faut utiliser du html.

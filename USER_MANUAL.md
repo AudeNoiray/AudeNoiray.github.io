@@ -7,36 +7,39 @@ A chaque modification, le site peut mettre plusieurs minutes à s'actualiser. Pe
 ## Sommaire
 
 - [Manuel utilisateur](#manuel-utilisateur)
-  - [Page about](#page-about)
+  - [Page About](#page-about)
     - [Modifier le texte de présentation](#modifier-le-texte-de-présentation)
     - [Modifier la photo de profil](#modifier-la-photo-de-profil)
     - [Modifier le texte sous la photo](#modifier-le-texte-sous-la-photo)
-    - [Modifier les affiliations]()
+    - [Modifier les affiliations](#modifier-les-affiliations)
     - [Gérer les "selected publications"](#gérer-les-selected-publications)
     - [Gérer les réseaux sociaux](#gérer-les-réseaux-sociaux)
     - [Gérer les "news"](#gérer-les-news)
       - [Modifier le nombre de news](#modifier-le-nombre-de-news)
       - [Supprimer une news](#supprimer-une-news)
       - [Ajouter une news](#ajouter-une-news)
-  - [Page archives](#page-archives)
-  - [Page publications](#page-publications)
+  - [Page Archives](#page-archives)
+  - [Page Publications](#page-publications)
     - [Organisation des publications](#organisation-des-publications)
     - [Ajouter une publication](#ajouter-une-publication)
     - [Supprimer une publication](#supprimer-une-publication)
     - [Ajouter un co-auteur](#ajouter-un-co-auteur)
-  - [Page projects](#page-projects)
+  - [Page Projects](#page-projects)
+    - [Ajouter un projet](#ajouter-un-projet)
+    - [Supprimer un projet](#supprimer-un-projet)
   - [Page cv](#page-cv)
     - [Structure générale](#structure-générale)
     - [Ajouter une nouvelle entrée](#ajouter-une-nouvelle-entrée)
     - [Détail des champs possible par section](#détail-des-champs-possibles-par-section)
-  - [Page teaching](#page-teaching)
-  - [Page team](#page-team)
+  - [Page Teaching](#page-teaching)
+  - [Page Team](#page-team)
     - [Ajouter un membre](#ajouter-un-membre)
     - [Modifier le profil d'un membre](#modifier-le-profil-dun-membre)
     - [Supprimer un membre](#supprimer-un-membre)
   - [Guide HTML](#guide-html)
+  - [Guide Markdown](#guide-markdown)
 
-## Page about
+## Page About
 
 ### Modifier le texte de présentation
 
@@ -137,13 +140,13 @@ Texte complet de la news qui va être affichée sur la page dédiée lorsque l�
 Ce texte peut être écrit en HTML ou en markdown si besoin d’une mise en page spécifique (cf. Guide HTML).
 ```
 
-## Page archives
+## Page Archives
 
 La page _Archives_ permet d'afficher l'ensemble des **news** ajoutées au site. Elle répertorie chronologiquement toutes les actualités.  
 Il n'est pas nécessaire de modifier cette page manuellement. Elle se met à jour toute seule lors de l'ajout ou de la suppression d'une news.
 Pour **ajouter ou supprimer des news**, voir la section correspondante dans la [page about](#gérer-les-news).
 
-## Page publications
+## Page Publications
 
 ### Organisation des publications
 
@@ -337,14 +340,14 @@ Pour ajouter un co-auteur, il faut insérer une nouvelle entrée dans le fichier
     url: https://nom_prenom.com
 ```
 
-## Page projects
+## Page Projects
 
 ### Ajouter un projet
 
 1. Créer un nouveau fichier .md dans le dossier [\_projects/](_projects/), par exemple `nouveau-projet.md`.
 
 2. Copier-coller dans ce fichier le modèle ci-dessous et le modifier avec les informations spécifiques du projet.
-   Ce fichier doit être écrit en markdown ou en html. Plus d'informations dans les sections [Guide Html](#guide-html) ou [Guide Markdown](#guide-markdown). Privilégier plutôt le markdown qui est plus simple. Le langage HTML peut servir principalement pour de la mise en page plus complexe comme l'insertion de photos à une certaine taille, etc.
+   Ce fichier doit être écrit en markdown ou en html. Plus d'informations dans les sections [Guide Html](#guide-html) ou [Guide Markdown](#guide-markdown). Privilégier plutôt le markdown qui est plus simple. Le langage HTML peut servir principalement pour de la mise en page plus complexe comme l'insertion de photos à une certaine taille, etc. Il est possible de mettre du HTML dans un fichier markdown.
 
 ```markdown
 ---
@@ -398,7 +401,7 @@ Organisme de financement, programme (référence du projet)
 
 Dans le dossier [\_projects/](_projects/), supprimer le fichier .md associé au projet.
 
-## Page cv
+## Page CV
 
 ### Structure générale
 
@@ -516,6 +519,8 @@ Chaque élément dans un bloc est écrit entre `{ }`, sous forme de paires clé-
 }
 ```
 
+Il est possible d'utiliser du HTML dans les champs `title` et `description` pour pouvoir mettre des liens, du texte en gras, etc.
+
 - `supervision` - Student (Co)-Supervision
 
 ```json
@@ -542,6 +547,8 @@ Chaque élément dans un bloc est écrit entre `{ }`, sous forme de paires clé-
 }
 ```
 
+Il est possible d'utiliser du HTML dans les champs `role` et `details`.
+
 - `trainingActivities` - Training Activities
 
 ```json
@@ -554,6 +561,8 @@ Chaque élément dans un bloc est écrit entre `{ }`, sous forme de paires clé-
 }
 ```
 
+Il est possible d'utiliser du HTML dans le champ `location`.
+
 - `reviewing` - Reviewing Services
 
 ```json
@@ -564,7 +573,9 @@ Chaque élément dans un bloc est écrit entre `{ }`, sous forme de paires clé-
 }
 ```
 
-## Page teaching
+Il est possible d'utiliser du HTML dans le champ `items`.
+
+## Page Teaching
 
 Les informations de la page Teaching sont stockées dans le fichier [\_data/teaching.yml](_data/teaching.yml). Chaque poste correspond à une entrée dans ce fichier.
 
@@ -584,7 +595,7 @@ Pour **ajouter un poste d'enseignement** :
     - Une formation par tiret
 ```
 
-## Page team
+## Page Team
 
 ### Ajouter un membre
 

@@ -6,7 +6,6 @@ subtitle: Experimental psycholinguist, LPNC, Université Grenoble Alpes
 
 
 affiliation: Associate Member at <a href=https://phonetique.uqam.ca/>Laboratoire de Phonétique de l’UQAM, Montréal</a> ;  <a href=https://haskinslabs.org/>Haskins Laboratories</a>  ; <a href=https://speechlabgroningen.nl/>Speech Lab Groningen</a> 
-contact: aude.noiray@univ-grenoble-alpes.fr
 
 profile:
   align: right

@@ -2,7 +2,10 @@
 layout: about
 title: About
 permalink: /
-subtitle: Experimental phonetico-psycholinguist, LPNC, Université Grenoble Alpes, France
+subtitle: Experimental phonetico-psycholinguist 
+LPNC, Université Grenoble Alpes, France
+aude.noiray@univ-grenoble-alpes.fr
+
 affiliation: Associate Member at <a href=https://phonetique.uqam.ca/>Laboratoire de Phonétique de l’UQAM, Montréal</a> ;  <a href=https://haskinslabs.org/>Haskins Laboratories</a>  ; <a href=https://speechlabgroningen.nl/>Speech Lab Groningen</a> 
 
 profile:

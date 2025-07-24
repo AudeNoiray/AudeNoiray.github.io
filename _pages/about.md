@@ -5,7 +5,7 @@ permalink: /
 subtitle: Experimental psycholinguist, LPNC, Université Grenoble Alpes
 
 
-affiliation: Associate Member at <a href=https://phonetique.uqam.ca/>Laboratoire de Phonétique de l’UQAM, Montréal</a> ;  <a href=https://haskinslabs.org/>Haskins Laboratories</a>  ; <a href=https://speechlabgroningen.nl/>Speech Lab Groningen</a>
+affiliation: Member of the <a href=https://lpnc.univ-grenoble-alpes.fr/fr/babylab/> Babylab </a> ; <a href=https://lpnc.univ-grenoble-alpes.fr/fr/recherche-0/equipes-recherche/equipe-developpement-et-apprentissage/> Développement & Apprentissage and </a> ;<a href=https://lpnc.univ-grenoble-alpes.fr/fr/recherche-0/equipes-recherche/equipe-langage/>Language team </a>. Associate Member at <a href=https://phonetique.uqam.ca/>Laboratoire de Phonétique de l’UQAM, Montréal</a> ;  <a href=https://haskinslabs.org/>Haskins Laboratories</a>  ; <a href=https://speechlabgroningen.nl/>Speech Lab Groningen</a>
 
 profile:
   align: right

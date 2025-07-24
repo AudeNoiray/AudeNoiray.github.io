@@ -27,4 +27,5 @@ I am a senior researcher at the [Laboratoire de Psychologie & Neurocognition](ht
 I am passionate about speech, language, and their development. My research lies at the intersection of several disciplines, including experimental, articulatory and acoustic phonetics; psycholinguistics; laboratory phonology; developmental psychology and biology. My most recent projects focus on the (a)typical development of spoken language fluency. I study the evolving connections between speech motor control, perception, phonology, vocabulary and reading. Other projects include vocal development in infants, speech production and perception in patients with pathological speech. My research is empirically grounded. I collect kinematic, acoustic and behavioural data using ultrasound imaging, audiovisual recordings, eye tracking, or developmental assessments.
 
 When I am not researching, I am in the mountains, hiking. There is nothing more energising and inspiring for me than being in the mountains.
+
 Contact: aude.noiray@univ-grenoble-alpes.fr

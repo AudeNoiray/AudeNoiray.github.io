@@ -5,9 +5,7 @@ permalink: /
 subtitle: Experimental psycholinguist, LPNC, Université Grenoble Alpes
 
 
-affiliation: I am a member of the [Babylab](https://lpnc.univ-grenoble-alpes.fr/fr/babylab) as well as the [Développement & Apprentissage](https://lpnc.univ-grenoble-alpes.fr/fr/recherche-0/equipes-recherche/equipe-developpement-et-apprentissage) and [Language](https://lpnc.univ-grenoble-alpes.fr/fr/recherche-0/equipes-recherche/equipe-langage) teams.
-I am also an Associate Member at <a href=https://phonetique.uqam.ca/>Laboratoire de Phonétique de l’UQAM, Montréal</a> ;  <a href=https://haskinslabs.org/>Haskins Laboratories</a>  ; <a href=https://speechlabgroningen.nl/>Speech Lab Groningen</a>
-contact: aude.noiray@univ-grenoble-alpes.fr
+affiliation: Associate Member at <a href=https://phonetique.uqam.ca/>Laboratoire de Phonétique de l’UQAM, Montréal</a> ;  <a href=https://haskinslabs.org/>Haskins Laboratories</a>  ; <a href=https://speechlabgroningen.nl/>Speech Lab Groningen</a>
 
 profile:
   align: right

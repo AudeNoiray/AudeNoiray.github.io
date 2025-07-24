@@ -92,7 +92,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-give-a-workshop-on-ultrasound-imaging-at-stem-ix-summer-training-in-experimental-methods-july-16th-2025",
           title: 'I will give a workshop on ultrasound imaging at STEM IX (Summer Training...',
           description: "",
-          section: "News",},{id: "news-i-am-delighted-to-give-a-talk-at-the-next-rencontre-des-jeunes-chercheurs-en-parole-rjpc-in-paris-november-10th-2025",
+          section: "News",},{id: "news-i-am-delighted-to-give-a-talk-at-the-next-rencontre-des-jeunes-chercheurs-en-parole-rjpc-in-paris-november-5th-2025",
           title: 'I am delighted to give a talk at the next Rencontre des Jeunes...',
           description: "",
           section: "News",},{id: "projects-coarticulation",

@@ -78,8 +78,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-new-research-project-on-vocal-development-voc2speak",
-          title: 'New research project on vocal development : VOC2SPEAK',
+            },},{id: "news-voc2speak-a-new-funded-project-on-vocal-development",
+          title: 'VOC2SPEAK, a new funded  project on vocal development',
           description: "",
           section: "News",},{id: "news-talks-and-poster-presentation-at-the-journées-de-la-phonétique-clinique-in-sète",
           title: 'Talks and poster presentation at the Journées de la Phonétique Clinique in Sète...',
@@ -95,7 +95,7 @@ ninja.data = [{
           section: "News",},{id: "news-speech-balance-a-new-funded-project-on-speech-related-deficiencies-in-patients-with-vestibular-schwannomas",
           title: 'Speech Balance, a new funded project on speech-related deficiencies in patients with vestibular...',
           description: "",
-          section: "News",},{id: "news-i-will-give-a-talk-at-the-next-rencontre-des-jeunes-chercheurs-en-parole-rjpc-november-5th-2025",
+          section: "News",},{id: "news-i-will-give-a-talk-at-the-next-rencontre-des-jeunes-chercheurs-en-parole-rjpc",
           title: 'I will give a talk at the next Rencontre des Jeunes Chercheurs en...',
           description: "",
           section: "News",},{id: "projects-coarticulation",

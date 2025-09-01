@@ -4,10 +4,13 @@ Lucie Chasseur has a strong passion for linguistics, and more specifically langu
 After working as a research engineer at INRIA, she decided to pursue a PhD in her main fields of interests. Within the VOC2SPEAK project, she will investigate the relationship between infants’ attention and their speech motor control development.
 
 
+
 **Research Experience**:
 
-- Research Engineer in Natural Language Processing (Inria - Paris): Text analysis, semantic information extraction, and named entity recognition.
-- Intern (GETALP - Grenoble): Evaluating the acceptability of augmentative and alternative communication (AAC) tools for children with speech access difficulties.
+Research Engineer in Natural Language Processing (Inria - Paris): Text analysis, semantic information extraction, and named entity recognition.
+Intern (GETALP - Grenoble): Evaluating the acceptability of augmentative and alternative communication (AAC) tools for children with speech access difficulties.
+
+
 
 **Publications/conferences**:
 

@@ -1,6 +1,7 @@
 ## Lucie Chasseur (Doctoral fellow)
 
-Lucie Chasseur has a strong passion for linguistics, and more specifically language and speech acquisition. After working as a research engineer at INRIA, she decided to pursue a PhD in her main fields of interests. Within the VOC2SPEAK project, she will investigate the relationship between infants’ attention and their speech motor control development.
+Lucie Chasseur has a strong passion for linguistics, and more specifically language and speech acquisition. During her studies, she carried out several projects at the crossroad of language and cognitive development. She first conducted an empirical study on lexical development in preschool children. For her master's thesis, she worked on alternative and augmentative communication in young children with disabilities.
+After working as a research engineer at INRIA, she decided to pursue a PhD in her main fields of interests. Within the VOC2SPEAK project, she will investigate the relationship between infants’ attention and their speech motor control development.
 
 **Education** :
 

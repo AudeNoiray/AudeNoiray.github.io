@@ -1,7 +1,7 @@
-## Lucie Chasseur (Doctoral fellow)
+## Lucie Chasseur
 
-Lucie Chasseur has a strong passion for linguistics, and more specifically language and speech acquisition. During her studies, she carried out several projects at the crossroad of language and cognitive development (e.g., lexical development in preschool children, alternative and augmentative communication in young children with disabilities).
-After working as a research engineer at INRIA, she decided to pursue a PhD in language acquisition, her main field of interest. Within the VOC2SPEAK project, she will investigate the relationship between infants’ attention and their speech motor control development.
+Lucie Chasseur is a doctoral fellow at the Laboratory for Psychology and neurocognition (LPNC) in Grenoble. During her studies, she carried out several projects at the crossroad of language and cognitive development (e.g., lexical development in preschool children, alternative and augmentative communication in young children with disabilities).
+After working as a research engineer at INRIA, she decided to pursue a PhD in language acquisition, her main field of interest. Within the VOC2SPEAK project, Lucie Chasseur investigate the development of infants’ attention and its relationship with speech motor control development.
 
 
 

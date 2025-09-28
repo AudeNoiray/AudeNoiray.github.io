@@ -135,11 +135,11 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/voc2speak/";
             },},{
-        id: 'social-bluesky',
-        title: 'Bluesky',
+        id: 'social-custom_social',
+        title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://bsky.app/profile/audenoiray.bsky.social", "_blank");
+          window.open("https://lpnc.univ-grenoble-alpes.fr/fr", "_blank");
         },
       },{
         id: 'social-email',
@@ -163,11 +163,11 @@ ninja.data = [{
           window.open("https://www.researchgate.net/profile/Aude-Noiray/", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-bluesky',
+        title: 'Bluesky',
         section: 'Socials',
         handler: () => {
-          window.open("https://lpnc.univ-grenoble-alpes.fr/fr", "_blank");
+          window.open("https://bsky.app/profile/audenoiray.bsky.social", "_blank");
         },
       },{
       id: 'light-theme',

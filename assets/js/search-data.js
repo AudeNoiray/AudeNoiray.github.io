@@ -135,13 +135,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/voc2speak/";
             },},{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://lpnc.univ-grenoble-alpes.fr/fr", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -168,6 +161,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://bsky.app/profile/audenoiray.bsky.social", "_blank");
+        },
+      },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://lpnc.univ-grenoble-alpes.fr/fr", "_blank");
         },
       },{
       id: 'light-theme',

@@ -28,4 +28,5 @@ profiles:
   # Anjali Lepain
   - align: right
     content: team/anjalilepain.md
+    image: anjalilepain.jpg
 ---

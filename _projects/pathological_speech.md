@@ -6,6 +6,25 @@ img: assets/img/projects/pathological_speech_cover.png
 importance: 6
 ---
 
+### _SpeechBalance: Understanding balance and speech-related deficiencies in patients with vestibular schwannomas_
+
+This project aims to investigate the impact of vestibular schwannomas (VS) onto oral communication. VS are non-malign brain tumors growing in the inner ear. Due to compression against the brain stem and cerebellum, and entanglement with the facial, vestibular and auditory nerves, VS affects critical sensorimotor functions such as audition, vision, communication, motor planning and equilibrium. 
+The project will: (1) deliver a critical synthesis of the literature on VS impairments; (2) collect first-hand
+information from patients to assess the multimodal nature of VS-related dysfunctions, their potential interactions and impact on life quality; (3) evaluate speech and language pathologists (SLPs)’s knowledge about SV pathology, their practices and needs to ultimately improve current assessments and remediations protocols.
+Speech and language pathology student : Typhaine Bauban, Université Lyon 1.
+
+#### Collaborators
+
+[Maëlys Grillet](https://www.linkedin.com/in/maëlys-grillet-b201a7216/?originalSubdomain=fr), Arnaud Lazard (CHUGA Grenoble), Thierry Misere (Vestib+), [Monica Baciu](https://lpnc.univ-grenoble-alpes.fr/fr/monica-baciu) (LPNC, University Grenoble Alpes). 
+
+#### Fundings
+
+Institut Carnot Cognition
+
+<img src="/assets/img/fundings/institutCarnotCognition.png" alt="logo" style="height:100px; vertical-align:middle; margin-left:5px;">
+
+---
+
 #### _SEMO : Intégration SEnsori-MOtrice pour la rééducation du langage chez des patients avec une aphasie non fluente après accident vasculaire cérébral_
 
 L’aphasie non-fluente, une conséquence fréquente des accidents vasculaires cérébraux (AVC), est un trouble du langage et de la parole qui perturbe les capacités de communication, avec des répercussions importantes sur la qualité de vie du patient. Malgré l’efficacité indéniable de la rééducation orthophonique classique dans les premiers mois suivant l’AVC, la récupération atteint généralement un plateau après 3 à 6 mois. Cela souligne la nécessité de développer de nouvelles approches complémentaires à la rééducation conventionnelle.
@@ -21,13 +40,9 @@ Ainsi, les patients accèdent à plusieurs sources d’information : auditives (
     </div>
 </div>
 
----
-
 #### Collaborators
 
 Célise Haldin (post-doctoral fellow), [Monica Baciu](https://lpnc.univ-grenoble-alpes.fr/fr/monica-baciu) (LPNC), [Thomas Hueber](https://www.gipsa-lab.grenoble-inp.fr/~thomas.hueber/) (GIPSA), [Pascal Perrier](https://cv.hal.science/pascal-perrier) (GIPSA), [Hélène Loevenbruck](https://lpnc.univ-grenoble-alpes.fr/fr/helene-loevenbruck), Olivier Detante (CHUGA), Isabelle Favre-Wiki (CHUGA), Stéphanie Maurice (CHUGA).
-
----
 
 #### Publications
 
@@ -36,8 +51,6 @@ Célise Haldin (post-doctoral fellow), [Monica Baciu](https://lpnc.univ-grenoble
 Haldin, C., Hueber, T., Perrier, P., Detante, O., Maurice, S., , Favre-Wiki, I., Maurice, S., Perenou, D., Loevenbruck, H., **Noiray, A.**, & Baciu, M. (2025). Rééducation de l'aphasie non-fluente post-AVC : évaluation d'un programme fondé sur l'intégration multisensorielle avec le logiciel Ultraspeech-Player. Journées de Phonétique clinique, 10-12 Juin, Sète.
 
 Haldin, C., Loevenbruck, H., Hueber, T., detante, O., Maurice, S., Perrier, P., **Noiray, A.**, & Baciu, M. (2024). SEMO : Intégration SEnsori-MOtrice pour la rééducation du langage chez des patients avec une aphasie non fluente post-AVC. Convention scientifique de l'Institut Carnot Cognition, Paris.
-
----
 
 #### Fundings
 
@@ -49,11 +62,12 @@ Institut Carnot Cognition
 
 ### _Speech perception and production in patients with Parkinson disease_
 
-In collaboration with Martijn Wieling and Teja Rebernik at the University of Groningen, we examine differences in speech planning and its production in Dutch patients with Parkinson disease as compared to healthy age matched speakers. Parkinson’s disease is a neurodegenerative disease, characterized by both motor and non-motor impairments. Besides impairment of limb motor control (Jankovic, 2007), around 70% of patients experience speech difficulties (Ho et al. 1999), especially during the later stages of the disease (e.g., Skodda et al. 2013). Speech related impairments include atypical speech rates and prosodic patterns (e.g., reduced stress, monotonous pitch), phonation (e.g., breathy voice), respiration (e.g. reduced intensity) and difficulty in spoken articulation (e.g., Pinto et al. 2004). Previous research has also suggested that two mechanisms essential to efficient speech motor control may be impaired in Parkinson’s disease patients: 1) feedforward mechanism (that characterizes stored movement representations drawn from past experiences to be used for speech motor planning) and/or, 2) feedback mechanisms (that consists in monitoring sensory input relative to individual expectations).
+In this project, we examine differences in speech planning and its production in Dutch patients with Parkinson disease as compared to healthy age matched speakers. Parkinson’s disease is a neurodegenerative disease, characterized by both motor and non-motor impairments. Besides impairment of limb motor control (Jankovic, 2007), around 70% of patients experience speech difficulties (Ho et al. 1999), especially during the later stages of the disease (e.g., Skodda et al. 2013). Speech related impairments include atypical speech rates and prosodic patterns (e.g., reduced stress, monotonous pitch), phonation (e.g., breathy voice), respiration (e.g. reduced intensity) and difficulty in spoken articulation (e.g., Pinto et al. 2004). Previous research has also suggested that two mechanisms essential to efficient speech motor control may be impaired in Parkinson’s disease patients: 1) feedforward mechanism (that characterizes stored movement representations drawn from past experiences to be used for speech motor planning) and/or, 2) feedback mechanisms (that consists in monitoring sensory input relative to individual expectations).
 
 In this project, we examine how newly diagnosed and advanced stage Parkinson patients cope with feedback/feedforward perturbations in comparison to healthy adults. To achieve this goal, we measure speech motor planning and articulation (e.g., imprecise pronunciation, slurred, erroneous speech, coarticulatory deficiency) using electromagnetic articulography or ultrasound tongue imaging and acoustic measurements (Rebernik, Jacobbi, Noiray, & Wieling, 2020, 2022). ﻿To assess whether impairments of the feedback and/or feedforward system are speech-specific or part of a general movement disorder, we also carry out feedback perturbation tests in non-verbal motor movement tasks.
 
----
+#### Collaborators
+Martijn Wieling and Teja Rebernik at the University of Groninge.n
 
 #### Publications
 
@@ -77,17 +91,4 @@ NWO
 
 ---
 
-### _SpeechBalance: Understanding balance and speech-related deficiencies in patients with vestibular schwannomas_
 
-In collaboration with Maëlys Grillet (speech language pathologist), Arnaud Lazard (CHUGA Grenoble), Thierry Misere (Vestib+), Monica Baciu (University Grenoble Alpes). 
-This project aims to investigate the impact of vestibular schwannomas (VS) onto oral communication. VS are non-malign brain tumors growing in the inner ear. Due to compression against the brain stem and cerebellum, and entanglement with the facial, vestibular and auditory nerves, VS affects critical sensorimotor functions such as audition, vision, communication, motor planning and equilibrium. 
-The project will: (1) deliver a critical synthesis of the literature on VS impairments; (2) collect first-hand
-information from patients to assess the multimodal nature of VS-related dysfunctions, their potential interactions and impact on life quality; (3) evaluate speech and language pathologists (SLPs)’s knowledge about SV pathology, their practices and needs to ultimately improve current assessments and remediations protocols.
-Speech and language pathology student : Typhaine BAUBAN, Université Lyon 1.
----
-
-#### Fundings
-
-Institut Carnot Cognition
-
-<img src="/assets/img/fundings/institutCarnotCognition.png" alt="logo" style="height:100px; vertical-align:middle; margin-left:5px;">

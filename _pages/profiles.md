@@ -26,7 +26,7 @@ profiles:
     content: team/luciechasseur.md
     image: LucieChasseur.png
   # Anjali Lepain
-  - align: left
+  - align: right
     content: team/anjalilepain.md
     image: anjalilepain.jpg
 ---

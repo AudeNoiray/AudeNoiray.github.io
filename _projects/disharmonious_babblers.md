@@ -15,7 +15,8 @@ To test this hypothesis, we analyze quantitative data from a corpus of longitudi
 
 ### Collaborators
 
-This research is carried out in collaboration with [Anne Vilain](https://www.ins2i.cnrs.fr/fr/personne/anne-vilain) (GIPSA), Claire Lalevée (CMPP, speech therapist) and [Sharon Peperkamp](http://www.lscp.net/persons/peperkamp/) (LSCP-ENS).
+This research is carried out in collaboration with [Anne Vilain](https://www.ins2i.cnrs.fr/fr/personne/anne-vilain) (GIPSA), Claire Lalevée (CMPP, speech therapist) and [Sharon Peperkamp](http://www.lscp.net/persons/peperkamp/) (LSCP-ENS), Claire lalevée.
+Master student project: Lena Armengaud, Master language Sciences, Universite Grenoble Alpes.
 
 ---
 

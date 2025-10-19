@@ -74,3 +74,20 @@ Hoekzema, E., Rebernik^, T., Tienkamp, T.B., Chaboksavar, S., Ciot, V., Gleichma
 NWO
 
 <img src="/assets/img/fundings/nwo.jpg" alt="logo" style="height:200px; vertical-align:middle; margin-left:5px;">
+
+---
+
+### _SpeechBalance: Understanding balance and speech-related deficiencies in patients with vestibular schwannomas_
+
+In collaboration with Maëlys Grillet (speech language pathologist), Arnaud Lazard (CHUGA Grenoble), Thierry Misere (Vestib+), Monica Baciu (University Grenoble Alpes). 
+This project aims to investigate the impact of vestibular schwannomas (VS) onto oral communication. VS are non-malign brain tumors growing in the inner ear. Due to compression against the brain stem and cerebellum, and entanglement with the facial, vestibular and auditory nerves, VS affects critical sensorimotor functions such as audition, vision, communication, motor planning and equilibrium. 
+The project will: (1) deliver a critical synthesis of the literature on VS impairments; (2) collect first-hand
+information from patients to assess the multimodal nature of VS-related dysfunctions, their potential interactions and impact on life quality; (3) evaluate speech and language pathologists (SLPs)’s knowledge about SV pathology, their practices and needs to ultimately improve current assessments and remediations protocols.
+Speech and language pathology student : Typhaine BAUBAN, Université Lyon 1.
+---
+
+#### Fundings
+
+Institut Carnot Cognition
+
+<img src="/assets/img/fundings/institutCarnotCognition.png" alt="logo" style="height:100px; vertical-align:middle; margin-left:5px;">

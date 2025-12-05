@@ -81,7 +81,12 @@ ninja.data = [{
             },},{id: "news-voc2speak-a-new-funded-project-on-vocal-development",
           title: 'VOC2SPEAK, a new funded  project on vocal development',
           description: "",
-          section: "News",},{id: "news-talks-and-poster-presentation-at-the-journées-de-la-phonétique-clinique-in-sète",
+          section: "News",},{id: "news-podcast-following-the-journées-de-la-phonétique-clinique-in-sète",
+          title: 'Podcast following the Journées de la Phonétique Clinique in Sète',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/Podcast_SURO_2025/";
+            },},{id: "news-talks-and-poster-presentation-at-the-journées-de-la-phonétique-clinique-in-sète",
           title: 'Talks and poster presentation at the Journées de la Phonétique Clinique in Sète...',
           description: "",
           section: "News",handler: () => {

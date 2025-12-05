@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Podcast following the Journées de la Phonétique Clinique in Sète"
-date: 2025-06-12
+date: 2025-12-06
 inline: true
 ---
 

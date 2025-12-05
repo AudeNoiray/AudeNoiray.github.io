@@ -86,10 +86,7 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/journeePhonetiqueClinique/";
-            },},{id: "news-following-the-journées-de-la-phonétique-clinique-in-sète-i-collaborated-on-a-podcast-from-la-suro-in-this-podcast-i-talk-about-3-collaborative-studies-carried-on-1-vocal-and-respiratory-development-in-babies-2-the-development-of-spoken-and-reading-fluency-in-children-and-3-post-stroke-aphasia-the-podcast-is-available-on-spotify",
-          title: 'Following the Journées de la Phonétique Clinique in Sète, I collaborated on a...',
-          description: "",
-          section: "News",},{id: "news-two-new-publications-fuchs-s-jover-m-noiray-a-amp-amp-petrone-c-in-press-on-the-development-of-breathing-and-vocalization-in-a-prelinguistic-child-a-case-study-folia-phoniatrica-et-logopaedica-doi-10-1159-000547328-paper-rubertus-e-popescu-a-amp-amp-noiray-a-2025-seriality-in-word-reading-kinematic-insights-into-beginning-and-proficient-readers-journal-of-experimental-psychology-learning-memory-and-cognition-paper",
+            },},{id: "news-two-new-publications-fuchs-s-jover-m-noiray-a-amp-amp-petrone-c-in-press-on-the-development-of-breathing-and-vocalization-in-a-prelinguistic-child-a-case-study-folia-phoniatrica-et-logopaedica-doi-10-1159-000547328-paper-rubertus-e-popescu-a-amp-amp-noiray-a-2025-seriality-in-word-reading-kinematic-insights-into-beginning-and-proficient-readers-journal-of-experimental-psychology-learning-memory-and-cognition-paper",
           title: 'Two new publications: Fuchs, S., Jover, M., Noiray, A., &amp;amp;amp; Petrone, C. (in...',
           description: "",
           section: "News",},{id: "news-i-will-give-a-workshop-on-ultrasound-imaging-at-stem-ix-summer-training-in-experimental-methods-july-16th-2025",
@@ -106,6 +103,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-we-are-offering-a-master-internship-m2-starting-in-january-or-february-202",
           title: 'We are offering a Master internship (M2), starting in January or February, 202§....',
+          description: "",
+          section: "News",},{id: "news-following-the-journées-de-la-phonétique-clinique-in-sète-i-collaborated-on-a-podcast-from-la-suro-in-this-podcast-i-talk-about-3-collaborative-studies-carried-on-1-vocal-and-respiratory-development-in-babies-2-the-development-of-spoken-and-reading-fluency-in-children-and-3-post-stroke-aphasia-the-podcast-is-available-on-spotify",
+          title: 'Following the Journées de la Phonétique Clinique in Sète, I collaborated on a...',
           description: "",
           section: "News",},{id: "projects-coarticulation",
           title: 'Coarticulation',

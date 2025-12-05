@@ -86,8 +86,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/journeePhonetiqueClinique/";
-            },},{id: "news-following-the-journées-de-la-phonétique-clinique-in-sète-https-jpc2025-sciencesconf-org-i-collaborated-on-a-podcast-from-la-suro-https-surorthophonie-com-in-this-podcast-i-talk-about-3-collaborative-studies-carried-on-1-vocal-and-respiratory-development-in-babies-2-the-development-of-spoken-and-reading-fluency-in-children-and-3-post-stroke-aphasia-the-podcast-is-available-on-spotify",
-          title: 'Following the [Journées de la Phonétique Clinique in Sète] (https://jpc2025.sciencesconf.org), I collaborated on...',
+            },},{id: "news-following-the-journées-de-la-phonétique-clinique-in-sète-i-collaborated-on-a-podcast-from-la-suro-in-this-podcast-i-talk-about-3-collaborative-studies-carried-on-1-vocal-and-respiratory-development-in-babies-2-the-development-of-spoken-and-reading-fluency-in-children-and-3-post-stroke-aphasia-the-podcast-is-available-on-spotify",
+          title: 'Following the Journées de la Phonétique Clinique in Sète, I collaborated on a...',
           description: "",
           section: "News",},{id: "news-two-new-publications-fuchs-s-jover-m-noiray-a-amp-amp-petrone-c-in-press-on-the-development-of-breathing-and-vocalization-in-a-prelinguistic-child-a-case-study-folia-phoniatrica-et-logopaedica-doi-10-1159-000547328-paper-rubertus-e-popescu-a-amp-amp-noiray-a-2025-seriality-in-word-reading-kinematic-insights-into-beginning-and-proficient-readers-journal-of-experimental-psychology-learning-memory-and-cognition-paper",
           title: 'Two new publications: Fuchs, S., Jover, M., Noiray, A., &amp;amp;amp; Petrone, C. (in...',

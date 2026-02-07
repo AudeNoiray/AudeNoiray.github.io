@@ -95,7 +95,7 @@ ninja.data = [{
           section: "News",},{id: "news-speech-balance-a-new-funded-project-on-speech-related-deficiencies-in-patients-with-vestibular-schwannomas",
           title: 'Speech Balance, a new funded project on speech-related deficiencies in patients with vestibular...',
           description: "",
-          section: "News",},{id: "news-we-have-a-new-pre-print-s-fuchs-e-rubertus-l-koenig-amp-amp-a-noiray-towards-a-fuller-integration-of-respiratory-rhythms-into-research-on-infant-vocal-and-motor-development-paper",
+          section: "News",},{id: "news-we-have-a-new-pre-print-s-fuchs-e-rubertus-l-koenig-amp-amp-a-noiray-2026-towards-a-fuller-integration-of-respiratory-rhythms-into-research-on-infant-vocal-and-motor-development-paper",
           title: 'We have a new pre-print: S., Fuchs, E., Rubertus, L., Koenig, &amp;amp;amp; A.,...',
           description: "",
           section: "News",},{id: "news-i-will-give-a-talk-entitled-le-développement-de-la-coarticulation-implications-pour-le-contrôle-moteur-de-la-parole-et-de-la-fluence-at-the-next-rencontre-des-jeunes-chercheurs-en-parole-rjpc",

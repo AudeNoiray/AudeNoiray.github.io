@@ -6,4 +6,4 @@ inline: true
 
 Our discussion about respiratory rhythm in vocal development is available in OA in Annals of the New York Academy of Science:
 
-S., Fuchs, E., Rubertus, L., Koenig, & A., Noiray. (2026) Towards a fuller integration of respiratory rhythms into research on infant vocal and motor development [paper]([https://nyaspubs.onlinelibrary.wiley.com/doi/10.1111/nyas.70197](https://nyaspubs.onlinelibrary.wiley.com/doi/10.1111/nyas.70197?af=R])
+S., Fuchs, E., Rubertus, L., Koenig, & A., Noiray. (2026) Towards a fuller integration of respiratory rhythms into research on infant vocal and motor development [paper](https://nyaspubs.onlinelibrary.wiley.com/doi/10.1111/nyas.70197?af=R)

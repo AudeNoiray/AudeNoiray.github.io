@@ -104,7 +104,7 @@ ninja.data = [{
           section: "News",},{id: "news-following-the-journées-de-la-phonétique-clinique-in-sète-i-collaborated-on-a-podcast-from-la-suro-in-this-podcast-i-talk-about-3-collaborative-studies-1-vocal-and-respiratory-development-in-babies-2-the-development-of-spoken-and-reading-fluency-in-children-and-3-post-stroke-aphasia-the-podcast-is-available-on-spotify",
           title: 'Following the Journées de la Phonétique Clinique in Sète, I collaborated on a...',
           description: "",
-          section: "News",},{id: "news-our-discussion-about-respiratory-rhythm-in-vocal-development-is-available-in-oa-in-annals-of-the-new-york-academy-of-science-s-fuchs-e-rubertus-l-koenig-amp-amp-a-noiray-2026-towards-a-fuller-integration-of-respiratory-rhythms-into-research-on-infant-vocal-and-motor-development-paper-https-www-researchgate-net-publication-395098702-towards-a-fuller-integration-of-respiratory-rhythms-into-research-on-infant-vocal-and-motor-development-https-nyaspubs-onlinelibrary-wiley-com-doi-10-1111-nyas-70197",
+          section: "News",},{id: "news-our-discussion-about-respiratory-rhythm-in-vocal-development-is-available-in-oa-in-annals-of-the-new-york-academy-of-science-s-fuchs-e-rubertus-l-koenig-amp-amp-a-noiray-2026-towards-a-fuller-integration-of-respiratory-rhythms-into-research-on-infant-vocal-and-motor-development-paper-https-nyaspubs-onlinelibrary-wiley-com-doi-10-1111-nyas-70197",
           title: 'Our discussion about respiratory rhythm in vocal development is available in OA in...',
           description: "",
           section: "News",},{id: "projects-coarticulation",

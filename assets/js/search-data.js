@@ -101,7 +101,7 @@ ninja.data = [{
           section: "News",},{id: "news-we-are-offering-a-master-internship-m2-starting-in-january-or-february-2026",
           title: 'We are offering a Master internship (M2), starting in January or February, 2026....',
           description: "",
-          section: "News",},{id: "news-following-the-journées-de-la-phonétique-clinique-in-sète-i-collaborated-on-a-podcast-from-la-suro-in-this-podcast-i-talk-about-3-collaborative-studies-1-vocal-and-respiratory-development-in-babies-2-the-development-of-spoken-and-reading-fluency-in-children-and-3-post-stroke-aphasia-the-podcast-is-available-on-spotify",
+          section: "News",},{id: "news-following-the-journées-de-la-phonétique-clinique-in-sète-i-collaborated-on-a-podcast-from-la-suro-it-talks-about-3-collaborative-studies-1-vocal-and-respiratory-development-in-infants-2-the-development-of-spoken-and-reading-fluency-in-primary-school-children-and-3-post-stroke-aphasia-the-podcast-is-available-on-spotify",
           title: 'Following the Journées de la Phonétique Clinique in Sète, I collaborated on a...',
           description: "",
           section: "News",},{id: "news-our-discussion-about-respiratory-rhythm-in-vocal-development-is-available-in-open-acces-in-anyas-s-fuchs-e-rubertus-l-koenig-amp-amp-a-noiray-2026-towards-a-fuller-integration-of-respiratory-rhythms-into-research-on-infant-vocal-and-motor-development-paper",

@@ -1,0 +1,67 @@
+name: Format and Commit
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  format:
+    name: Run Prettier and commit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Run Prettier --write on flagged files
+        run: |
+          set -euo pipefail
+          FILES=(
+            "_data/coauthors.yml"
+            "_layouts/about.liquid"
+            "_layouts/bib.liquid"
+            "_layouts/post.liquid"
+            "_news/ICIS_2026.md"
+            "_news/Job post.md"
+            "_news/voc2speak.md"
+            "_pages/about.md"
+            "_pages/team/anjalilepain.md"
+            "_pages/team/elinarubertus.md"
+            "_pages/team/luciechasseur.md"
+            "_projects/methodologies.md"
+            "_projects/pathological_speech.md"
+            "_projects/relation_speech_and_reading.md"
+            "_sass/_base.scss"
+            "assets/js/distillpub/transforms.v2.js"
+            "assets/json/resume.json"
+            "USER_MANUAL.md"
+          )
+
+          npx prettier --write "${FILES[@]}"
+
+          # If .prettierignore exists, remove it (we added it as a temporary mitigation)
+          if [ -f .prettierignore ]; then
+            git rm -f .prettierignore || true
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add --all
+          if git diff --staged --quiet; then
+            echo "No formatting changes to commit"
+          else
+            git commit -m "style(ci): apply Prettier formatting to flagged files" || true
+            git push origin HEAD:main
+          fi

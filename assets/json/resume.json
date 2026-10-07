@@ -43,12 +43,12 @@
 
   "professional experiences": [
     {
-  "position": "Co-responsable BabyLab de Grenoble",
-  "place": "Laboratoire de Psychologie et Neurocognition",
-  "location": "Université Grenoble-Alpes, France",
-  "startDate": "F2025",
-  "endDate": ""
-},
+      "position": "Co-responsable BabyLab de Grenoble",
+      "place": "Laboratoire de Psychologie et Neurocognition",
+      "location": "Université Grenoble-Alpes, France",
+      "startDate": "F2025",
+      "endDate": ""
+    },
     {
       "position": "Researcher",
       "place": "Laboratoire de Psychologie et Neurocognition",
@@ -125,23 +125,31 @@
       "title": "Institut Carnot Cognition, France",
       "date": "2025",
       "endDate": "2026",
-      "details": ["«SpeechBalance: Speech-related deficiencies in patients with vestibular schwannomas»."]
+      "details": [
+        "«SpeechBalance: Speech-related deficiencies in patients with vestibular schwannomas»."
+      ]
     },
     {
       "title": "ANR-DFG, France-Germany",
       "date": "2025",
       "endDate": "2028",
-      "details": ["«Voc2Speak: An integrative-interactive approach to speech development». ANR-DFG, co-PI: Susanne Fuchs."]
+      "details": [
+        "«Voc2Speak: An integrative-interactive approach to speech development». ANR-DFG, co-PI: Susanne Fuchs."
+      ]
     },
     {
       "title": "AAP UGA / INP Programme, France",
       "date": "2025",
-      "details": ["«Multimodal Speech: Studying the multimodal development of typical and atypical language»."]
+      "details": [
+        "«Multimodal Speech: Studying the multimodal development of typical and atypical language»."
+      ]
     },
     {
       "title": " Institut Carnot Cognition, France",
       "date": "2024",
-      "details": ["«Intégration SEnsori-MOtrice pour la rééducation du langage chez des patients avec une aphasie non fluente après accident vasculaire cérébral». Main collaborators: Monica Baciu, Hélène Löevenbruck."]
+      "details": [
+        "«Intégration SEnsori-MOtrice pour la rééducation du langage chez des patients avec une aphasie non fluente après accident vasculaire cérébral». Main collaborators: Monica Baciu, Hélène Löevenbruck."
+      ]
     },
     {
       "title": "Deutsche Forschungsgemeinschaft (DFG), Germany",
@@ -152,18 +160,24 @@
       "title": "Deutsche Forschungsgemeinschaft (DFG), Germany",
       "date": "2019",
       "endDate": "2021",
-      "details": ["« Understanding spoken language organization in the first years of life (II) »"]
+      "details": [
+        "« Understanding spoken language organization in the first years of life (II) »"
+      ]
     },
     {
       "title": "Deutsche Forschungsgemeinschaft (DFG), Germany",
       "date": "2017",
-      "details": ["Funding for the organization of the international conférence « Ultrafest VIII »"]
+      "details": [
+        "Funding for the organization of the international conférence « Ultrafest VIII »"
+      ]
     },
     {
       "title": "Deutsche Forschungsgemeinschaft (DFG), Germany",
       "date": "2017",
       "endDate": "2019",
-      "details": ["« Understanding spoken language organization in the first years of life (I) »"]
+      "details": [
+        "« Understanding spoken language organization in the first years of life (I) »"
+      ]
     },
     {
       "title": "Various projects’ seed funding (SBKW, Potsdam), Germany",
@@ -183,7 +197,9 @@
       "title": "Deutsche Forschungsgemeinschaft (DFG),Germany",
       "date": "2014",
       "endDate": "2017",
-      "details": ["« New methods for investigating the development of coarticulation in children »"]
+      "details": [
+        "« New methods for investigating the development of coarticulation in children »"
+      ]
     },
     {
       "title": "Doctorate scholarship (merit-based)",

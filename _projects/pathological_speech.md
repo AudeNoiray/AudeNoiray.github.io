@@ -8,14 +8,14 @@ importance: 6
 
 ### _SpeechBalance: Understanding balance and speech-related deficiencies in patients with vestibular schwannomas_
 
-This project aims to investigate the impact of vestibular schwannomas (VS) onto oral communication. VS are non-malign brain tumors growing in the inner ear. Due to compression against the brain stem and cerebellum, and entanglement with the facial, vestibular and auditory nerves, VS affects critical sensorimotor functions such as audition, vision, communication, motor planning and equilibrium. 
+This project aims to investigate the impact of vestibular schwannomas (VS) onto oral communication. VS are non-malign brain tumors growing in the inner ear. Due to compression against the brain stem and cerebellum, and entanglement with the facial, vestibular and auditory nerves, VS affects critical sensorimotor functions such as audition, vision, communication, motor planning and equilibrium.
 The project will: (1) deliver a critical synthesis of the literature on VS impairments; (2) collect first-hand
 information from patients to assess the multimodal nature of VS-related dysfunctions, their potential interactions and impact on life quality; (3) evaluate speech and language pathologists (SLPs)’s knowledge about SV pathology, their practices and needs to ultimately improve current assessments and remediations protocols.
 Speech and language pathology student : Typhaine Bauban, Université Lyon 1.
 
 #### Collaborators
 
-[Maëlys Grillet](https://www.linkedin.com/in/maëlys-grillet-b201a7216/?originalSubdomain=fr), Arnaud Lazard (CHUGA Grenoble), Thierry Misere (Vestib+), [Monica Baciu](https://lpnc.univ-grenoble-alpes.fr/fr/monica-baciu) (LPNC, University Grenoble Alpes). 
+[Maëlys Grillet](https://www.linkedin.com/in/maëlys-grillet-b201a7216/?originalSubdomain=fr), Arnaud Lazard (CHUGA Grenoble), Thierry Misere (Vestib+), [Monica Baciu](https://lpnc.univ-grenoble-alpes.fr/fr/monica-baciu) (LPNC, University Grenoble Alpes).
 
 #### Fundings
 
@@ -67,6 +67,7 @@ In this project, we examine differences in speech planning and its production in
 In this project, we examine how newly diagnosed and advanced stage Parkinson patients cope with feedback/feedforward perturbations in comparison to healthy adults. To achieve this goal, we measure speech motor planning and articulation (e.g., imprecise pronunciation, slurred, erroneous speech, coarticulatory deficiency) using electromagnetic articulography or ultrasound tongue imaging and acoustic measurements (Rebernik, Jacobbi, Noiray, & Wieling, 2020, 2022). ﻿To assess whether impairments of the feedback and/or feedforward system are speech-specific or part of a general movement disorder, we also carry out feedback perturbation tests in non-verbal motor movement tasks.
 
 #### Collaborators
+
 Martijn Wieling and Teja Rebernik at the University of Groninge.n
 
 #### Publications
@@ -90,5 +91,3 @@ NWO
 <img src="/assets/img/fundings/nwo.jpg" alt="logo" style="height:200px; vertical-align:middle; margin-left:5px;">
 
 ---
-
-

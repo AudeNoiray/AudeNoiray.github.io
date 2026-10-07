@@ -4,7 +4,6 @@ title: About
 permalink: /
 subtitle: Experimental psycholinguist, LPNC, Université Grenoble Alpes
 
-
 affiliation: Member of the <a href=https://lpnc.univ-grenoble-alpes.fr/fr/babylab/>Babylab</a> ; <a href=https://lpnc.univ-grenoble-alpes.fr/fr/recherche-0/equipes-recherche/equipe-developpement-et-apprentissage/>Développement & Apprentissage and</a> ; <a href=https://lpnc.univ-grenoble-alpes.fr/fr/recherche-0/equipes-recherche/equipe-langage/>Language</a> team at LPNC.  Associate Member at <a href=https://phonetique.uqam.ca/>Laboratoire de Phonétique de l’UQAM, Montréal</a> ;  <a href=https://haskinslabs.org/>Haskins Laboratories</a>  ; <a href=https://speechlabgroningen.nl/>Speech Lab Groningen</a>
 
 profile:
@@ -12,7 +11,7 @@ profile:
   image: audenoiray.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-  
+
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
@@ -22,7 +21,7 @@ announcements:
   limit: 4 # leave blank to include all the news in the `_news` folder
 ---
 
-I am a senior researcher at the [Laboratoire de Psychologie & Neurocognition](https://lpnc.univ-grenoble-alpes.fr/fr) (LPNC) at the University Grenoble Alpes (UGA), and co-head of the [Babylab](https://lpnc.univ-grenoble-alpes.fr/fr/babylab) with [Olivier Pascalis](https://lpnc.univ-grenoble-alpes.fr/fr/olivier-pascalis). 
+I am a senior researcher at the [Laboratoire de Psychologie & Neurocognition](https://lpnc.univ-grenoble-alpes.fr/fr) (LPNC) at the University Grenoble Alpes (UGA), and co-head of the [Babylab](https://lpnc.univ-grenoble-alpes.fr/fr/babylab) with [Olivier Pascalis](https://lpnc.univ-grenoble-alpes.fr/fr/olivier-pascalis).
 
 I am passionate about speech, language, and their development. My research lies at the intersection of several disciplines, including experimental, articulatory and acoustic phonetics; psycholinguistics; laboratory phonology; developmental psychology and biology. My most recent projects focus on the (a)typical development of spoken language fluency. I study the evolving connections between speech motor control, perception, phonology, vocabulary and reading. Other projects include vocal development in infants, speech production and perception in patients with pathological speech. My research is empirically grounded. I collect kinematic, acoustic and behavioural data using ultrasound imaging, audiovisual recordings, eye tracking, or developmental assessments.
 

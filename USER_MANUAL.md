@@ -173,15 +173,15 @@ L'ordre des publications dans le fichier n'a pas d'impact sur l'affichage final 
 1. **Ouvrir le fichier .bib dans le dossier [\_bibliography/](_bibliography/) qui correspond au type de la publication à ajouter** (Voir ci-dessus les noms de fichier correspondant aux différents type de publications).
 
 2. **Choisir le bon type de publication** : `@article`, `@inproceedings`, `@incollection`, `@unpublished` ou `@misc`.
-Un type de publication peut être utilisé de manière assez flexible : choisissez celui dont l’affichage convient le mieux sur le site.
+   Un type de publication peut être utilisé de manière assez flexible : choisissez celui dont l’affichage convient le mieux sur le site.
 
 | Type             |                                Utilisation                                |
 | ---------------- | :-----------------------------------------------------------------------: |
 | `@article`       |          Pour les articles parus dans des revues scientifiques.           |
 | `@inproceedings` | Pour les communications publiées dans les actes de colloques/conférences. |
 | `@incollection`  |                 Pour un chapitre dans un livre collectif.                 |
-| `@unpublished`   |                      Pour les academics dissertations.                    |
-| `@misc`          |   Pour une présentation orale non publiée, comme un talk ou un workshop.  |
+| `@unpublished`   |                     Pour les academics dissertations.                     |
+| `@misc`          |  Pour une présentation orale non publiée, comme un talk ou un workshop.   |
 
 3. **Créer une nouvelle entrée dans le fichier**
 
@@ -217,23 +217,24 @@ nomduchamp = {valeurs},
 
 Selon le type de la publication, certains champs peuvent être ajoutés pour donner plus d'informations.
 
-| Champ       |                Description                |               Type                |
-| ----------- | :---------------------------------------: | :-------------------------------: |
-| `journal`   |              Nom de la revue              |            `@article`             |
-| `booktitle` | Titre du livre ou des actes de conférence | `@inproceedings`, `@incollection` |
-| `volume`    |            Volume de la revue             |                                   |
-| `number`    |            Numéro de la revue             |                                   |
-| `pages`     |        Plage de pages (ex: 16-18)         |                                   |
-| `publisher` |             Maison d'édition              |          `@incollection`          |
-| `editor`   |             Editeur du livre              |          `@incollection`          |
-| `location`  |     Lieu de la conférence ou du talk      |       `@inproceedings`, `@misc`   |
-| `date`      |    Date de la conférence ou du talk       |    `@inproceedings`, `@misc`      |
-| `pdf`       |      Lien direct vers la publication (peut être un lien vers une page web ou nom de fichier pdf)     |                                   |
-| `event`     |  Nom de l'évènement où le talk a lieu    |              `@misc`              |
-| `note`     |  Pour ajouter des informations complémentaires    |              `@unpublished`              |
-| `additional_info` |  Informations supplémentaires       |                                   |
+| Champ             |                                         Description                                         |               Type                |
+| ----------------- | :-----------------------------------------------------------------------------------------: | :-------------------------------: |
+| `journal`         |                                       Nom de la revue                                       |            `@article`             |
+| `booktitle`       |                          Titre du livre ou des actes de conférence                          | `@inproceedings`, `@incollection` |
+| `volume`          |                                     Volume de la revue                                      |                                   |
+| `number`          |                                     Numéro de la revue                                      |                                   |
+| `pages`           |                                 Plage de pages (ex: 16-18)                                  |                                   |
+| `publisher`       |                                      Maison d'édition                                       |          `@incollection`          |
+| `editor`          |                                      Editeur du livre                                       |          `@incollection`          |
+| `location`        |                              Lieu de la conférence ou du talk                               |     `@inproceedings`, `@misc`     |
+| `date`            |                              Date de la conférence ou du talk                               |     `@inproceedings`, `@misc`     |
+| `pdf`             | Lien direct vers la publication (peut être un lien vers une page web ou nom de fichier pdf) |                                   |
+| `event`           |                            Nom de l'évènement où le talk a lieu                             |              `@misc`              |
+| `note`            |                        Pour ajouter des informations complémentaires                        |          `@unpublished`           |
+| `additional_info` |                                Informations supplémentaires                                 |                                   |
 
 **À noter :**
+
 - Pour ajouter un pdf dans le document, mettre le fichier pdf dans le dossier [assets/pdf/](assets/pdf/). Il faudra dans le champ `pdf` mettre le nom du pdf (exemple : `pdf = {nomdupdf.pdf}`).
 
 - Le champ `additional_info` peut contenir n’importe quelle information complémentaire. Il peut notamment être utilisé pour remplacer certains champs existants, dans le but d’ajuster la mise en page de manière plus souple.
@@ -469,7 +470,11 @@ Chaque élément dans un bloc est écrit entre `{ }`, sous forme de paires clé-
   "institution": "Etablissement de la formation",
   "location": "Ville (optionnel)",
   "year": "Année d'obtention, format AAAA",
-  "details": ["Informations complémentaires (optionnel)", "Mettre une info par ligne entre guillement", "et séparé chaque ligne par une virgule"]
+  "details": [
+    "Informations complémentaires (optionnel)",
+    "Mettre une info par ligne entre guillement",
+    "et séparé chaque ligne par une virgule"
+  ]
 }
 ```
 
@@ -495,8 +500,11 @@ Chaque élément dans un bloc est écrit entre `{ }`, sous forme de paires clé-
   "endDate": "format AAAA, date de fin (laisser vide ou supprimer le champs si date de début et de fin sont les mêmes) (optionnel)",
   "amount": "Montant (optionnel)",
   "coauthors": "Co-auteurs si prix partagé (optionnel)",
-  "details": ["Informations complémentaires (optionnel)", 
-    "Mettre une info par ligne entre guillement", "et séparer chaque ligne par une virgule"]
+  "details": [
+    "Informations complémentaires (optionnel)",
+    "Mettre une info par ligne entre guillement",
+    "et séparer chaque ligne par une virgule"
+  ]
 }
 ```
 
@@ -544,8 +552,10 @@ Il est possible d'utiliser du HTML dans les champs `title` et `description` pour
   "event": "Nom de l'événement",
   "location": "Lieu de l'événement",
   "role": "Rôle joué dans l'organisation",
-  "details": ["Informations complémentaires (optionnel)", 
-    "Une information par ligne entre guillement et chaque ligne séparée par des virgules."]
+  "details": [
+    "Informations complémentaires (optionnel)",
+    "Une information par ligne entre guillement et chaque ligne séparée par des virgules."
+  ]
 }
 ```
 
@@ -570,8 +580,10 @@ Il est possible d'utiliser du HTML dans le champ `location`.
 ```json
 {
   "category": "Nom de la catégorie",
-  "items": ["Liste des éléments associés à cette catégorie", 
-    "Un élément par ligne entre guillement et chaque ligne séparée par des virgules."]
+  "items": [
+    "Liste des éléments associés à cette catégorie",
+    "Un élément par ligne entre guillement et chaque ligne séparée par des virgules."
+  ]
 }
 ```
 
@@ -706,19 +718,19 @@ Exemple:
 `<strong>` -> balise d'ouverture
 `</strong>` -> balise de fermeture
 
-1) Mettre du **texte en italique**
+1. Mettre du **texte en italique**
 
 ```html
 <em>Texte en italique</em>
 ```
 
-2) Mettre du **texte en gras**
+2. Mettre du **texte en gras**
 
 ```html
 <strong>Texte en gras</strong>
 ```
 
-3) Mettre un **lien**
+3. Mettre un **lien**
 
 ```html
 <a href="https://www.exemple.com">Texte du lien</a>
@@ -726,10 +738,10 @@ Exemple:
 
 On peut aussi ajouter `target="_blank"` dans la balise après le lien pour que le texte s'ouvre dans un nouvel onglet.
 
-4) **Sauter une ligne**
+4. **Sauter une ligne**
 
 ```html
-Texte avant <br>
+Texte avant <br />
 Texte après
 ```
 
@@ -741,7 +753,7 @@ La balise `<br>` force un retour à la ligne. Pour faire un texte composé de pl
 <p>Troisième paragraphe</p>
 ```
 
-5) **Faire un titre**
+5. **Faire un titre**
 
 ```html
 <h2>Titre de niveau 2</h2>
@@ -751,12 +763,12 @@ La balise `<br>` force un retour à la ligne. Pour faire un texte composé de pl
 
 Il existe 6 niveaux de titre de `<h1>` à `<h6>`.
 
-6) **Insérer une image**
+6. **Insérer une image**
 
 Il faut utiliser la balise `<img>` (qui n'a pas de balise de fermeture).
 
 ```html
-<img src="img.png" alt="Texte alternatif">
+<img src="img.png" alt="Texte alternatif" />
 ```
 
 `src` : chemin de l'image (par exemple : `src="assets/img/img.png"`).
@@ -780,29 +792,29 @@ Pour mettre une légende sous une image, il faut utiliser la balise `<div class=
 Exemple :
 
 ```html
-<img src="img.png" alt="Texte alternatif" widht="300">
+<img src="img.png" alt="Texte alternatif" widht="300" />
 <div class="caption">Figure 1 : Légende de l'image.</div>
 ```
 
 ## Guide MarkDown
 
-1) Faire un **retour à la ligne**
+1. Faire un **retour à la ligne**
 
 Mettre deux espaces à la fin de la ligne précédente.
 
-2) **Sauter une ligne**
+2. **Sauter une ligne**
 
 Laisser une ligne vide entre deux paragraphes.
 
-3) Mettre du **texte en italique**
+3. Mettre du **texte en italique**
 
 Encadrer le texte à mettre en italique par `*`.
 
 ```markdown
-*Texte en italique*
+_Texte en italique_
 ```
 
-4) Mettre du **texte en gras**
+4. Mettre du **texte en gras**
 
 Encadrer le texte à mettre en gras par `**`.
 
@@ -810,7 +822,7 @@ Encadrer le texte à mettre en gras par `**`.
 **Texte en gras**
 ```
 
-5) Mettre un **lien cliquable**
+5. Mettre un **lien cliquable**
 
 ```markdown
 [Lien](https://siteweb.com)
@@ -818,17 +830,19 @@ Encadrer le texte à mettre en gras par `**`.
 
 Le texte entre crochets est le texte qui sera cliquable et l'URL entre parenthèses est l'adresse vers laquelle le lien enverra.
 
-6) **Faire un titre**
+6. **Faire un titre**
 
 Mettre des # devant le texte.
 
 ```markdown
 # Titre de niveau 1
+
 ## Titre de niveau 2
+
 ### Titre de niveau 3
 ```
 
-7) **Insérer une image**
+7. **Insérer une image**
 
 ```markdown
 ![Texte alternatif](dossier1/dossier2/nom-img.png)

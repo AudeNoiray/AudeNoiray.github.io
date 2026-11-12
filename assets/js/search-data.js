@@ -79,7 +79,7 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "news-voc2speak-a-new-funded-project-on-vocal-development",
-          title: 'VOC2SPEAK, a new funded  project on vocal development',
+          title: 'VOC2SPEAK, a new funded project on vocal development',
           description: "",
           section: "News",},{id: "news-talks-and-poster-presentation-at-the-journées-de-la-phonétique-clinique-in-sète",
           title: 'Talks and poster presentation at the Journées de la Phonétique Clinique in Sète...',

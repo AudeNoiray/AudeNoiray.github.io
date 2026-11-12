@@ -17,18 +17,39 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Setup Node.js ⚙️
         uses: actions/setup-node@v4
       - name: Install Prettier 💾
         run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
+      - name: Collect changed files 📂
+        id: changed-files
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            git fetch origin "${{ github.base_ref }}:refs/remotes/origin/${{ github.base_ref }}" --depth=1
+            range="origin/${{ github.base_ref }}..HEAD"
+          else
+            range="${{ github.event.before }}...${{ github.sha }}"
+          fi
+
+          {
+            echo "files<<EOF"
+            git diff --name-only "$range" -- '*.json' '*.yml' '*.yaml'
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
       - name: Prettier Check 🔎
         id: prettier
-        run: npx prettier . --check
+        if: ${{ steps.changed-files.outputs.files != '' }}
+        run: |
+          mapfile -t files <<< "${{ steps.changed-files.outputs.files }}"
+          npx prettier --check "${files[@]}"
       - name: Create diff 📝
         # https://docs.github.com/en/actions/learn-github-actions/expressions#failure
-        if: ${{ failure() }}
+        if: ${{ failure() && steps.prettier.conclusion == 'failure' && steps.changed-files.outputs.files != '' }}
         run: |
-          npx prettier . --write
+          mapfile -t files <<< "${{ steps.changed-files.outputs.files }}"
+          npx prettier --write "${files[@]}"
           git diff -- . ':(exclude)package-lock.json' ':(exclude)package.json' > diff.txt
           npm install -g diff2html-cli
           diff2html -i file -s side -F diff.html -- diff.txt

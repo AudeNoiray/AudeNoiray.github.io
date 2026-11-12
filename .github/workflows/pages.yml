@@ -31,7 +31,9 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Install dependencies
-        run: bundle install
+        run: |
+          bundle install
+          pip3 install --upgrade jupyter
 
       - name: Build site
         env:

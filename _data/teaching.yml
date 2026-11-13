@@ -1,3 +1,21 @@
+- date: "2026"
+  role: "Seminars (3h block)"
+  institution: "Université Grenoble Alpes"
+  programmes:
+    - Master National Psychologie & Sciences Cognitives
+    
+- date: "2026"
+  role: "Seminars (4h blocks)"
+  institution: "Université Grenoble Alpes"
+  programmes:
+    - Licence 3rd year, Psychologie
+
+- date: "2025"
+  role: "Seminars (4h blocks)"
+  institution: "Université Grenoble Alpes"
+  programmes:
+    - Licence 3rd year, Psychologie
+
 - date: "2014-2019"
   role: "Seminars (4h blocks)"
   institution: "University of Potsdam (UP)"

@@ -28,5 +28,5 @@ profiles:
   # Margherita Belia
   - align: right
     content: team/margheritabelia.md
-    image: anjalilepain.jpg
+    image: margheritabelia.jpg
 ---

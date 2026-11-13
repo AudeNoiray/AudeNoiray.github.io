@@ -13,5 +13,5 @@ In her second postdoc within the VOC2SPEAK project, she integrates and extend th
 
 Belia, M., Keren‐Portnoy, T., & Vihman, M. (2023). Systematic review of the effects of sleep on memory and word learning in infancy. Language Learning, 73(2), 613-651.
 
-Belia, M., Fabre, F., Borel, C., Aucouturier, J. J., Faivre, N., & Goupil, L. (2026). Infants respond to alterations in their own voice months before they recognize themselves in the mirror. Current Biology.
+Belia, M., Fabre, F., Borel, C., Aucouturier, J. J., Faivre, N., & Goupil, L. (2026).Current Biology.[Infants respond to alterations in their own voice months before they recognize themselves in the mirror]([https://publishup.uni-potsdam.de/frontdoor/index/index/start/2/rows/10/sortfield/score/sortorder/desc/searchtype/simple/query/rubertus/docId/63012](https://hal.science/hal-05840614/document)](https://hal.science/hal-05840614/document)) Current Biology.
 

@@ -25,8 +25,8 @@ profiles:
   - align: left
     content: team/luciechasseur.md
     image: LucieChasseur.png
-  # Anjali Lepain
+  # Margherita Belia
   - align: right
-    content: team/anjalilepain.md
+    content: team/margheritabelia.md
     image: anjalilepain.jpg
 ---

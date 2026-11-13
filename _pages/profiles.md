@@ -12,7 +12,7 @@ profiles:
   # Aude
   - align: right
     content: team/aude.md
-    image: audenoiray.png
+    image: audenoiray.jpg
   # Suzanne Fuchs
   - align: left
     content: team/susannefuchs.md

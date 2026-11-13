@@ -2,7 +2,9 @@
   role: "Seminars (3h block)"
   institution: "Université Grenoble Alpes"
   programmes:
-    - Master National Psychologie & Sciences Cognitives
+    - Master National Neuropsychologie & Neurosciences Clinique
+    - Master Psychologie
+    - Professionnels divers
     
 - date: "2026"
   role: "Seminars (4h blocks)"

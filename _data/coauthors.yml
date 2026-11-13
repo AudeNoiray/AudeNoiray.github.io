@@ -38,6 +38,18 @@
   - firstname: ["T", "T.", "Teja"]
     url: https://tejarebernik.com/en/home/
 
+"chasseur":
+  - firstname: ["L", "L.", "Lucie"]
+    url: https://lpnc.univ-grenoble-alpes.fr/fr/lucie-chasseur
+
 "kolozsvari":
   - firstname: ["O", "O."]
     url: https://www.jyu.fi/en/people/orsolya-kolozsvari
+
+ "frota":
+  - firstname: ["S", "S.", "Sonia"]
+    url: https://labfon.letras.ulisboa.pt/personal/sfrota/
+
+"tiede":
+  - firstname: ["M", "M.", "Mark"]
+    url: https://medicine.yale.edu/profile/mark-tiede/

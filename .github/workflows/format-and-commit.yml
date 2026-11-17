@@ -25,8 +25,8 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
-          cache: 'npm'
+          node-version: "18"
+          cache: npm
 
       - name: Install dependencies
         run: npm ci
@@ -39,14 +39,24 @@ jobs:
           python3 - <<'PY'
           from pathlib import Path
 
+          workflow_dir = Path(".github/workflows")
           for pattern in ("*.yml", "*.yaml"):
-              for workflow in Path(".github/workflows").glob(pattern):
+              for workflow in workflow_dir.glob(pattern):
                   original = workflow.read_text()
                   updated = original.replace("ubuntu-latest", "ubuntu-26.04")
                   if updated != original:
                       workflow.write_text(updated)
-                      print(f"Updated runner label in {workflow}")
+                      print(f"Pinned Ubuntu runner in {workflow}")
           PY
+
+          # Format workflow files as well as the repository's configured targets.
+          # Process them individually so one malformed legacy file does not prevent
+          # unrelated formatting changes from being committed.
+          while IFS= read -r -d '' file; do
+            if ! npx prettier --write "$file"; then
+              echo "::warning::Prettier could not format $file; leaving it unchanged."
+            fi
+          done < <(find .github/workflows -maxdepth 1 -type f \( -name '*.yml' -o -name '*.yaml' \) -print0)
 
           FILES=(
             "_data/coauthors.yml"
@@ -68,20 +78,15 @@ jobs:
             "assets/json/resume.json"
             "USER_MANUAL.md"
           )
-          EXISTING_FILES=()
           for file in "${FILES[@]}"; do
             if [[ -f "$file" ]]; then
-              EXISTING_FILES+=("$file")
+              if ! npx prettier --write "$file"; then
+                echo "::warning::Prettier could not format $file; leaving it unchanged."
+              fi
             else
               echo "::warning::Skipping missing Prettier target: $file"
             fi
           done
-
-          if ((${#EXISTING_FILES[@]})); then
-            npx prettier --write "${EXISTING_FILES[@]}"
-          else
-            echo "No configured Prettier targets exist; continuing with runner updates."
-          fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

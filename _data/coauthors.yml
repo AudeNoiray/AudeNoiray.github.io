@@ -1,3 +1,27 @@
+"belia":
+  - firstname: ["Margherita", "M", "M."]
+    url: https://lpnc.univ-grenoble-alpes.fr/fr/margherita-belia
+    
+"baciu":
+  - firstname: ["M", "Monica", "M."]
+    url: https://lpnc.univ-grenoble-alpes.fr/fr/monica-baciu
+
+"chasseur":
+  - firstname: ["L", "L.", "Lucie"]
+    url: https://lpnc.univ-grenoble-alpes.fr/fr/lucie-chasseur
+
+"frota":
+  - firstname: ["S", "S.", "Sonia"]
+    url: https://labfon.letras.ulisboa.pt/personal/sfrota/
+
+"fuchs":
+  - firstname: ["S", "S.", "Susanne"]
+    url: https://www.leibniz-zas.de/de/personen/details/fuchs-susanne/susanne-fuchs
+
+"haldin":
+  - firstname: ["C", "Célise", "C."]
+    url: https://lpnc.univ-grenoble-alpes.fr/fr/celise-haldin
+
 "vilain":
   - firstname: ["Anne", "A", "A."]
     url: https://www.gipsa-lab.grenoble-inp.fr/user/anne.vilain
@@ -5,10 +29,6 @@
 "peperkamp":
   - firstname: ["S", "S.", "Peperkamp"]
     url: "http://www.lscp.net/persons/peperkamp/"
-
-"fuchs":
-  - firstname: ["S", "S.", "Susanne"]
-    url: https://www.leibniz-zas.de/de/personen/details/fuchs-susanne/susanne-fuchs
 
 "petrone":
   - firstname: ["C", "C.", "Caterine"]
@@ -22,14 +42,6 @@
   - firstname: ["A", "A.", "Anisia"]
     url: https://anisiapopescu.github.io/
 
-"baciu":
-  - firstname: ["M", "Monica", "M."]
-    url: https://lpnc.univ-grenoble-alpes.fr/fr/monica-baciu
-
-"haldin":
-  - firstname: ["C", "Célise", "C."]
-    url: https://lpnc.univ-grenoble-alpes.fr/fr/celise-haldin
-
 "wieling":
   - firstname: ["M", "M.", "Martinj"]
     url: https://www.martijnwieling.nl/
@@ -38,17 +50,9 @@
   - firstname: ["T", "T.", "Teja"]
     url: https://tejarebernik.com/en/home/
 
-"chasseur":
-  - firstname: ["L", "L.", "Lucie"]
-    url: https://lpnc.univ-grenoble-alpes.fr/fr/lucie-chasseur
-
 "kolozsvari":
   - firstname: ["O", "O."]
     url: https://www.jyu.fi/en/people/orsolya-kolozsvari
-
-"frota":
-  - firstname: ["S", "S.", "Sonia"]
-    url: https://labfon.letras.ulisboa.pt/personal/sfrota/
 
 "tiede":
   - firstname: ["M", "M.", "Mark"]

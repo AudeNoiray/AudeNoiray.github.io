@@ -12,11 +12,14 @@ permissions:
 jobs:
   format:
     name: Run Prettier and commit
-    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-26.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4.1.7
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.ref }}
           fetch-depth: 0
 
       - name: Setup Node
@@ -26,11 +29,25 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Run Prettier --write on flagged files
+      - name: Pin Ubuntu runners and run Prettier
+        shell: bash
         run: |
           set -euo pipefail
+
+          python3 - <<'PY'
+          from pathlib import Path
+
+          for pattern in ("*.yml", "*.yaml"):
+              for workflow in Path(".github/workflows").glob(pattern):
+                  original = workflow.read_text()
+                  updated = original.replace("ubuntu-latest", "ubuntu-26.04")
+                  if updated != original:
+                      workflow.write_text(updated)
+                      print(f"Updated runner label in {workflow}")
+          PY
+
           FILES=(
             "_data/coauthors.yml"
             "_layouts/about.liquid"
@@ -51,21 +68,29 @@ jobs:
             "assets/json/resume.json"
             "USER_MANUAL.md"
           )
+          EXISTING_FILES=()
+          for file in "${FILES[@]}"; do
+            if [[ -f "$file" ]]; then
+              EXISTING_FILES+=("$file")
+            else
+              echo "::warning::Skipping missing Prettier target: $file"
+            fi
+          done
 
-          npx prettier --write "${FILES[@]}"
-
-          # If .prettierignore exists, remove it (we added it as a temporary mitigation)
-          if [ -f .prettierignore ]; then
-            git rm -f .prettierignore || true
+          if ((${#EXISTING_FILES[@]})); then
+            npx prettier --write "${EXISTING_FILES[@]}"
+          else
+            echo "No configured Prettier targets exist; continuing with runner updates."
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add --all
-          if git diff --staged --quiet; then
-            echo "No formatting changes to commit"
-          else
-            git commit -m "style(ci): apply Prettier formatting to flagged files" || true
-            git push origin HEAD:main
+
+          if git diff --cached --quiet; then
+            echo "No runner or formatting changes to commit."
+            exit 0
           fi
+
+          git commit -m "ci: pin Ubuntu runners and apply Prettier formatting"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

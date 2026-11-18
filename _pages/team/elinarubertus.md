@@ -6,19 +6,11 @@ Within VOC2SPEAK, Elina Rubertus will investigate interactions between respirati
 
 **Publications/conferences**:
 
+Fuch, S., Rubertus, E., Koenig, L., & Noiray, A. (2026). Towards a fuller integration of respiratory rhythms into research on infant vocal and motor development. _Annals of the New York Academy of Science_.
+
 Rubertus, E., Popescu, A., & Noiray, A. (2025). Seriality in word reading: Kinematic insights in beginning and proficient readers. _Journal of Experimental Psychology: Learning, Memory, and Cognition_, 1-15.
 
-Noiray, A., Ries, J., Tiede, M., Rubertus, E., Laporte, C., & Ménard, L. (2020). Recording and analyzing kinematic data in children and adults with SOLLAR: Sonographic & Optical Linguo-Labial Articulation Recording system. _Journal of Laboratory Phonology_, 11(1), 14.
-
-Rubertus, E. & Noiray, A. (2020). Vocalic activation width decreases across childhood – evidence from carryover coarticulation. _Journal of Laboratory Phonology_, 11(1), 7.
-
-Noiray, A., Popescu, A., Killmer, H., Rubertus, E., Krüger, S., & Hintermeier, L. (2019). Spoken language development and the challenge of skill integration. _Frontiers in Psychology_, 10, 2777.
-
-Noiray, A., Wieling, M., Abakarova, D., Rubertus, E., & Tiede, M. (2019). Back from the future: nonlinear anticipation in adults’ and children’s speech. _Journal of Speech, Language, and Hearing Research_, 62(8S), 3033-3054.
-
-Rubertus, E., & Noiray, A. (2018). On the development of gestural organization: A cross-sectional study of vowel-to-vowel anticipatory coarticulation. _PLOS ONE_, 13(9), e0203562.
-
-Noiray, A., Abakarova, D., Rubertus, E., Krüger, S., & Tiede, M. (2018). How do children organize their speech in the first years of life? Insight from ultrasound imaging. _Journal of Speech, Language, and Hearing Research_, 61(6), 1355-1368.
+The full list of publications is available on [her personal website](https://elinarubertus.github.io).
 
 **Doctoral dissertation**:
 

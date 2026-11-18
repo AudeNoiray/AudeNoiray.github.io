@@ -10,8 +10,12 @@ Intern (GETALP - Grenoble): Evaluating the acceptability of augmentative and alt
 
 **Publications/conferences**:
 
-Lauriane Aufrant, Lucie Chasseur. UkraiNER: A New Corpus and Annotation Scheme Towards Comprehensive Entity Recognition. LREC-COLING 2024 - The 2024 _Joint International Conference on Computational Linguistics, Language Resources and Evaluation_, May 2024, Torino, Italy. ⟨hal-04629859⟩
+Chasseur, L., Meary, D., & Noiray, A. (2026). Relation between infants’ vocal development and their attention to talking faces. Rencontre Nationale des BabyLabs de France, Grenoble, October 15-16.
 
-Lucie Chasseur, Marion Dohen, Benjamin Lecouteux, Sébastien Riou, Amélie Rochet-Capellan, et al.. Evaluation of the acceptability and usability of augmentative and alternative communication (AAC) tools: the example of pictogram grid communication systems with voice output. ACM SIGACCESS 2020 - Conference on Computers and Accessibility, Oct 2020.
+Chasseur, L., Armengaud, L., Peperkamp, S., Vilain, A., & Noiray, A. (2026). Investigating vowel (dis)harmony in French babblers. International Conference on Infant Studies (ICIS), Panama, July 6-9.
 
-Lucie Chasseur. _ÉvalCom_ : évaluation de l’acceptabilité et l’utilisabilité des outils de communication alternative et augmentée (CAA) par tableaux de pictogrammes. _Sciences de l'Homme et Société_. 2020. ⟨[dumas-02972128](https://dumas.ccsd.cnrs.fr/dumas-02972128v1)⟩
+Aufrant, L., & Chasseur,L. (2024). UkraiNER: A New Corpus and Annotation Scheme Towards Comprehensive Entity Recognition. LREC-COLING 2024 - The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation, Torino, Italy, May 2024. ⟨hal-04629859⟩
+
+Chasseur,L., Dohen, D., Lecouteux, B., Riou, S., Rochet-Capellan, A., et al.(2020). Evaluation of the acceptability and usability of augmentative and alternative communication (AAC) tools: the example of pictogram grid communication systems with voice output. ACM SIGACCESS 2020: Conference on Computers and Accessibility, October 2020.
+
+Chasseur, L.(2020). ÉvalCom : évaluation de l’acceptabilité et l’utilisabilité des outils de communication alternative et augmentée (CAA) par tableaux de pictogrammes. Sciences de l'Homme et Société. ⟨[dumas-02972128](https://dumas.ccsd.cnrs.fr/dumas-02972128v1)⟩
